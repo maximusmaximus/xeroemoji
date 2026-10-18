@@ -1,0 +1,52 @@
+# LOCK: Travel batch 09 sky & weather 2 (24 emoji; comet 2604 = night-tile B, meteor 1fa8b night tile) approved by Max Infeld, 2026-10-16 00:04 PT
+
+Do not modify without Max's explicit OK. `md5sum -c` (paths relative to set/).
+
+ea6c5d0bac0b93ee2a43ecb9beb5918a  svg/1f324.svg
+5c74ba33e38a5049969f41e89b57688b  png/1f324.png
+4e4ed66fe0fd676aef9c69550a653f2d  svg/1f325.svg
+a4338554b302ae63508e45329262c2e3  png/1f325.png
+0d35085f73e6492f80218221c696b5fe  svg/1f326.svg
+c85e4f9a9c5b5bdb53c2542eaa288ab8  png/1f326.png
+9da67af18d67683c6a6f94a0227173fd  svg/1f327.svg
+8c79014cd156d38eb68d235bbbe5062b  png/1f327.png
+049a391ac82f2c93022cafe11a0b1e67  svg/1f328.svg
+8679999e82491c84891c9bccb9bc1e55  png/1f328.png
+5638b7984f3c89a6d50491ddfbb88bd0  svg/1f329.svg
+8317535e8e56b2b2bc29a3b6ec8d6bd5  png/1f329.png
+343eab5f7572fac1a3ac6098c28bfb5b  svg/1f32a.svg
+9d5dffaae2d09535d1449dd500ee4b6c  png/1f32a.png
+d91346a205b3ba7899c0183acd0e0a20  svg/1f32b.svg
+13b785d1153de839db6bfe349863a920  png/1f32b.png
+99341d553b47b9bcdeae02686fd345c8  svg/1f32c.svg
+d25e5a0295474d8c6a5137b70c2708c3  png/1f32c.png
+5e0143a9b778e04da26433371c97c6d0  svg/1f300.svg
+6a83b3946f1f2e2f8ee42217b616430f  png/1f300.png
+0a69c4ef864685f3e26950acfecb5c47  svg/1f308.svg
+d17cc5124a6aaa667ca1cc481914ac8c  png/1f308.png
+b3d3c978c10f2fba4fc875dd674e2c8d  svg/1f302.svg
+9304d95716e1e16cdfe577160200106e  png/1f302.png
+6d1c0650b8aae908bb88fe4e88f8345c  svg/2602.svg
+4f94be91a28e5b6f35985c9ac7f0423f  png/2602.png
+65d9f0989b7173bda1ed90686f698a1c  svg/2614.svg
+2329856c3d2465fe326d6d87187d8a94  png/2614.png
+cbe071c52a84c14fffbaa249569f6772  svg/26f1.svg
+42da4cf6f169803af4cccdaaa957ec30  png/26f1.png
+fdf99ddf8479a32bf1fbec160ab8725d  svg/26a1.svg
+c4ee935ab64f904255abc1d04aeeed2c  png/26a1.png
+01ca8a5038363f9cb77485909ee66b55  svg/2744.svg
+8869b8c85e512f800032c41e8ce75a25  png/2744.png
+785e38ab14cb379694cb8561df29f1ff  svg/2603.svg
+bea62aff501c42e3b365e8922401e083  png/2603.png
+81abad4704602b8eb88fb8a604b2b9b3  svg/26c4.svg
+dac7e5d38836e8c269b4b3ec7c3933ca  png/26c4.png
+7f2c5cce9f110076f8d117c8a4d6f94c  svg/2604.svg
+2d7d792ba0debadbd1fe0ec3dc38578d  png/2604.png
+84d914e45d326eb8c683006a51ab23ab  svg/1fa8b.svg
+a8d3a3ace61a8366ae218544c069c39b  png/1fa8b.png
+6f498a9b4068e6fda2c9c0d489006f43  svg/1f525.svg
+8e472e1d1d510c4b97a9cd15f451244d  png/1f525.png
+b1d48bd58bd216fa43c91b73d04356aa  svg/1f4a7.svg
+cc0e5b62b86dbff88542b5673cbfc5f4  png/1f4a7.png
+e49cc4665e863a147f218c8bfd797d8d  svg/1f30a.svg
+cafb208decb64e37a4856bd0f9f358c8  png/1f30a.png

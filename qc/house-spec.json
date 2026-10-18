@@ -1,0 +1,424 @@
+{
+  "source": "103 original-art emoji in set/ + 10 reference crops (exploded/layout, = reference JPGs 01-10)",
+  "range_rule": "3rd-97th percentile of originals, widened by 15% of that span",
+  "metrics": {
+    "outline_px": {
+      "label": "outline width (px @512)",
+      "mean": 11.3451,
+      "sd": 1.0707,
+      "min_allowed": 8.55,
+      "max_allowed": 12.45,
+      "n": 113,
+      "face_only": false
+    },
+    "margin_min_px": {
+      "label": "edge margin (px)",
+      "mean": 19.2743,
+      "sd": 11.3872,
+      "min_allowed": 13.15,
+      "max_allowed": 37.85,
+      "n": 113,
+      "face_only": false
+    },
+    "face_diam_frac": {
+      "label": "face diameter / canvas",
+      "mean": 0.8476,
+      "sd": 0.0607,
+      "min_allowed": 0.6335,
+      "max_allowed": 0.922,
+      "n": 98,
+      "face_only": true
+    },
+    "yellow_top_hue": {
+      "label": "yellow top hue",
+      "mean": 50.68,
+      "sd": 2.3366,
+      "min_allowed": 43.79,
+      "max_allowed": 53.3744,
+      "n": 98,
+      "face_only": true
+    },
+    "yellow_top_sat": {
+      "label": "yellow top sat",
+      "mean": 0.9756,
+      "sd": 0.0697,
+      "min_allowed": 0.8957,
+      "max_allowed": 1.0092,
+      "n": 98,
+      "face_only": true
+    },
+    "yellow_top_val": {
+      "label": "yellow top val",
+      "mean": 0.9869,
+      "sd": 0.0462,
+      "min_allowed": 0.9125,
+      "max_allowed": 1.0114,
+      "n": 98,
+      "face_only": true
+    },
+    "yellow_mid_hue": {
+      "label": "yellow mid hue",
+      "mean": 44.1542,
+      "sd": 2.4305,
+      "min_allowed": 37.0539,
+      "max_allowed": 47.9259,
+      "n": 98,
+      "face_only": true
+    },
+    "yellow_mid_sat": {
+      "label": "yellow mid sat",
+      "mean": 0.9627,
+      "sd": 0.0751,
+      "min_allowed": 0.8368,
+      "max_allowed": 1.0124,
+      "n": 98,
+      "face_only": true
+    },
+    "yellow_mid_val": {
+      "label": "yellow mid val",
+      "mean": 0.9928,
+      "sd": 0.0355,
+      "min_allowed": 0.982,
+      "max_allowed": 1.0024,
+      "n": 98,
+      "face_only": true
+    },
+    "yellow_bot_hue": {
+      "label": "yellow bot hue",
+      "mean": 50.8543,
+      "sd": 3.1428,
+      "min_allowed": 43.5054,
+      "max_allowed": 57.052,
+      "n": 98,
+      "face_only": true
+    },
+    "yellow_bot_sat": {
+      "label": "yellow bot sat",
+      "mean": 0.9693,
+      "sd": 0.0736,
+      "min_allowed": 0.7717,
+      "max_allowed": 1.0253,
+      "n": 98,
+      "face_only": true
+    },
+    "yellow_bot_val": {
+      "label": "yellow bot val",
+      "mean": 0.9774,
+      "sd": 0.0544,
+      "min_allowed": 0.8017,
+      "max_allowed": 1.0259,
+      "n": 98,
+      "face_only": true
+    },
+    "gloss_x": {
+      "label": "gloss highlight x",
+      "mean": 0.0024,
+      "sd": 0.1246,
+      "min_allowed": -0.4059,
+      "max_allowed": 0.3236,
+      "n": 90,
+      "face_only": true
+    },
+    "gloss_y": {
+      "label": "gloss highlight y",
+      "mean": 0.1246,
+      "sd": 0.2853,
+      "min_allowed": -0.4202,
+      "max_allowed": 0.7178,
+      "n": 90,
+      "face_only": true
+    },
+    "gloss_area": {
+      "label": "gloss highlight size",
+      "mean": 0.1229,
+      "sd": 0.1025,
+      "min_allowed": -0.0529,
+      "max_allowed": 0.4117,
+      "n": 90,
+      "face_only": true
+    },
+    "eye_width_frac": {
+      "label": "eye span / face",
+      "mean": 0.7054,
+      "sd": 0.0578,
+      "min_allowed": 0.5631,
+      "max_allowed": 0.8299,
+      "n": 98,
+      "face_only": true
+    },
+    "eye_y_frac": {
+      "label": "eye vertical position",
+      "mean": -0.2246,
+      "sd": 0.1186,
+      "min_allowed": -0.5102,
+      "max_allowed": 0.0329,
+      "n": 98,
+      "face_only": true
+    },
+    "eye_height_frac": {
+      "label": "eye height / face",
+      "mean": 0.2485,
+      "sd": 0.1061,
+      "min_allowed": 0.0337,
+      "max_allowed": 0.4534,
+      "n": 98,
+      "face_only": true
+    },
+    "mouth_width_frac": {
+      "label": "mouth width / face",
+      "mean": 0.5946,
+      "sd": 0.1233,
+      "min_allowed": 0.3207,
+      "max_allowed": 0.8501,
+      "n": 98,
+      "face_only": true
+    },
+    "mouth_y_frac": {
+      "label": "mouth vertical position",
+      "mean": 0.4639,
+      "sd": 0.0895,
+      "min_allowed": 0.2369,
+      "max_allowed": 0.6482,
+      "n": 98,
+      "face_only": true
+    },
+    "mouth_height_frac": {
+      "label": "mouth height / face",
+      "mean": 0.2856,
+      "sd": 0.0747,
+      "min_allowed": 0.0475,
+      "max_allowed": 0.4082,
+      "n": 98,
+      "face_only": true
+    },
+    "svg_fills": {
+      "label": "number of distinct colours",
+      "mean": 10.8058,
+      "sd": 2.3486,
+      "min_allowed": 4.719,
+      "max_allowed": 16.341,
+      "n": 103,
+      "face_only": false
+    },
+    "offpalette_frac": {
+      "label": "share of feature pixels off the house palette",
+      "mean": 0.1001,
+      "sd": 0.1762,
+      "min_allowed": 0,
+      "max_allowed": 0.6152,
+      "n": 113,
+      "face_only": false
+    }
+  },
+  "metrics_nonyellow_face": {
+    "outline_px": {
+      "label": "outline width (px @512)",
+      "mean": 10.2,
+      "sd": 2.1587,
+      "min_allowed": 4.875,
+      "max_allowed": 14.625,
+      "n": 15,
+      "face_only": true
+    },
+    "margin_min_px": {
+      "label": "edge margin (px)",
+      "mean": 24.7333,
+      "sd": 26.0371,
+      "min_allowed": 0.25,
+      "max_allowed": 136.75,
+      "n": 15,
+      "face_only": true
+    },
+    "face_diam_frac": {
+      "label": "face diameter / canvas",
+      "mean": 0.838,
+      "sd": 0.125,
+      "min_allowed": 0.4594,
+      "max_allowed": 0.9977,
+      "n": 15,
+      "face_only": true
+    }
+  },
+  "metrics_symbol": {
+    "outline_px": {
+      "label": "symbol outline width (px @512)",
+      "mean": 13.0,
+      "sd": 1.0,
+      "min_allowed": 11.0,
+      "max_allowed": 15.0,
+      "n": 0,
+      "face_only": false
+    },
+    "margin_min_px": {
+      "label": "symbol edge margin (px)",
+      "mean": 30.0,
+      "sd": 6.0,
+      "min_allowed": 12.0,
+      "max_allowed": 45.0,
+      "n": 0,
+      "face_only": false
+    }
+  },
+  "rules": {
+    "decided": "2026-10-14 by Max Infeld",
+    "faces_outline": "face emoji keep the house outline (~10.5px @512, range in metrics.outline_px)",
+    "symbols_outline": "hearts and emotion symbols use a 13px outline @512 (metrics_symbol.outline_px)",
+    "hearts_shading": "hearts use the rich 4-stop radial gloss: white -> light -> base -> dark rim (#3a0010), plus white gloss ellipse upper-left",
+    "symbol_size": "emotion-subgroup symbols are fitted to a ~30px margin @512",
+    "no_live_text": "no <text> elements; lettering is converted to outlines (DejaVu Sans Bold, upright, no italic)",
+    "motion_faces": "head-shaking/shaking faces keep the faded ghost copies",
+    "hands": "hands are ~18% larger than the base part, with a ~5.5px dark (#24160a) outline and a soft 22% drop shadow; ALL hand faces (1fae3, 1fae1, 1fae2, 1f914) put the hands beside the eyes (variant C, Max 2026-10-14 20:52, overrides the earlier per-meaning exception), face expression parts kept intact, composite scaled to 86% so hands stay inside the margin",
+    "mouths": "every face needs a visible mouth in house style (tapered dark arc for slight smile/frown)",
+    "pensive_vs_disappointed": "1f614 pensive = sad-slanted brows + small flat mouth; 1f61e disappointed = no brows + deep wide frown",
+    "checker": "face metrics only for face subgroups; non-yellow faces use metrics_nonyellow_face and skip yellow/gloss; dark runs >24px count as fill, not outline",
+    "people": "People & Body: skin uses set/qc/skin-tones.json 4-stop gloss (active palette pending decision); hands drawn with ~5.5px #24160a outline + 22% soft shadow; people/figures checked with metrics_people; tone variants named <cp>-<1f3fb..1f3ff>, ZWJ modifier after first codepoint",
+    "hand_style": "HOUSE HAND STYLE = R2 (Max 2026-10-14 21:20 PT): S1 sausage fingers, all equal width 25 (200-unit frame), round tips, 2-unit gaps, no creases/nails, soft white 50% highlight stripe along each finger; curled fingers stay as stacked R2 fingers; ~5.5px #24160a outline + 22% soft shadow; skin from skin-tones.json. Construction in set/parts/hands/ (S2, S3, S4, R1 and R3 rejected)",
+    "skin_tones": "Skin tones = palette B \"balanced\" in set/qc/skin-tones.json (Max 2026-10-14 21:26 PT); sheet and warm rejected",
+    "woman": "Women = original girl art with braids (template5/6 #122-127) adapted to adult: head scaled ~0.8 with a slightly longer face, purple-top bust/shoulders, braids kept, house gloss skin; in helmets/frames the same head is clipped into the visor (Max 2026-10-14 21:26 PT)",
+    "pray": "1f64f = two R2 palms pressed together vertically, side view, fingers up, tilted ~8 degrees, small motion lines",
+    "mouth_gradient": "Mouth gradient overlays (tan/grey->white bars inside mouths) are drawn at 0.25 x their original opacity (Max 2026-10-14 21:27 PT); teeth/tongue base colours unchanged. Kiss mouths (1f617 1f618 1f619 1f61a 1f63d) are faded the same way and get a solid tapered #24160a \"3\" pucker stroke (~6->3px @512) on top (Max 21:38 PT). Implemented in set/work/mouthfix.py",
+    "gesture_people": "Gesture people (1f646 1f645 1f937 1f926 and future gesture figures) = G2 (Max 2026-10-14 21:47 PT): person head only, oversized floating R2 hands (~0.5 scale) close to the face, no arms; 1f645 hands cross in an X in front of the chin; 1f937 open palms up at shoulder height angled outward + raised brows; 1f646 hands meet over the head in an arc; 1f926 palm covers forehead and eyes; fitted to a 24px margin. G1/G3 rejected",
+    "mixed_tone_pairs": "A: each person keeps their own tone (per-person gradient via Ctx.tid); Max 2026-10-15 ~08:24 PT; B (both use first tone) and C (neutral yellow) rejected",
+    "family_layout": {
+      "value": "F2",
+      "approved": "Max Infeld 2026-10-15 PT",
+      "desc": "Families: adults side by side with bust shoulders, kids tucked in front/below. Couples: side-view kiss with lips meeting + small heart (1f48f, *-2764-1f48b-*); facing side-view profiles with big heart (1f491, *-2764-*); holding hands = front busts with sleeved arms from shoulders to clasped R2 hands (1f46b/c/d, *-1f91d-*). Side-view hair has strands/sheen; women get a full plaited braid. Each person keeps own tone (mixed_tone_pairs). Holding-hands couples superseded by holding_hands rule (C2v4).",
+      "builder": "set/work/fam_apply.py"
+    },
+    "holding_hands": {
+      "value": "C2v4",
+      "approved": "Max Infeld 2026-10-15 09:57 PT",
+      "desc": "Full-body v3a tall-slim stylized figures (narrow torso, shoulders wider than waist, tapered A-line dress, long legs), head gap halved (centres 106 apart in 200u), rubber-hose skin-tone arms hanging toward a clasp between bodies, round mitten hands incl. outer hands (exception to R2 house hand). Clean joints: single outline weight (stroke-under), shirt+sleeve caps unioned with one userSpace gradient, arm roots hidden in sleeves, arms clear of torso (no tangents/slivers), front mitten outline is the single seam, gloss off joints, chin overlaps neckline. Each person keeps own tone.",
+      "builder": "set/work/hh_apply.py + opt_c2v3.py (PR v4)",
+      "applies_to": "1f46b/1f46c/1f46d and every *-1f91d-* pairing incl. tone variants"
+    },
+    "kiss_couple_heart": {
+      "value": "P3b",
+      "approved": "Max Infeld 2026-10-15 10:25 PT",
+      "desc": "Kiss (1f48f, *-2764-1f48b-*) and couple-with-heart (1f491, *-2764-*): C2v4/v3a tall-slim bodies with arms hanging at sides + mitten hands, front-facing heads tilted toward each other touching lightly. Kiss = red kiss mark + small heart; heart couple = big heart. Mark x centred on measured head touch point (midpoint of left head right edge and right head left edge), not canvas centre. Clean-joint rules; each person keeps own tone. Kiss mark group (lips + small heart, proportional) scaled so its total height incl. outline equals the couple-heart height (36.8u at heart scale .4), same vertical centre as the heart, x on touch point (set/work/kissmark.py, 2026-10-15 10:30 PT). UPDATE 2026-10-15 12:14 PT (Max approved): lips alone (incl. outline) = heart height 36.8u, stretched sx 1.172 / sy 1.465 (width 49.2u), outline compensated ~2.4u, lower-lip gloss; small heart (scale .16) tucked at upper-right corner of lips; lips at heart vertical centre on touch point (set/work/lipstall.py, lt_apply.py). Supersedes the kiss-group-height rule.",
+      "builder": "set/work/kh_apply.py + opt_p3b2.py"
+    },
+    "animals_style": {
+      "value": "S1",
+      "approved": "Max Infeld 2026-10-15 16:38 PT",
+      "desc": "Animals & Nature: glossy round smiley-like heads/blobs with house eyes (4-stop radial gloss gradient, thick dark outline, top-left white gloss). Plants also as glossy blobs with faces (S1). Clean-joint rules apply (union same-colour parts, front outline wins, no stacked strokes). Dark fur (e.g. black cat 1f408-200d-2b1b): near-black fur keeps a subtle lighter rim just inside the outline (r 62.5-66 of the 66 head) so the house outline reads and measures at weight; checker unchanged (it was not a checker bug: the rim was too far inside). Per-emoji outline overrides (ow) compensate for fit-scaling on very wide/spiky silhouettes: camels 12, ox/llama 11.5, buffalo 10, wolf 8, paw prints 7 (in 200u space).",
+      "builder": "set/work/animals_opt.py (S1 head())"
+    },
+    "animals_bird": {
+      "value": "B2",
+      "approved": "Max Infeld 2026-10-15 16:41 PT",
+      "desc": "Template for all birds: S1 round body with wings and tuft unioned into the silhouette (same colour, one userSpace gradient), feathers as thin inner lines, pale belly patch inside, house eyes, small beak.",
+      "builder": "set/work/animals_bf.py bird(\"B2\")"
+    },
+    "animals_fish": {
+      "value": "F1",
+      "approved": "Max Infeld 2026-10-15 16:41 PT",
+      "desc": "Template for all fish / marine side-view creatures: true side view, body+tail+fins one union (single outline, one gradient), one big house eye toward the front with clear spacing from mouth and edge, mouth at nose tip, small blush, inner lines for gill/fin rays.",
+      "builder": "set/work/animals_bf.py fish(\"F1\")"
+    },
+    "animals_hooves": {
+      "approved": "Max Infeld 2026-10-15 18:07 PT",
+      "desc": "Hoofed full-body animals: small hooves, lower leg in fur/leg colour unioned to the body (clean joint, overlapping bottom edge), darker hoof tip (hoofc #9a7a5a/#3a2414). Cloven animals (cattle, goat, sheep, deer, pig, camel, giraffe, hippo...) get a split-toe notch; horse, donkey, zebra, unicorn, rhino get a solid hoof.",
+      "builder": "set/work/mammals.py"
+    },
+    "animals_buck_teeth": {
+      "approved": "Max Infeld 2026-10-15 18:07 PT",
+      "desc": "Buck teeth are ONE part: two equal incisors as one rounded-bottom rect (r=4), white with subtle gloss; house-weight outline on sides+bottom only (NO top stroke, butt ends on the mouth line); thin centre divider starting at the top edge; mouth line is two curls at the sides only, meeting the side strokes. Sits just under the nose/mouth, never over whisker/muzzle outlines; replaces the smile. Applies to hamster, mice, rat, rabbits, chipmunk, beaver.",
+      "builder": "set/work/mammals.py BUCK()"
+    },
+    "animals_dark_fur_rim": {
+      "approved": "Max Infeld 2026-10-15 18:07 PT",
+      "desc": "Near-black fur (e.g. black cat) gets a light rim ring (#8a8a9e) right at the inner edge of the outline (r 64.2 on the r64 head) so the outline reads and QC measures it correctly."
+    },
+    "animals_outline_overrides": {
+      "approved": "Max Infeld 2026-10-15 18:07 PT",
+      "desc": "Per-emoji outline weight (ow) compensates for fit-scaling of wide/spiky silhouettes so outlines measure 11-15px at 512: camels 12, ox/llama 11.5, buffalo 10, wolf 8, paw prints 7, turtle 1f422 10.5 (reptiles v2, approved 2026-10-15 19:05 PT), potted plant 1fab4 8 (plants v2, approved 2026-10-15 19:23 PT), food fruit/veg 10: lemon 1f34b, hot pepper 1f336, onion 1f9c5, root vegetable 1fadc, beans 1fad8 (food batch 01, approved 2026-10-15 19:59 PT), food prepared: 1f32f 7.5, 1f950 10, 1fad4 10, 1f373 10, 1f958 10, 1f9c0 10, 1f354 11.5, 1f32d 10, 1f32e 10, 1f95a 10, 1f963 10, 1f957 10 (food batch 02 v3, approved 2026-10-15 20:15 PT; v4 re-lock 20:43 PT: 1f32f default, 1f96a 10), food Asian: 1f35a 10, 1f35c 10, 1f362 10, 1f361 10 (food batch 03, approved 2026-10-15 20:43 PT), food sweets: lollipop 1f36d 10 (food batch 04 v2, approved 2026-10-15 20:54 PT), food drinks: clinking beer mugs 1f37b 13, bubble tea 1f9cb 10, beverage box 1f9c3 10.5 (food batch 05, approved 2026-10-15 20:59 PT), food dishware: fork and knife with plate 1f37d 10 (food batch 06, approved 2026-10-15 21:05 PT), travel batch 01: snow-capped mountain 1f3d4 11.5, mountain 26f0 10.5, church 26ea 10.5, volcano 1f30b 11, beach with umbrella 1f3d6 11, desert island 1f3dd 11 (approved 2026-10-15 22:30 PT), travel batch 02: houses 1f3d8 11.5, house with garden 1f3e1 10.5, wood 1fab5 11, brick 1f9f1 11 (approved 2026-10-15 22:39 PT), travel batch 03: roller coaster 1f3a2 10.5 (approved 2026-10-15 22:52 PT); travel batch 04: 1f682 10.5, 1f683 10.5, 1f684 10, 1f685 10.5, 1f686 10.5, 1f688 10.5, 1f689 10.5, 1f68a 10, 1f69d 10.5, 1f69e 11.5, 1f68b 10, 1f695 10.5 (approved 2026-10-15 23:06 PT); travel batch 05: 1f9bd 10, 1f69b 10.5, 1f6a8 10.5, 1f6a6 9.5, 1f6de 11.5 (approved 2026-10-15 23:26 PT); travel batch 06: 1f69f 10.5, 26f5 10.5, 1f6f3 11.5, 26f4 10.5, 1f6e5 10.5, 1f6a2 10.5, 1f6a1 10.5, 1f680 7.5 (approved 2026-10-15 23:33 PT); travel batch 08: 1fa90 10, 2b50 7, 1f31f 7 (approved 2026-10-15 23:47 PT); travel batch 09: 1f308 12, 2614 10.5, 26f1 10.5, 1f30a 10.5 (approved 2026-10-16 00:04 PT); activities batch 01: 1f38f 10.5 (approved 2026-10-16 00:14 PT); activities batch 02: 1f3bf 8, 1f945 10 (approved 2026-10-16 00:27 PT); activities batch 03: 1fa86 8.5 (approved 2026-10-16 01:48 PT); objects batch 04: 1f3bb 10.5 (approved 2026-10-16 06:08 PT); objects batch 06: 1f3ee 10.5 (approved 2026-10-16 07:12 PT); objects batch 07: 1f4d3 8, 1f58b 8 (approved 2026-10-16 07:27 PT); objects batch 08: 1f4b8 14 (approved 2026-10-16 07:46 PT); objects batch 10: 26cf 10.5, 2692 10.5, 1f527 10.5 (approved 2026-10-16 08:33 PT); objects batch 11: 1f517 13, 2696 11, 1f9af 8.5 (approved 2026-10-16 08:50 PT); objects batch 12: 1f6aa 8.5, 1f6d2 11 (approved 2026-10-16 09:23 PT); default 9."
+    },
+    "animals_nostrils": {
+      "approved": "Max Infeld 2026-10-15 18:07 PT",
+      "desc": "Nostrils sit on the upper muzzle, never at the bottom: long muzzle y142, broad muzzle y134 (200-unit space)."
+    },
+    "process_self_review": {
+      "approved": "Max Infeld 2026-10-15 18:31 PT",
+      "desc": "STANDING PROCESS RULE for every batch: build -> self-critique every emoji at 160px and 72px against the house reference style (locked sets) -> fix all weak spots identified -> re-run QC (0 flags) and verify locks -> repeat until clean. Only then report to Max, listing just the remaining issues that genuinely could not be fixed (with reasons)."
+    },
+    "plants_faces": {
+      "approved": "Max Infeld 2026-10-15 19:23 PT",
+      "value": "none",
+      "desc": "Plants (flowers, trees, leaves, food produce by extension unless Max says otherwise) are drawn WITHOUT faces."
+    },
+    "plants_highlights": {
+      "approved": "Max Infeld 2026-10-15 19:23 PT",
+      "desc": "Per-part crisp highlights lit from the upper left: each highlight is a clean white shape (opacity ~.6) inside its own part following its form (lens on a leaf's upper-left edge, shrunk/clipped copy of a round part, or a short arc/stroke). No soft white group hotspot in the gradient (plants gradients start at the light colour). Separate parts get their own gradient. Drop highlights that cannot be read at 72px. Implementation: set/work/plants.py (hl, leafhl, UH, UE, _nohot)."
+    },
+    "highlights_never_on_stroke": {
+      "approved": "Max Infeld 2026-10-15 19:29 PT, clarified 19:51 PT",
+      "applies": "all batches from food-batch-01 v2 onward",
+      "desc": "Highlights (shine) must stay off the OUTER silhouette outline of every part (the dark ink edge stroke, incl. stem/tube outlines), with a margin of half the stroke width + ~3px. Highlights MAY overlap internal strokes (kernel grids, seed rings, veins, ridges, markings, ink dots) - 'if the stroke is not on the edge then its ok, like the corn'. Implementation: set/work/food.py nostroke() subtracts only ink outline strokes buffered by stroke/2 + 1.4u (~3.4px at 512) from each highlight (shapely, pure vector). Audit: set/work/hlaudit.py counts highlight pixels within 2px of visible ink-outline pixels only; must be 0."
+    },
+    "food_fidelity_v3": {
+      "approved": "Max Infeld 2026-10-15 20:15 PT",
+      "applies": "all Food & Drink batches from batch 02 v3 onward",
+      "desc": "Food uses the v3 fidelity standard: smooth multi-point organic outlines (Catmull-Rom beziers through 8-24 anchors, slight hand-drawn irregularity on round items; no bare rectangles/polygons), a lower-right form-shade crescent inside each main part (part minus itself offset up-left, darker gradient stop at ~35% opacity, inset from the outline), and texture details (crumb pores, scoring, seeds, grain, marbling, blisters, flecks). Implementation: set/work/prepared3.py sm(), wob(), shade(), part()."
+    }
+  },
+  "feature_palette": [
+    "#1c1b13",
+    "#d0d0cc",
+    "#e20506",
+    "#f910c4",
+    "#4b5651",
+    "#f48526",
+    "#348dd2",
+    "#f2f5f0",
+    "#2bb70f",
+    "#a2a5a6",
+    "#000000",
+    "#88866f",
+    "#dfca95",
+    "#56dff5",
+    "#1232c8",
+    "#6a3305"
+  ],
+  "palette_max_dist": 48.9,
+  "metrics_hand": {
+    "outline_px": {
+      "label": "hand outline width (px @512)",
+      "mean": 5.5,
+      "sd": 0.8,
+      "min_allowed": 4.0,
+      "max_allowed": 8.0,
+      "n": 0,
+      "face_only": false
+    },
+    "margin_min_px": {
+      "label": "hand edge margin (px)",
+      "mean": 30.0,
+      "sd": 8,
+      "min_allowed": 12.0,
+      "max_allowed": 60.0,
+      "n": 0,
+      "face_only": false
+    }
+  },
+  "metrics_people": {
+    "outline_px": {
+      "label": "people outline width (px @512)",
+      "mean": 10.0,
+      "sd": 2,
+      "min_allowed": 5.0,
+      "max_allowed": 15.0,
+      "n": 0,
+      "face_only": false
+    },
+    "margin_min_px": {
+      "label": "people edge margin (px)",
+      "mean": 30.0,
+      "sd": 8,
+      "min_allowed": 12.0,
+      "max_allowed": 60.0,
+      "n": 0,
+      "face_only": false
+    }
+  }
+}

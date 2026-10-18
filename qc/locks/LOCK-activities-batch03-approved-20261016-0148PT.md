@@ -1,0 +1,52 @@
+# LOCK: Activities batch 03 game (24 emoji) approved by Max Infeld, 2026-10-16 01:48 PT
+
+Do not modify without Max's explicit OK. `md5sum -c` (paths relative to set/).
+
+6af942e4d8e884b287b146a57a09a4a4  svg/1f3af.svg
+8734c8d0b4d4e090ebabec34daea13b6  png/1f3af.png
+bc4bc2683e60deac64779088b2ee2290  svg/1fa80.svg
+943cce3eb7b664a6381a810ce41430c5  png/1fa80.png
+a71157b9757be561b2caafb4f344bc77  svg/1fa81.svg
+d60f3e18d6e4294a500e70074d6d36d4  png/1fa81.png
+686f4a366bc9b20be3c0cdc64f22c46a  svg/1f52b.svg
+12c4cd6a78c88bab45c075c125449927  png/1f52b.png
+baaba478199e16ab2a40881e32d4990e  svg/1f3b1.svg
+7feab76508cdfb1a1a1d8db1a96877d7  png/1f3b1.png
+508f1de0fa74ee13fae60363154a7d93  svg/1f52e.svg
+e05358b05ad27313d9100d9b2175e646  png/1f52e.png
+63ba3d42e2c0f67d7362579135f606a4  svg/1fa84.svg
+35b7030344cd895c73a03043ed2fa504  png/1fa84.png
+faa9a5faef01104eed1c05b3595cc9a7  svg/1f3ae.svg
+9add3fc1cf4c62ab2bbce859d2066f34  png/1f3ae.png
+95f3a09a7955db90fe020554cfd383e6  svg/1f579.svg
+d7fabb348aac4f860e68e819db2c49dd  png/1f579.png
+fefa2d9983817cfafcf2e5bc7da0dff8  svg/1f3b0.svg
+5bda73a22967c6c02e24255475e231cc  png/1f3b0.png
+2f9e5c2a54f1cfaedc5a353358b549f4  svg/1f3b2.svg
+1a496f292ab41a8e18ad2647a1c46fc5  png/1f3b2.png
+e9315576ca122eeeddc522ac320a3434  svg/1f9e9.svg
+59a03db88b42ad4eb84907251fcf2176  png/1f9e9.png
+e3a7e70f445d6c935112add49bf10dfb  svg/1f9f8.svg
+576ca81f36b8f2e40bd2bc0788c787ae  png/1f9f8.png
+0ffc692a667b8895fd7d339cb3e5cb91  svg/1fa85.svg
+ddcc5da31194207d4ce2af932a4aef83  png/1fa85.png
+8c8227215966a43bc7294ed312335efc  svg/1faa9.svg
+2a6b1a0c66d127078b14d30cac2d650f  png/1faa9.png
+97d04ba1809e4a62d9f917ee5fad3fea  svg/1fa86.svg
+33bfb5345c12eaa6825d77f235e2b79b  png/1fa86.png
+7678ca29e02b5c9d6cfa4d4aad84d0ae  svg/2660.svg
+c07bd3d3d43b1ea3efe7711217c1523b  png/2660.png
+cb7455a68ed118aa4edd20b410ebe4a2  svg/2665.svg
+9501b9d0deb7c8c168b85419f5e423a6  png/2665.png
+f726a63be9a1fa469b54924b7d7cea28  svg/2666.svg
+3aa4765692f54c22ae357ecdf909932b  png/2666.png
+888321ec9e003694a4b89cb72eed8ec0  svg/2663.svg
+38e6be203d7d82f19a98305e17d7a239  png/2663.png
+dc5df47199e9b2d77155bec5a6ecbe2c  svg/265f.svg
+f037ecdb36431b35293a02068387952c  png/265f.png
+dd73c5706bc2c79b1a7605b2e4a26e30  svg/1f0cf.svg
+949cc57b9c4d43eae8f9f33234985d18  png/1f0cf.png
+98785acd3602c6f8c9fa343d6a306dce  svg/1f004.svg
+80de52bf5a811cb41999ebe8c0ab473f  png/1f004.png
+2d39d2cb87526dc768ef41651946142a  svg/1f3b4.svg
+4700c584c31566623994ed554b79254b  png/1f3b4.png

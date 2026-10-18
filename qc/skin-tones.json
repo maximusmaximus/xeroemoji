@@ -1,0 +1,206 @@
+{
+ "source": "template5/6 people sheet (artboards #104-133: baby, boy, person, girl, man x 6 tones); flat skin fills listed as sheet_hex",
+ "gradient": "house 4-stop radial gloss, cx .35 cy .3 r .8: highlight(55% to white) / light(18% to white) / base / rim(45% to black)",
+ "active_palette": "balanced",
+ "tones": {
+  "base": {
+   "name": "house yellow (no modifier)",
+   "sheet_hex": "#ffff00",
+   "palettes": {
+    "sheet": {
+     "base": "#ffff00",
+     "stops": [
+      "#ffff8c",
+      "#ffff2e",
+      "#ffff00",
+      "#8c8c00"
+     ]
+    },
+    "balanced": {
+     "base": "#ffd21f",
+     "stops": [
+      "#ffffb0",
+      "#ffef3a",
+      "#ffc400",
+      "#c27a00"
+     ]
+    },
+    "warm": {
+     "base": "#ffd21f",
+     "stops": [
+      "#ffffb0",
+      "#ffef3a",
+      "#ffc400",
+      "#c27a00"
+     ]
+    }
+   }
+  },
+  "1f3fb": {
+   "name": "light (Fitzpatrick 1-2)",
+   "sheet_hex": "#fad5cc",
+   "palettes": {
+    "sheet": {
+     "base": "#fad5cc",
+     "stops": [
+      "#fdece8",
+      "#fbddd5",
+      "#fad5cc",
+      "#8a7570"
+     ]
+    },
+    "balanced": {
+     "base": "#f7d0bf",
+     "stops": [
+      "#fbeae2",
+      "#f8d8cb",
+      "#f7d0bf",
+      "#887269"
+     ]
+    },
+    "warm": {
+     "base": "#ffcdb2",
+     "stops": [
+      "#ffe8dc",
+      "#ffd6c0",
+      "#ffcdb2",
+      "#8c7162"
+     ]
+    }
+   }
+  },
+  "1f3fc": {
+   "name": "medium-light (3)",
+   "sheet_hex": "#d7b096",
+   "palettes": {
+    "sheet": {
+     "base": "#d7b096",
+     "stops": [
+      "#eddbd0",
+      "#debea9",
+      "#d7b096",
+      "#766152"
+     ]
+    },
+    "balanced": {
+     "base": "#dcb08f",
+     "stops": [
+      "#efdbcd",
+      "#e2bea3",
+      "#dcb08f",
+      "#79614f"
+     ]
+    },
+    "warm": {
+     "base": "#e8b27e",
+     "stops": [
+      "#f5dcc5",
+      "#ecc095",
+      "#e8b27e",
+      "#806245"
+     ]
+    }
+   }
+  },
+  "1f3fd": {
+   "name": "medium (4)",
+   "sheet_hex": "#b68d51",
+   "palettes": {
+    "sheet": {
+     "base": "#b68d51",
+     "stops": [
+      "#deccb1",
+      "#c3a270",
+      "#b68d51",
+      "#644e2d"
+     ]
+    },
+    "balanced": {
+     "base": "#b88452",
+     "stops": [
+      "#dfc8b1",
+      "#c59a71",
+      "#b88452",
+      "#65492d"
+     ]
+    },
+    "warm": {
+     "base": "#c98a45",
+     "stops": [
+      "#e7caab",
+      "#d39f66",
+      "#c98a45",
+      "#6f4c26"
+     ]
+    }
+   }
+  },
+  "1f3fe": {
+   "name": "medium-dark (5)",
+   "sheet_hex": "#6c1700",
+   "palettes": {
+    "sheet": {
+     "base": "#6c1700",
+     "stops": [
+      "#bd978c",
+      "#86412e",
+      "#6c1700",
+      "#3b0d00"
+     ]
+    },
+    "balanced": {
+     "base": "#8a5530",
+     "stops": [
+      "#cab2a2",
+      "#9f7455",
+      "#8a5530",
+      "#4c2f1a"
+     ]
+    },
+    "warm": {
+     "base": "#9a4f22",
+     "stops": [
+      "#d2b09c",
+      "#ac6f4a",
+      "#9a4f22",
+      "#552b13"
+     ]
+    }
+   }
+  },
+  "1f3ff": {
+   "name": "dark (6)",
+   "sheet_hex": "#1a0000",
+   "palettes": {
+    "sheet": {
+     "base": "#1a0000",
+     "stops": [
+      "#988c8c",
+      "#432e2e",
+      "#1a0000",
+      "#0e0000"
+     ]
+    },
+    "balanced": {
+     "base": "#4a2c1e",
+     "stops": [
+      "#aea09a",
+      "#6b5246",
+      "#4a2c1e",
+      "#291810"
+     ]
+    },
+    "warm": {
+     "base": "#5a2a14",
+     "stops": [
+      "#b59f95",
+      "#78503e",
+      "#5a2a14",
+      "#32170b"
+     ]
+    }
+   }
+  }
+ },
+ "note": "Decided: balanced (Max 2026-10-14 21:26 PT)."
+}

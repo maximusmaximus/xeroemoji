@@ -1,0 +1,4491 @@
+[
+{
+"cp": "0023-20e3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "002a-20e3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "0030-20e3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "0031-20e3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "0032-20e3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "0033-20e3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "0034-20e3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "0035-20e3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "0036-20e3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "0037-20e3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "0038-20e3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "0039-20e3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f170",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f171",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f17e",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f17f",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f18e",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f191",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f192",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f193",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f194",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f195",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f196",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f197",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f198",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f199",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f19a",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f1e6-1f1e8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e6-1f1e9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e6-1f1ea",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e6-1f1eb",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e6-1f1ec",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e6-1f1ee",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e6-1f1f1",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e6-1f1f2",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e6-1f1f4",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e6-1f1f6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e6-1f1f7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e6-1f1f8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e6-1f1f9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e6-1f1fa",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e6-1f1fc",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e6-1f1fd",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e6-1f1ff",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1e6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1e7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1e9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1ea",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1eb",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1ec",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1ed",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1ee",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1ef",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1f1",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1f2",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1f3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1f4",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1f6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1f7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1f8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1f9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1fb",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1fc",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1fe",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e7-1f1ff",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1e6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1e8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1e9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1eb",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1ec",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1ed",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1ee",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1f0",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1f1",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1f2",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1f3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1f4",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1f5",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1f6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1f7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1fa",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1fb",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1fc",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1fd",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1fe",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e8-1f1ff",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e9-1f1ea",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e9-1f1ec",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e9-1f1ef",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e9-1f1f0",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e9-1f1f2",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e9-1f1f4",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1e9-1f1ff",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ea-1f1e6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ea-1f1e8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ea-1f1ea",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ea-1f1ec",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ea-1f1ed",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ea-1f1f7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ea-1f1f8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ea-1f1f9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ea-1f1fa",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1eb-1f1ee",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1eb-1f1ef",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1eb-1f1f0",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1eb-1f1f2",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1eb-1f1f4",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1eb-1f1f7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ec-1f1e6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ec-1f1e7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ec-1f1e9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ec-1f1ea",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ec-1f1eb",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ec-1f1ec",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ec-1f1ed",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ec-1f1ee",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ec-1f1f1",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ec-1f1f2",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ec-1f1f3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ec-1f1f5",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ec-1f1f6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ec-1f1f7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ec-1f1f8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ec-1f1f9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ec-1f1fa",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ec-1f1fc",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ec-1f1fe",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ed-1f1f0",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ed-1f1f2",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ed-1f1f3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ed-1f1f7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ed-1f1f9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ed-1f1fa",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ee-1f1e8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ee-1f1e9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ee-1f1ea",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ee-1f1f1",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ee-1f1f2",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ee-1f1f3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ee-1f1f4",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ee-1f1f6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ee-1f1f7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ee-1f1f8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ee-1f1f9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ef-1f1ea",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ef-1f1f2",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ef-1f1f4",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ef-1f1f5",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f0-1f1ea",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f0-1f1ec",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f0-1f1ed",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f0-1f1ee",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f0-1f1f2",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f0-1f1f3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f0-1f1f5",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f0-1f1f7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f0-1f1fc",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f0-1f1fe",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f0-1f1ff",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f1-1f1e6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f1-1f1e7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f1-1f1e8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f1-1f1ee",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f1-1f1f0",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f1-1f1f7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f1-1f1f8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f1-1f1f9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f1-1f1fa",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f1-1f1fb",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f1-1f1fe",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1e6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1e8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1e9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1ea",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1eb",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1ec",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1ed",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1f0",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1f1",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1f2",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1f3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1f4",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1f5",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1f6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1f7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1f8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1f9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1fa",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1fb",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1fc",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1fd",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1fe",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f2-1f1ff",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f3-1f1e6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f3-1f1e8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f3-1f1ea",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f3-1f1eb",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f3-1f1ec",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f3-1f1ee",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f3-1f1f1",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f3-1f1f4",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f3-1f1f5",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 113 above house range 12-45"
+]
+},
+{
+"cp": "1f1f3-1f1f7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f3-1f1fa",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f3-1f1ff",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f4-1f1f2",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f5-1f1e6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f5-1f1ea",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f5-1f1eb",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f5-1f1ec",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f5-1f1ed",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f5-1f1f0",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f5-1f1f1",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f5-1f1f2",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f5-1f1f3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f5-1f1f7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f5-1f1f8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f5-1f1f9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f5-1f1fc",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f5-1f1fe",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f6-1f1e6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f7-1f1ea",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f7-1f1f4",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f7-1f1f8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f7-1f1fa",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f7-1f1fc",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1e6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1e7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1e8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1e9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1ea",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1ec",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1ed",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1ee",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1ef",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1f0",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1f1",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1f2",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1f3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1f4",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1f7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1f8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1f9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1fb",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1fd",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1fe",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f8-1f1ff",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f9-1f1e6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f9-1f1e8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f9-1f1e9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f9-1f1eb",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f9-1f1ec",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f9-1f1ed",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f9-1f1ef",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f9-1f1f0",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f9-1f1f1",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f9-1f1f2",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f9-1f1f3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f9-1f1f4",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f9-1f1f7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f9-1f1f9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f9-1f1fb",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f9-1f1fc",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1f9-1f1ff",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1fa-1f1e6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1fa-1f1ec",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1fa-1f1f2",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1fa-1f1f3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1fa-1f1f8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1fa-1f1fe",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1fa-1f1ff",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1fb-1f1e6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1fb-1f1e8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1fb-1f1ea",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1fb-1f1ec",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1fb-1f1ee",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1fb-1f1f3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1fb-1f1fa",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1fc-1f1eb",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1fc-1f1f8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1fd-1f1f0",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1fe-1f1ea",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1fe-1f1f9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ff-1f1e6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ff-1f1f2",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f1ff-1f1fc",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f201",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f202",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f21a",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f22f",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f232",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f233",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f234",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f235",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f236",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f237",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f238",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f239",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f23a",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f250",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f251",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f38c",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 3 below house range 12-45"
+]
+},
+{
+"cp": "1f3a6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f3c1",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 47 above house range 12-45"
+]
+},
+{
+"cp": "1f3e7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f3f3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 47 above house range 12-45"
+]
+},
+{
+"cp": "1f3f3-fe0f-200d-1f308",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 47 above house range 12-45"
+]
+},
+{
+"cp": "1f3f3-fe0f-200d-26a7-fe0f",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 47 above house range 12-45"
+]
+},
+{
+"cp": "1f3f4",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 47 above house range 12-45"
+]
+},
+{
+"cp": "1f3f4-200d-2620-fe0f",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 47 above house range 12-45"
+]
+},
+{
+"cp": "1f3f4-e0067-e0062-e0065-e006e-e0067-e007f",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f3f4-e0067-e0062-e0073-e0063-e0074-e007f",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f3f4-e0067-e0062-e0077-e006c-e0073-e007f",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 67 above house range 12-45"
+]
+},
+{
+"cp": "1f44d-1f3ff",
+"kinds": [
+"outline_px"
+],
+"reasons": [
+"hand outline width (px @512) 10.5 above house range 4-8"
+]
+},
+{
+"cp": "1f44e-1f3ff",
+"kinds": [
+"outline_px"
+],
+"reasons": [
+"hand outline width (px @512) 11 above house range 4-8"
+]
+},
+{
+"cp": "1f476",
+"kinds": [
+"outline_px"
+],
+"reasons": [
+"people outline width (px @512) 16 above house range 5-15"
+]
+},
+{
+"cp": "1f476-1f3fb",
+"kinds": [
+"outline_px"
+],
+"reasons": [
+"people outline width (px @512) 16 above house range 5-15"
+]
+},
+{
+"cp": "1f476-1f3fc",
+"kinds": [
+"outline_px"
+],
+"reasons": [
+"people outline width (px @512) 16 above house range 5-15"
+]
+},
+{
+"cp": "1f476-1f3fd",
+"kinds": [
+"outline_px"
+],
+"reasons": [
+"people outline width (px @512) 16 above house range 5-15"
+]
+},
+{
+"cp": "1f476-1f3fe",
+"kinds": [
+"outline_px"
+],
+"reasons": [
+"people outline width (px @512) 17 above house range 5-15"
+]
+},
+{
+"cp": "1f47b",
+"kinds": [
+"outline_px"
+],
+"reasons": [
+"outline width (px @512) 17 above house range 4.88-14.6"
+]
+},
+{
+"cp": "1f480",
+"kinds": [
+"outline_px"
+],
+"reasons": [
+"outline width (px @512) 17 above house range 4.88-14.6"
+]
+},
+{
+"cp": "1f495",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 46 above house range 12-45"
+]
+},
+{
+"cp": "1f498",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 53 above house range 12-45"
+]
+},
+{
+"cp": "1f4a0",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 7 below house range 12-45"
+]
+},
+{
+"cp": "1f4a4",
+"kinds": [
+"outline_px"
+],
+"reasons": [
+"symbol outline width (px @512) 8 below house range 11-15"
+]
+},
+{
+"cp": "1f4b0",
+"kinds": [
+"text"
+],
+"reasons": [
+"uses live <text> (font-dependent, not house vector art)"
+]
+},
+{
+"cp": "1f4b4",
+"kinds": [
+"text"
+],
+"reasons": [
+"uses live <text> (font-dependent, not house vector art)"
+]
+},
+{
+"cp": "1f4b5",
+"kinds": [
+"text"
+],
+"reasons": [
+"uses live <text> (font-dependent, not house vector art)"
+]
+},
+{
+"cp": "1f4b6",
+"kinds": [
+"text"
+],
+"reasons": [
+"uses live <text> (font-dependent, not house vector art)"
+]
+},
+{
+"cp": "1f4b7",
+"kinds": [
+"text"
+],
+"reasons": [
+"uses live <text> (font-dependent, not house vector art)"
+]
+},
+{
+"cp": "1f4b8",
+"kinds": [
+"text"
+],
+"reasons": [
+"uses live <text> (font-dependent, not house vector art)"
+]
+},
+{
+"cp": "1f4b9",
+"kinds": [
+"text"
+],
+"reasons": [
+"uses live <text> (font-dependent, not house vector art)"
+]
+},
+{
+"cp": "1f4c5",
+"kinds": [
+"text"
+],
+"reasons": [
+"uses live <text> (font-dependent, not house vector art)"
+]
+},
+{
+"cp": "1f4c6",
+"kinds": [
+"text"
+],
+"reasons": [
+"uses live <text> (font-dependent, not house vector art)"
+]
+},
+{
+"cp": "1f4e7",
+"kinds": [
+"text"
+],
+"reasons": [
+"uses live <text> (font-dependent, not house vector art)"
+]
+},
+{
+"cp": "1f4f3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f4f4",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f4f5",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f4f6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f500",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f501",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f502",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f503",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f504",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f505",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 60 above house range 12-45"
+]
+},
+{
+"cp": "1f506",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f51e",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f51f",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f520",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f521",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f522",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f523",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f524",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f528",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 58 above house range 12-45"
+]
+},
+{
+"cp": "1f52f",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f536",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 7 below house range 12-45"
+]
+},
+{
+"cp": "1f537",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 7 below house range 12-45"
+]
+},
+{
+"cp": "1f538",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 115 above house range 12-45"
+]
+},
+{
+"cp": "1f539",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 115 above house range 12-45"
+]
+},
+{
+"cp": "1f53c",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f53d",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f549",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f54e",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f5e1",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 71 above house range 12-45"
+]
+},
+{
+"cp": "1f60b",
+"kinds": [
+"mouth_y_frac"
+],
+"reasons": [
+"mouth vertical position 0.704 above house range 0.237-0.648"
+]
+},
+{
+"cp": "1f611",
+"kinds": [
+"eye_height_frac",
+"mouth_height_frac"
+],
+"reasons": [
+"eye height / face 0.033 below house range 0.0337-0.453",
+"mouth height / face 0.033 below house range 0.0475-0.408"
+]
+},
+{
+"cp": "1f617",
+"kinds": [
+"mouth_width_frac"
+],
+"reasons": [
+"mouth width / face 0.101 below house range 0.321-0.85"
+]
+},
+{
+"cp": "1f619",
+"kinds": [
+"mouth_width_frac"
+],
+"reasons": [
+"mouth width / face 0.0989 below house range 0.321-0.85"
+]
+},
+{
+"cp": "1f62e-200d-1f4a8",
+"kinds": [
+"gloss_x"
+],
+"reasons": [
+"gloss highlight x 0.532 above house range -0.406-0.324"
+]
+},
+{
+"cp": "1f635",
+"kinds": [
+"mouth_width_frac"
+],
+"reasons": [
+"mouth width / face 0.218 below house range 0.321-0.85"
+]
+},
+{
+"cp": "1f636",
+"kinds": [
+"mouth_y_frac",
+"mouth_height_frac"
+],
+"reasons": [
+"mouth vertical position 0.163 below house range 0.237-0.648",
+"mouth height / face 0.033 below house range 0.0475-0.408"
+]
+},
+{
+"cp": "1f636-200d-1f32b",
+"kinds": [
+"margin_min_px",
+"gloss_area"
+],
+"reasons": [
+"edge margin (px) 46 above house range 13.2-37.9",
+"gloss highlight size 0.505 above house range -0.0529-0.412"
+]
+},
+{
+"cp": "1f63b",
+"kinds": [
+"offpalette_frac"
+],
+"reasons": [
+"share of feature pixels off the house palette 0.669 above house range 0-0.615"
+]
+},
+{
+"cp": "1f63d",
+"kinds": [
+"gloss_y",
+"mouth_width_frac"
+],
+"reasons": [
+"gloss highlight y -0.532 below house range -0.42-0.718",
+"mouth width / face 0.135 below house range 0.321-0.85"
+]
+},
+{
+"cp": "1f642-200d-2194",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"edge margin (px) 40 above house range 13.2-37.9"
+]
+},
+{
+"cp": "1f642-200d-2195",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"edge margin (px) 40 above house range 13.2-37.9"
+]
+},
+{
+"cp": "1f643",
+"kinds": [
+"yellow_top_hue"
+],
+"reasons": [
+"yellow top hue 55.3 above house range 43.8-53.4"
+]
+},
+{
+"cp": "1f6a9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 47 above house range 12-45"
+]
+},
+{
+"cp": "1f6ab",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f6ad",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f6ae",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f6af",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f6b0",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f6b1",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f6b3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f6b7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f6b9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f6ba",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f6bb",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f6bc",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f6be",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f6c2",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f6c3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f6c4",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f6c5",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f6d0",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f6dc",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f6e0",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1f913",
+"kinds": [
+"svg_fills"
+],
+"reasons": [
+"number of distinct colours 18 above house range 4.72-16.3"
+]
+},
+{
+"cp": "1f914",
+"kinds": [
+"yellow_mid_hue"
+],
+"reasons": [
+"yellow mid hue 34.2 below house range 37.1-47.9"
+]
+},
+{
+"cp": "1f915",
+"kinds": [
+"yellow_top_hue"
+],
+"reasons": [
+"yellow top hue 55.3 above house range 43.8-53.4"
+]
+},
+{
+"cp": "1f920",
+"kinds": [
+"yellow_top_sat",
+"yellow_top_val",
+"eye_y_frac"
+],
+"reasons": [
+"yellow top sat 0.829 below house range 0.896-1.01",
+"yellow top val 0.733 below house range 0.912-1.01",
+"eye vertical position -0.599 below house range -0.51-0.0329"
+]
+},
+{
+"cp": "1f923",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"edge margin (px) 46 above house range 13.2-37.9"
+]
+},
+{
+"cp": "1f92b",
+"kinds": [
+"mouth_width_frac"
+],
+"reasons": [
+"mouth width / face 0.304 below house range 0.321-0.85"
+]
+},
+{
+"cp": "1f937-1f3fb",
+"kinds": [
+"outline_px"
+],
+"reasons": [
+"people outline width (px @512) 4.5 below house range 5-15"
+]
+},
+{
+"cp": "1f937-1f3fc",
+"kinds": [
+"outline_px"
+],
+"reasons": [
+"people outline width (px @512) 2.5 below house range 5-15"
+]
+},
+{
+"cp": "1f937-1f3fd",
+"kinds": [
+"outline_px"
+],
+"reasons": [
+"people outline width (px @512) 3 below house range 5-15"
+]
+},
+{
+"cp": "1f937-1f3fe",
+"kinds": [
+"outline_px"
+],
+"reasons": [
+"people outline width (px @512) 3 below house range 5-15"
+]
+},
+{
+"cp": "1f970",
+"kinds": [
+"gloss_x",
+"gloss_y"
+],
+"reasons": [
+"gloss highlight x 0.724 above house range -0.406-0.324",
+"gloss highlight y -0.503 below house range -0.42-0.718"
+]
+},
+{
+"cp": "1f971",
+"kinds": [
+"margin_min_px",
+"yellow_bot_hue"
+],
+"reasons": [
+"edge margin (px) 47 above house range 13.2-37.9",
+"yellow bot hue 34.2 below house range 43.5-57.1"
+]
+},
+{
+"cp": "1f973",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"edge margin (px) 12 below house range 13.2-37.9"
+]
+},
+{
+"cp": "1f9d0",
+"kinds": [
+"gloss_x"
+],
+"reasons": [
+"gloss highlight x 0.458 above house range -0.406-0.324"
+]
+},
+{
+"cp": "1faaf",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "1fae1",
+"kinds": [
+"yellow_mid_hue"
+],
+"reasons": [
+"yellow mid hue 34.2 below house range 37.1-47.9"
+]
+},
+{
+"cp": "1fae2",
+"kinds": [
+"yellow_mid_hue"
+],
+"reasons": [
+"yellow mid hue 34.2 below house range 37.1-47.9"
+]
+},
+{
+"cp": "1fae3",
+"kinds": [
+"yellow_mid_hue"
+],
+"reasons": [
+"yellow mid hue 34.2 below house range 37.1-47.9"
+]
+},
+{
+"cp": "1fae5",
+"kinds": [
+"outline_px"
+],
+"reasons": [
+"outline width (px @512) 17 above house range 4.88-14.6"
+]
+},
+{
+"cp": "1fae8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"edge margin (px) 43 above house range 13.2-37.9"
+]
+},
+{
+"cp": "1faea",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"edge margin (px) 13 below house range 13.2-37.9"
+]
+},
+{
+"cp": "2139",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2194",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2195",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2196",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2197",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2198",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2199",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "21a9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "21aa",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "23cf",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "23e9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "23ea",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "23eb",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "23ec",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "23ed",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "23ee",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "23ef",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "23f8",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "23f9",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "23fa",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "24c2",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "25aa",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 163 above house range 12-45"
+]
+},
+{
+"cp": "25ab",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 163 above house range 12-45"
+]
+},
+{
+"cp": "25b6",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "25c0",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "25fb",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 83 above house range 12-45"
+]
+},
+{
+"cp": "25fc",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 83 above house range 12-45"
+]
+},
+{
+"cp": "25fd",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 123 above house range 12-45"
+]
+},
+{
+"cp": "25fe",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 123 above house range 12-45"
+]
+},
+{
+"cp": "2611",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2622",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2623",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2626",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "262a",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "262e",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "262f",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2638",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2640",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2642",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2648",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2649",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "264a",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "264b",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "264c",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "264d",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "264e",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "264f",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2650",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2651",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2652",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2653",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "267f",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2694",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2695",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "269b",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "26a7",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "26ce",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "26cf",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 69 above house range 12-45"
+]
+},
+{
+"cp": "26d3",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 54 above house range 12-45"
+]
+},
+{
+"cp": "26d3-fe0f-200d-1f4a5",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "26d4",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2705",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "270c-1f3ff",
+"kinds": [
+"outline_px"
+],
+"reasons": [
+"hand outline width (px @512) 9 above house range 4-8"
+]
+},
+{
+"cp": "271d",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2721",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2733",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2734",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2747",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "274e",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "27a1",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2934",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2935",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2b05",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2b06",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "2b07",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "3297",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+},
+{
+"cp": "3299",
+"kinds": [
+"margin_min_px"
+],
+"reasons": [
+"symbol edge margin (px) 4 below house range 12-45"
+]
+}
+]

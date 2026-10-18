@@ -1,0 +1,2621 @@
+{
+"note": "hlaudit known exceptions: highlight-on-outline hits in locked, approved art (Max 2026-10-18 09:06 PT approved the open-items fixes only; these were NOT approved for fixing). Exempt only while the svg md5 matches; any change to the file, or any file not listed, is gated normally. Tool of record: work/hlaudit.py (fixed outline mask, 2026-10-18).",
+"count": 523,
+"files": {
+"1f3c2-1f3fb": {
+"svg_md5": "fdfecc525f99092076395b3f830e6cc0",
+"hit_px": 76,
+"kind": "new_with_fixed_tool"
+},
+"1f3c2-1f3fc": {
+"svg_md5": "b0435679a342399b4183aa4bd722ee8d",
+"hit_px": 76,
+"kind": "new_with_fixed_tool"
+},
+"1f3c2-1f3fd": {
+"svg_md5": "b738a13b2bf6fcbcd0c469659545353b",
+"hit_px": 76,
+"kind": "new_with_fixed_tool"
+},
+"1f3c2-1f3fe": {
+"svg_md5": "f573aea110b04cbc04bb89192671486e",
+"hit_px": 76,
+"kind": "new_with_fixed_tool"
+},
+"1f3c2-1f3ff": {
+"svg_md5": "defff4bbfdb5ec0a984c4e3e3dc86d75",
+"hit_px": 76,
+"kind": "new_with_fixed_tool"
+},
+"1f3c2": {
+"svg_md5": "654775170c90a79ffe4bcfcc46af7184",
+"hit_px": 76,
+"kind": "new_with_fixed_tool"
+},
+"1f446-1f3fb": {
+"svg_md5": "d536b9e2845dd80f50ff28b6eb201706",
+"hit_px": 33,
+"kind": "new_with_fixed_tool"
+},
+"1f446-1f3fc": {
+"svg_md5": "9b547f5756c91159f43ed2d16b26e463",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1f446-1f3fd": {
+"svg_md5": "0b9218a0adc8ee3233d11881b14d60bb",
+"hit_px": 41,
+"kind": "new_with_fixed_tool"
+},
+"1f446-1f3fe": {
+"svg_md5": "7904365327f9a9e1d0a32f5804170057",
+"hit_px": 46,
+"kind": "new_with_fixed_tool"
+},
+"1f446-1f3ff": {
+"svg_md5": "265b4c54523a04b57c42bf927ce27158",
+"hit_px": 50,
+"kind": "new_with_fixed_tool"
+},
+"1f446": {
+"svg_md5": "350280c9ba8cbd96d18da7243c649083",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1f447-1f3fb": {
+"svg_md5": "d889a6ad001a23dd671cb07e0ef2947d",
+"hit_px": 33,
+"kind": "new_with_fixed_tool"
+},
+"1f447-1f3fc": {
+"svg_md5": "5b608509c74b28c7401270cd10ea56c2",
+"hit_px": 42,
+"kind": "new_with_fixed_tool"
+},
+"1f447-1f3fd": {
+"svg_md5": "48253e70c5fc48ac93cf4f623dbdf83c",
+"hit_px": 44,
+"kind": "new_with_fixed_tool"
+},
+"1f447-1f3fe": {
+"svg_md5": "5bf4495f8fe7a71611d2b9997366d64e",
+"hit_px": 47,
+"kind": "new_with_fixed_tool"
+},
+"1f447-1f3ff": {
+"svg_md5": "e438d672b185c1cf70c10759b298080e",
+"hit_px": 50,
+"kind": "new_with_fixed_tool"
+},
+"1f447": {
+"svg_md5": "f8d6e22c68ff16eafb94a8dd214f280e",
+"hit_px": 44,
+"kind": "new_with_fixed_tool"
+},
+"1f448-1f3fb": {
+"svg_md5": "023629d651a1da82e688c6ab45b4de36",
+"hit_px": 34,
+"kind": "new_with_fixed_tool"
+},
+"1f448-1f3fc": {
+"svg_md5": "d387958bd696f73b18698125ccc1da2d",
+"hit_px": 37,
+"kind": "new_with_fixed_tool"
+},
+"1f448-1f3fd": {
+"svg_md5": "d8cd7c12bc9b809c0683986ed7d74209",
+"hit_px": 40,
+"kind": "new_with_fixed_tool"
+},
+"1f448-1f3fe": {
+"svg_md5": "440bb7bc22fceff4a9c0c26e336b3588",
+"hit_px": 48,
+"kind": "new_with_fixed_tool"
+},
+"1f448-1f3ff": {
+"svg_md5": "a06e38cbd61f4658e22d31b067a75a81",
+"hit_px": 51,
+"kind": "new_with_fixed_tool"
+},
+"1f448": {
+"svg_md5": "101d1e3f9db68e28b07781f976830b7e",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1f449-1f3fb": {
+"svg_md5": "8f5092a6bc069b8231edaa8b9fbecab3",
+"hit_px": 33,
+"kind": "new_with_fixed_tool"
+},
+"1f449-1f3fc": {
+"svg_md5": "b65fe1ce826835ce458fea20cdef1ac1",
+"hit_px": 41,
+"kind": "new_with_fixed_tool"
+},
+"1f449-1f3fd": {
+"svg_md5": "e4f02d0772d547398e356f6506c8cd67",
+"hit_px": 43,
+"kind": "new_with_fixed_tool"
+},
+"1f449-1f3fe": {
+"svg_md5": "b1c4f98477db809f5c17e4370604ea43",
+"hit_px": 46,
+"kind": "new_with_fixed_tool"
+},
+"1f449-1f3ff": {
+"svg_md5": "9abc78099d8e04dfff95302631c2d8fa",
+"hit_px": 53,
+"kind": "new_with_fixed_tool"
+},
+"1f449": {
+"svg_md5": "f184a5b95f45183ebff95feaf5a548f0",
+"hit_px": 43,
+"kind": "new_with_fixed_tool"
+},
+"1f44c-1f3fb": {
+"svg_md5": "bbabd9cf89d5a9bb35d8cd9672759605",
+"hit_px": 23,
+"kind": "new_with_fixed_tool"
+},
+"1f44c-1f3fc": {
+"svg_md5": "9f91d8a1177e20330b6694754f2f6454",
+"hit_px": 26,
+"kind": "new_with_fixed_tool"
+},
+"1f44c-1f3fd": {
+"svg_md5": "8270098c2b74a3cfada5266f4f674ada",
+"hit_px": 29,
+"kind": "new_with_fixed_tool"
+},
+"1f44c-1f3fe": {
+"svg_md5": "9477dfb9f76515cb1861f35b76358daf",
+"hit_px": 30,
+"kind": "new_with_fixed_tool"
+},
+"1f44c-1f3ff": {
+"svg_md5": "0199c33f16e64e0046fe7683dcae0088",
+"hit_px": 34,
+"kind": "new_with_fixed_tool"
+},
+"1f44c": {
+"svg_md5": "b6b4dea6113b90ec36c85844d21e474e",
+"hit_px": 27,
+"kind": "new_with_fixed_tool"
+},
+"1f44f-1f3fd": {
+"svg_md5": "29fb7a84cad9c63ecbcaed203159507f",
+"hit_px": 1,
+"kind": "new_with_fixed_tool"
+},
+"1f44f-1f3fe": {
+"svg_md5": "5813b245d88d4bca66138c1097ad8472",
+"hit_px": 2,
+"kind": "new_with_fixed_tool"
+},
+"1f44f-1f3ff": {
+"svg_md5": "fee6d859b841bd2b966d307350f8c83c",
+"hit_px": 2,
+"kind": "new_with_fixed_tool"
+},
+"1f450-1f3fb": {
+"svg_md5": "12b85acd19158cd2ca2976a7cbfc1a9b",
+"hit_px": 51,
+"kind": "new_with_fixed_tool"
+},
+"1f450-1f3fc": {
+"svg_md5": "006273fc0877749379dadfd8fc322901",
+"hit_px": 66,
+"kind": "new_with_fixed_tool"
+},
+"1f450-1f3fd": {
+"svg_md5": "bbd716ebc64d91c09a3286672bcb26b3",
+"hit_px": 76,
+"kind": "new_with_fixed_tool"
+},
+"1f450-1f3fe": {
+"svg_md5": "d747509e6c61d0e8ac31abbef8f6fe90",
+"hit_px": 84,
+"kind": "new_with_fixed_tool"
+},
+"1f450-1f3ff": {
+"svg_md5": "a2e0c8fdc10c0d6941290f59add9fe1a",
+"hit_px": 93,
+"kind": "new_with_fixed_tool"
+},
+"1f450": {
+"svg_md5": "e585f0400899298d32344278bf43d65d",
+"hit_px": 69,
+"kind": "new_with_fixed_tool"
+},
+"1f453": {
+"svg_md5": "115ab04650d54ae71f66ade24f5279f1",
+"hit_px": 330,
+"kind": "new_with_fixed_tool"
+},
+"1f468-1f3fb-200d-1f680": {
+"svg_md5": "7270758c3c265fa6faaa04cbed96ade0",
+"hit_px": 16,
+"kind": "new_with_fixed_tool"
+},
+"1f468-1f3fb-200d-2708": {
+"svg_md5": "381b6dc855c74fe4fd12bcb331935f4b",
+"hit_px": 132,
+"kind": "new_with_fixed_tool"
+},
+"1f468-1f3fc-200d-1f680": {
+"svg_md5": "668b2a63af59f856004901e5502f8f56",
+"hit_px": 16,
+"kind": "new_with_fixed_tool"
+},
+"1f468-1f3fc-200d-2708": {
+"svg_md5": "dfa041a981324077ce370be5dd1d2886",
+"hit_px": 132,
+"kind": "new_with_fixed_tool"
+},
+"1f468-1f3fd-200d-1f680": {
+"svg_md5": "750aa7216aa622610d7d8311d6e65307",
+"hit_px": 16,
+"kind": "new_with_fixed_tool"
+},
+"1f468-1f3fd-200d-2708": {
+"svg_md5": "a01a0f50e845ea4130c37843a6e615ac",
+"hit_px": 132,
+"kind": "new_with_fixed_tool"
+},
+"1f468-1f3fe-200d-1f680": {
+"svg_md5": "2d783816ca2b97cf72b1fa121a9de291",
+"hit_px": 16,
+"kind": "new_with_fixed_tool"
+},
+"1f468-1f3fe-200d-2708": {
+"svg_md5": "e76ad17d34974e0fac61d59aaac41f33",
+"hit_px": 132,
+"kind": "new_with_fixed_tool"
+},
+"1f468-1f3ff-200d-1f680": {
+"svg_md5": "4923d1d06e39c0721f7470afeb561d37",
+"hit_px": 16,
+"kind": "new_with_fixed_tool"
+},
+"1f468-1f3ff-200d-2708": {
+"svg_md5": "9703b0456c2feb7c663efcab6b48debf",
+"hit_px": 132,
+"kind": "new_with_fixed_tool"
+},
+"1f468-200d-1f680": {
+"svg_md5": "f2d5e04f59a6f5a040a02936e4827296",
+"hit_px": 16,
+"kind": "new_with_fixed_tool"
+},
+"1f468-200d-2708": {
+"svg_md5": "874b6f0a7007ba155eec2151fbb17e71",
+"hit_px": 132,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3fb-200d-1f373": {
+"svg_md5": "1a7cc042ca728753da872697fcda6a8c",
+"hit_px": 152,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3fb-200d-1f3ed": {
+"svg_md5": "fed2767f3ec03bea74dadb625c87fd51",
+"hit_px": 109,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3fb-200d-1f692": {
+"svg_md5": "be6e27015bfb911521330c6277f704d5",
+"hit_px": 10,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3fb-200d-2708": {
+"svg_md5": "ba3aa1d70cdb7169f51c87d96134a35c",
+"hit_px": 86,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3fc-200d-1f373": {
+"svg_md5": "93120a01f8972040f61bcf2dc0085130",
+"hit_px": 152,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3fc-200d-1f3ed": {
+"svg_md5": "c76e31a9dc20e720237ad716812e4978",
+"hit_px": 109,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3fc-200d-1f692": {
+"svg_md5": "07c60220694023350d616bfa1a7046de",
+"hit_px": 10,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3fc-200d-2708": {
+"svg_md5": "c36f9a6f0e772a4ede23025123ccdc5d",
+"hit_px": 86,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3fd-200d-1f373": {
+"svg_md5": "a5c9dba0dfb0671211fdb5efec8f2936",
+"hit_px": 152,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3fd-200d-1f3ed": {
+"svg_md5": "d4ffbef3c0f47d8db31b0a8d2feada00",
+"hit_px": 109,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3fd-200d-1f692": {
+"svg_md5": "15165a41737615732a1c0d987c883c9c",
+"hit_px": 10,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3fd-200d-2708": {
+"svg_md5": "bc383dcfc1bc345f2e74f7141d10d7e6",
+"hit_px": 86,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3fe-200d-1f373": {
+"svg_md5": "22a64fd363c1ad9e485865dab4a5a8f9",
+"hit_px": 152,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3fe-200d-1f3ed": {
+"svg_md5": "480f0014cd9fc4d68a25d04f007ac9c5",
+"hit_px": 109,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3fe-200d-1f692": {
+"svg_md5": "e12484b41fbef5c3ace2ab5adf8dc127",
+"hit_px": 10,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3fe-200d-2708": {
+"svg_md5": "1a7cb6cc9e5d28be02fcfb3622b41d9f",
+"hit_px": 86,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3ff-200d-1f373": {
+"svg_md5": "03b5d8b4405ed2740d1d5ea977593d7b",
+"hit_px": 152,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3ff-200d-1f3ed": {
+"svg_md5": "48aed94e06d9efa67dc98b72589dff3c",
+"hit_px": 109,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3ff-200d-1f692": {
+"svg_md5": "39211cda9244429caa6959a6dbb2970c",
+"hit_px": 10,
+"kind": "new_with_fixed_tool"
+},
+"1f469-1f3ff-200d-2708": {
+"svg_md5": "945e6b64eaa87683e05ae4eec8d851c0",
+"hit_px": 86,
+"kind": "new_with_fixed_tool"
+},
+"1f469-200d-1f373": {
+"svg_md5": "43e86b0bd0c230e347ad543e8068b591",
+"hit_px": 152,
+"kind": "new_with_fixed_tool"
+},
+"1f469-200d-1f3ed": {
+"svg_md5": "b479dd113f6d667027844915a017b60f",
+"hit_px": 109,
+"kind": "new_with_fixed_tool"
+},
+"1f469-200d-1f692": {
+"svg_md5": "6694d24a4b6332bbff596f83cf203fb8",
+"hit_px": 10,
+"kind": "new_with_fixed_tool"
+},
+"1f469-200d-2708": {
+"svg_md5": "d1eae2387d361a28d3d1e6f986199436",
+"hit_px": 86,
+"kind": "new_with_fixed_tool"
+},
+"1f46e-1f3fb-200d-2640": {
+"svg_md5": "b9f62df9cc8f8e75d1f29bcc45ee8004",
+"hit_px": 143,
+"kind": "new_with_fixed_tool"
+},
+"1f46e-1f3fb-200d-2642": {
+"svg_md5": "19abd3686cd0711be6c7dde3c5a3ae92",
+"hit_px": 203,
+"kind": "new_with_fixed_tool"
+},
+"1f46e-1f3fb": {
+"svg_md5": "ababc2177d51c6bc13b24d61837e4d88",
+"hit_px": 179,
+"kind": "new_with_fixed_tool"
+},
+"1f46e-1f3fc-200d-2640": {
+"svg_md5": "add343db75204301e99b78f2925dbfd1",
+"hit_px": 143,
+"kind": "new_with_fixed_tool"
+},
+"1f46e-1f3fc-200d-2642": {
+"svg_md5": "4f468f00771b7a5ba50ff0eb80b2d1cb",
+"hit_px": 203,
+"kind": "new_with_fixed_tool"
+},
+"1f46e-1f3fc": {
+"svg_md5": "89961bc1d864e06da86d5a9637a802e2",
+"hit_px": 179,
+"kind": "new_with_fixed_tool"
+},
+"1f46e-1f3fd-200d-2640": {
+"svg_md5": "483437f0077a6e999d8d1a9fd19db69d",
+"hit_px": 143,
+"kind": "new_with_fixed_tool"
+},
+"1f46e-1f3fd-200d-2642": {
+"svg_md5": "9f1f8e9f3a9eab31421e1f49376f8be7",
+"hit_px": 203,
+"kind": "new_with_fixed_tool"
+},
+"1f46e-1f3fd": {
+"svg_md5": "eee5bfca6c29ae2cc37b34200d466381",
+"hit_px": 179,
+"kind": "new_with_fixed_tool"
+},
+"1f46e-1f3fe-200d-2640": {
+"svg_md5": "793286547dec3df9a99b6fe475115f77",
+"hit_px": 143,
+"kind": "new_with_fixed_tool"
+},
+"1f46e-1f3fe-200d-2642": {
+"svg_md5": "864a3ac67aa4dfd0ab17fc4f193b4d20",
+"hit_px": 203,
+"kind": "new_with_fixed_tool"
+},
+"1f46e-1f3fe": {
+"svg_md5": "9ec46c36ab21bc7ee53d2484f89effc2",
+"hit_px": 179,
+"kind": "new_with_fixed_tool"
+},
+"1f46e-1f3ff-200d-2640": {
+"svg_md5": "ee069c5675a3778875990c85ed8f4c6b",
+"hit_px": 143,
+"kind": "new_with_fixed_tool"
+},
+"1f46e-1f3ff-200d-2642": {
+"svg_md5": "85e1277681bfe8ec39b77e168b378148",
+"hit_px": 203,
+"kind": "new_with_fixed_tool"
+},
+"1f46e-1f3ff": {
+"svg_md5": "7888ba54d3eef6def37a9d99f9f872a6",
+"hit_px": 179,
+"kind": "new_with_fixed_tool"
+},
+"1f46e-200d-2640": {
+"svg_md5": "e951e51d742a9c96eece3d5ce73346c2",
+"hit_px": 143,
+"kind": "new_with_fixed_tool"
+},
+"1f46e-200d-2642": {
+"svg_md5": "dbc24e347063fa8abd10d814a1fe8b86",
+"hit_px": 203,
+"kind": "new_with_fixed_tool"
+},
+"1f46e": {
+"svg_md5": "c8e674bf59af65222f1a2f7af67b1608",
+"hit_px": 179,
+"kind": "new_with_fixed_tool"
+},
+"1f470-1f3fb-200d-2640": {
+"svg_md5": "3bd791d38504c50bc5142f8601bca176",
+"hit_px": 48,
+"kind": "new_with_fixed_tool"
+},
+"1f470-1f3fb-200d-2642": {
+"svg_md5": "336a1b1005f41c8da9cd7b2a9be29793",
+"hit_px": 8,
+"kind": "new_with_fixed_tool"
+},
+"1f470-1f3fb": {
+"svg_md5": "c0703db62ffe6de32accc5fadb886b42",
+"hit_px": 67,
+"kind": "new_with_fixed_tool"
+},
+"1f470-1f3fc-200d-2640": {
+"svg_md5": "eaf08d3a509f919674370582252eca25",
+"hit_px": 48,
+"kind": "new_with_fixed_tool"
+},
+"1f470-1f3fc-200d-2642": {
+"svg_md5": "0bfa53bfda1d4fd7f34c8c73625e8a37",
+"hit_px": 8,
+"kind": "new_with_fixed_tool"
+},
+"1f470-1f3fc": {
+"svg_md5": "ec7ffe825d2e50c0ae1c181efcf66c59",
+"hit_px": 67,
+"kind": "new_with_fixed_tool"
+},
+"1f470-1f3fd-200d-2640": {
+"svg_md5": "85614930dab17f8c443d0939308043ff",
+"hit_px": 48,
+"kind": "new_with_fixed_tool"
+},
+"1f470-1f3fd-200d-2642": {
+"svg_md5": "2d2c0cf243abde70e94444ee8335b541",
+"hit_px": 8,
+"kind": "new_with_fixed_tool"
+},
+"1f470-1f3fd": {
+"svg_md5": "b6714ef3a3297b720c56c56b9a88982a",
+"hit_px": 67,
+"kind": "new_with_fixed_tool"
+},
+"1f470-1f3fe-200d-2640": {
+"svg_md5": "096c943eee6e8889b70a144fcc50db13",
+"hit_px": 48,
+"kind": "new_with_fixed_tool"
+},
+"1f470-1f3fe-200d-2642": {
+"svg_md5": "7972e246a5cfe5609a72a8b2da7ab20e",
+"hit_px": 8,
+"kind": "new_with_fixed_tool"
+},
+"1f470-1f3fe": {
+"svg_md5": "5586c51d62c1353299ce102517b3235d",
+"hit_px": 67,
+"kind": "new_with_fixed_tool"
+},
+"1f470-1f3ff-200d-2640": {
+"svg_md5": "7f93d26bff6816028dcb8e1811eee71d",
+"hit_px": 48,
+"kind": "new_with_fixed_tool"
+},
+"1f470-1f3ff-200d-2642": {
+"svg_md5": "a67edb606a3e58457e5747e5328e8c4f",
+"hit_px": 8,
+"kind": "new_with_fixed_tool"
+},
+"1f470-1f3ff": {
+"svg_md5": "a3aaac75486ff50baffda30487eefedd",
+"hit_px": 67,
+"kind": "new_with_fixed_tool"
+},
+"1f470-200d-2640": {
+"svg_md5": "0c660b52da2172d584d7ed5bdd64f8f6",
+"hit_px": 48,
+"kind": "new_with_fixed_tool"
+},
+"1f470-200d-2642": {
+"svg_md5": "ff31653dd321332019f587968d4f9e17",
+"hit_px": 8,
+"kind": "new_with_fixed_tool"
+},
+"1f470": {
+"svg_md5": "2f144c4a54025d4fb52ea134e63280d3",
+"hit_px": 67,
+"kind": "new_with_fixed_tool"
+},
+"1f473-1f3fb-200d-2640": {
+"svg_md5": "61230ea9e7972f6360632095b6757d91",
+"hit_px": 56,
+"kind": "new_with_fixed_tool"
+},
+"1f473-1f3fb": {
+"svg_md5": "c76b741e4045d74b770d3928d4cfa591",
+"hit_px": 66,
+"kind": "new_with_fixed_tool"
+},
+"1f473-1f3fc-200d-2640": {
+"svg_md5": "0103698bba00c56649a33a7635a1f396",
+"hit_px": 56,
+"kind": "new_with_fixed_tool"
+},
+"1f473-1f3fc": {
+"svg_md5": "7bfa1ecbc3b7ac90f6adad5f94fade30",
+"hit_px": 66,
+"kind": "new_with_fixed_tool"
+},
+"1f473-1f3fd-200d-2640": {
+"svg_md5": "520135cc49a679d0ab8e2b8ec7331330",
+"hit_px": 56,
+"kind": "new_with_fixed_tool"
+},
+"1f473-1f3fd": {
+"svg_md5": "5c2c73b0f82a9504d0a7526d0311092c",
+"hit_px": 66,
+"kind": "new_with_fixed_tool"
+},
+"1f473-1f3fe-200d-2640": {
+"svg_md5": "8c3230b7242c633d5bd74da1c45193a8",
+"hit_px": 56,
+"kind": "new_with_fixed_tool"
+},
+"1f473-1f3fe": {
+"svg_md5": "511ae8496447f4d12d114bc90a359a41",
+"hit_px": 66,
+"kind": "new_with_fixed_tool"
+},
+"1f473-1f3ff-200d-2640": {
+"svg_md5": "acfff13101d09f47934cd0ac1f3188a3",
+"hit_px": 56,
+"kind": "new_with_fixed_tool"
+},
+"1f473-1f3ff": {
+"svg_md5": "36767c7229b1037c038b63c2d11ba84a",
+"hit_px": 66,
+"kind": "new_with_fixed_tool"
+},
+"1f473-200d-2640": {
+"svg_md5": "9bce56081d3f550693d27771fb4cb68f",
+"hit_px": 56,
+"kind": "new_with_fixed_tool"
+},
+"1f473": {
+"svg_md5": "3d2424037f36f4c4c6d097548e5fc056",
+"hit_px": 66,
+"kind": "new_with_fixed_tool"
+},
+"1f477-1f3fb-200d-2640": {
+"svg_md5": "7f6528db1dd38ed2f46409ad4457d0fe",
+"hit_px": 94,
+"kind": "new_with_fixed_tool"
+},
+"1f477-1f3fb": {
+"svg_md5": "da6d73f8958817fec4495ff59d0a17fa",
+"hit_px": 115,
+"kind": "new_with_fixed_tool"
+},
+"1f477-1f3fc-200d-2640": {
+"svg_md5": "1fddc7e0dd49812a5edc13c47ad27e6d",
+"hit_px": 94,
+"kind": "new_with_fixed_tool"
+},
+"1f477-1f3fc": {
+"svg_md5": "5127279ad202672cf5d172e516d66856",
+"hit_px": 115,
+"kind": "new_with_fixed_tool"
+},
+"1f477-1f3fd-200d-2640": {
+"svg_md5": "7c573d97ef5f13bf2d408169d2a695d2",
+"hit_px": 94,
+"kind": "new_with_fixed_tool"
+},
+"1f477-1f3fd": {
+"svg_md5": "d7f61af434258787d91001b404057ed3",
+"hit_px": 115,
+"kind": "new_with_fixed_tool"
+},
+"1f477-1f3fe-200d-2640": {
+"svg_md5": "478c89f5aa172bec098eb1965a0f704f",
+"hit_px": 94,
+"kind": "new_with_fixed_tool"
+},
+"1f477-1f3fe": {
+"svg_md5": "52e717fd414bcc7ab4c40180445f547d",
+"hit_px": 115,
+"kind": "new_with_fixed_tool"
+},
+"1f477-1f3ff-200d-2640": {
+"svg_md5": "3e66115dc333395786b97f8c34cb77dd",
+"hit_px": 94,
+"kind": "new_with_fixed_tool"
+},
+"1f477-1f3ff": {
+"svg_md5": "2fd0ae3a4f95646447357a2b7552c718",
+"hit_px": 115,
+"kind": "new_with_fixed_tool"
+},
+"1f477-200d-2640": {
+"svg_md5": "8058f1d28d69249ac450aad32ee6807b",
+"hit_px": 94,
+"kind": "new_with_fixed_tool"
+},
+"1f477": {
+"svg_md5": "74ba3ee25f0cf33d8a37193caaf2a22c",
+"hit_px": 115,
+"kind": "new_with_fixed_tool"
+},
+"1f481-1f3fb-200d-2640": {
+"svg_md5": "8c506648f416ce78f97adb47df38ec3c",
+"hit_px": 30,
+"kind": "new_with_fixed_tool"
+},
+"1f481-1f3fb-200d-2642": {
+"svg_md5": "a35872e2fd32f03d8ef701a4a1348d04",
+"hit_px": 32,
+"kind": "new_with_fixed_tool"
+},
+"1f481-1f3fb": {
+"svg_md5": "3e41964722b3eda997eb3f80546d6de0",
+"hit_px": 28,
+"kind": "new_with_fixed_tool"
+},
+"1f481-1f3fc-200d-2640": {
+"svg_md5": "f28b84da3a627253c471d67898a15f28",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1f481-1f3fc-200d-2642": {
+"svg_md5": "a2fa70678c23ad4e8e0c859b7cda51a1",
+"hit_px": 36,
+"kind": "new_with_fixed_tool"
+},
+"1f481-1f3fc": {
+"svg_md5": "76f119ddfe9cf5367d94f16068637f8d",
+"hit_px": 36,
+"kind": "new_with_fixed_tool"
+},
+"1f481-1f3fd-200d-2640": {
+"svg_md5": "bdec140747898dcc885f11930ebb6493",
+"hit_px": 44,
+"kind": "new_with_fixed_tool"
+},
+"1f481-1f3fd-200d-2642": {
+"svg_md5": "094005fcf234977b21316cc6c7053c67",
+"hit_px": 41,
+"kind": "new_with_fixed_tool"
+},
+"1f481-1f3fd": {
+"svg_md5": "66406d4e4f91659143de0244f724f85a",
+"hit_px": 40,
+"kind": "new_with_fixed_tool"
+},
+"1f481-1f3fe-200d-2640": {
+"svg_md5": "057712c0efa42c0dfac9c0187cd2036d",
+"hit_px": 49,
+"kind": "new_with_fixed_tool"
+},
+"1f481-1f3fe-200d-2642": {
+"svg_md5": "e5ab443c294e91a9a55b447778779a07",
+"hit_px": 44,
+"kind": "new_with_fixed_tool"
+},
+"1f481-1f3fe": {
+"svg_md5": "d82489f3ed7b7ad7ee65049dcb0bd78c",
+"hit_px": 43,
+"kind": "new_with_fixed_tool"
+},
+"1f481-1f3ff-200d-2640": {
+"svg_md5": "e47a77e34942319cf9de608eb661bb50",
+"hit_px": 55,
+"kind": "new_with_fixed_tool"
+},
+"1f481-1f3ff-200d-2642": {
+"svg_md5": "28a12112126ba99ad4e310639ba186d9",
+"hit_px": 48,
+"kind": "new_with_fixed_tool"
+},
+"1f481-1f3ff": {
+"svg_md5": "abc9693ac5b99d29500ad6f481e80e80",
+"hit_px": 50,
+"kind": "new_with_fixed_tool"
+},
+"1f481-200d-2640": {
+"svg_md5": "c44ed1fc48a3212625283613c346d9d1",
+"hit_px": 40,
+"kind": "new_with_fixed_tool"
+},
+"1f481-200d-2642": {
+"svg_md5": "71668f8f5c7ac5e9f347d95736fae17f",
+"hit_px": 38,
+"kind": "new_with_fixed_tool"
+},
+"1f481": {
+"svg_md5": "b4656fd3ad52d0bbe03c239d94da42f7",
+"hit_px": 37,
+"kind": "new_with_fixed_tool"
+},
+"1f485-1f3fb": {
+"svg_md5": "816821acbfd3f573b249d66aef904b65",
+"hit_px": 37,
+"kind": "new_with_fixed_tool"
+},
+"1f485-1f3fc": {
+"svg_md5": "03ee03871fdb1e74e4fb933e5e5519b6",
+"hit_px": 41,
+"kind": "new_with_fixed_tool"
+},
+"1f485-1f3fd": {
+"svg_md5": "d7762f30ad00056a43d401fc42d214ff",
+"hit_px": 44,
+"kind": "new_with_fixed_tool"
+},
+"1f485-1f3fe": {
+"svg_md5": "0e105aea412e39f49a6a09bc623fa92b",
+"hit_px": 46,
+"kind": "new_with_fixed_tool"
+},
+"1f485-1f3ff": {
+"svg_md5": "e259fa3b3480322615e8edbcd9126f5f",
+"hit_px": 55,
+"kind": "new_with_fixed_tool"
+},
+"1f485": {
+"svg_md5": "bbf3a290a408a180974e77ada55b5833",
+"hit_px": 42,
+"kind": "new_with_fixed_tool"
+},
+"1f4aa-1f3fb": {
+"svg_md5": "2b32c6f8428babc0c2e8054d9a8db53a",
+"hit_px": 13,
+"kind": "new_with_fixed_tool"
+},
+"1f4aa-1f3fc": {
+"svg_md5": "2a4e52ce175b4957ebbcec063c293420",
+"hit_px": 20,
+"kind": "new_with_fixed_tool"
+},
+"1f4aa-1f3fd": {
+"svg_md5": "be36e621df9ba6d0da1bb51e7e5ecab7",
+"hit_px": 22,
+"kind": "new_with_fixed_tool"
+},
+"1f4aa-1f3fe": {
+"svg_md5": "bbedd9d90f6de318d99a56b8958485f7",
+"hit_px": 24,
+"kind": "new_with_fixed_tool"
+},
+"1f4aa-1f3ff": {
+"svg_md5": "8018f59ca44cb1507e25620cef496cb2",
+"hit_px": 26,
+"kind": "new_with_fixed_tool"
+},
+"1f4aa": {
+"svg_md5": "0955baacdb67045028232284df036f3f",
+"hit_px": 21,
+"kind": "new_with_fixed_tool"
+},
+"1f50f": {
+"svg_md5": "6158173e34330dea008e584f0bf6b775",
+"hit_px": 21,
+"kind": "new_with_fixed_tool"
+},
+"1f576": {
+"svg_md5": "dba265e66a97dd70b45d692ac3d0ce65",
+"hit_px": 340,
+"kind": "new_with_fixed_tool"
+},
+"1f595-1f3fb": {
+"svg_md5": "d5c184b56c43ae8378db162ccad819ca",
+"hit_px": 13,
+"kind": "new_with_fixed_tool"
+},
+"1f595-1f3fc": {
+"svg_md5": "1f3058f424b2569d6b47f00eb2e5b52c",
+"hit_px": 16,
+"kind": "new_with_fixed_tool"
+},
+"1f595-1f3fd": {
+"svg_md5": "5d049c42e34c5a6c1c1d6645eb72242a",
+"hit_px": 16,
+"kind": "new_with_fixed_tool"
+},
+"1f595-1f3fe": {
+"svg_md5": "d6da1b692b32a59a5c4d553bb9ad2e88",
+"hit_px": 18,
+"kind": "new_with_fixed_tool"
+},
+"1f595-1f3ff": {
+"svg_md5": "2c2f42e60349b5da6e5c50edd0c966a1",
+"hit_px": 21,
+"kind": "new_with_fixed_tool"
+},
+"1f595": {
+"svg_md5": "25d75dca54e24a74c39c5965e4e631cb",
+"hit_px": 16,
+"kind": "new_with_fixed_tool"
+},
+"1f596-1f3fb": {
+"svg_md5": "e409adf46c1f57fddc0bff5634fcf0b0",
+"hit_px": 267,
+"kind": "new_with_fixed_tool"
+},
+"1f596-1f3fc": {
+"svg_md5": "8c11e274304f45019453b43260b70e2e",
+"hit_px": 307,
+"kind": "new_with_fixed_tool"
+},
+"1f596-1f3fd": {
+"svg_md5": "cdcb236dc77b62e97d11005bede2c658",
+"hit_px": 337,
+"kind": "new_with_fixed_tool"
+},
+"1f596-1f3fe": {
+"svg_md5": "c415df157c9a7424c69390ca25926c3f",
+"hit_px": 356,
+"kind": "new_with_fixed_tool"
+},
+"1f596-1f3ff": {
+"svg_md5": "db28e5168c888b3648709f488a55416b",
+"hit_px": 383,
+"kind": "new_with_fixed_tool"
+},
+"1f596": {
+"svg_md5": "3b869d27fad0d4292a40235d3564375c",
+"hit_px": 315,
+"kind": "new_with_fixed_tool"
+},
+"1f646-1f3fb-200d-2640": {
+"svg_md5": "aa69cd2ca01351c484480cece7dad0fb",
+"hit_px": 12,
+"kind": "new_with_fixed_tool"
+},
+"1f646-1f3fb-200d-2642": {
+"svg_md5": "fa709fdf19c7db7f582b0553e9f276fb",
+"hit_px": 11,
+"kind": "new_with_fixed_tool"
+},
+"1f646-1f3fb": {
+"svg_md5": "47df97649be1b11125e73527b3414475",
+"hit_px": 13,
+"kind": "new_with_fixed_tool"
+},
+"1f646-1f3fc-200d-2640": {
+"svg_md5": "04f198330ee151aefbad8bf986806652",
+"hit_px": 17,
+"kind": "new_with_fixed_tool"
+},
+"1f646-1f3fc-200d-2642": {
+"svg_md5": "34f2d46e878a4c7acd6233cfb374dd4d",
+"hit_px": 16,
+"kind": "new_with_fixed_tool"
+},
+"1f646-1f3fc": {
+"svg_md5": "074ad206b1c483cd9996b1d19d3dad0c",
+"hit_px": 23,
+"kind": "new_with_fixed_tool"
+},
+"1f646-1f3fd-200d-2640": {
+"svg_md5": "abc3548275939db83d027aa8bbcecc65",
+"hit_px": 20,
+"kind": "new_with_fixed_tool"
+},
+"1f646-1f3fd-200d-2642": {
+"svg_md5": "0f7a5c6435435e3b5527a736ff56a05a",
+"hit_px": 21,
+"kind": "new_with_fixed_tool"
+},
+"1f646-1f3fd": {
+"svg_md5": "8d02324070a826dbe6bcc8bb75662730",
+"hit_px": 29,
+"kind": "new_with_fixed_tool"
+},
+"1f646-1f3fe-200d-2640": {
+"svg_md5": "6feabdb3be225efb337dadca6b474752",
+"hit_px": 23,
+"kind": "new_with_fixed_tool"
+},
+"1f646-1f3fe-200d-2642": {
+"svg_md5": "70fde42b09e7151c0a53ecabc5b86197",
+"hit_px": 23,
+"kind": "new_with_fixed_tool"
+},
+"1f646-1f3fe": {
+"svg_md5": "77fa2874c7e493e21d635b2ba3d7525d",
+"hit_px": 32,
+"kind": "new_with_fixed_tool"
+},
+"1f646-1f3ff-200d-2640": {
+"svg_md5": "6580ee6bda1e8bdedaa26e04e54bbcf3",
+"hit_px": 28,
+"kind": "new_with_fixed_tool"
+},
+"1f646-1f3ff-200d-2642": {
+"svg_md5": "51465cda430e26c791b33de0309836c0",
+"hit_px": 27,
+"kind": "new_with_fixed_tool"
+},
+"1f646-1f3ff": {
+"svg_md5": "d4ae862ad346beda994d35010ccf8e2b",
+"hit_px": 35,
+"kind": "new_with_fixed_tool"
+},
+"1f646-200d-2640": {
+"svg_md5": "72ad042be005ab41be022d6755862b94",
+"hit_px": 17,
+"kind": "new_with_fixed_tool"
+},
+"1f646-200d-2642": {
+"svg_md5": "ba20fa0d6fd6da7390029db7a03d0a80",
+"hit_px": 18,
+"kind": "new_with_fixed_tool"
+},
+"1f646": {
+"svg_md5": "6531d216881e52bee0906dd75f27c4d9",
+"hit_px": 23,
+"kind": "new_with_fixed_tool"
+},
+"1f64b-1f3fb-200d-2640": {
+"svg_md5": "bb0480bd27631a73956ec5a6fbf8dd10",
+"hit_px": 3,
+"kind": "new_with_fixed_tool"
+},
+"1f64b-1f3fb-200d-2642": {
+"svg_md5": "dee57cc83397d875412d5517539aff08",
+"hit_px": 2,
+"kind": "new_with_fixed_tool"
+},
+"1f64b-1f3fb": {
+"svg_md5": "1ad1b04d5853c10e9b3c466ddca6ef40",
+"hit_px": 1,
+"kind": "new_with_fixed_tool"
+},
+"1f64b-1f3fc-200d-2640": {
+"svg_md5": "a78d126489e456067ce3dd4899ee8d93",
+"hit_px": 3,
+"kind": "new_with_fixed_tool"
+},
+"1f64b-1f3fc-200d-2642": {
+"svg_md5": "f042d2a1aeaf582de355ffc8b3137fb5",
+"hit_px": 3,
+"kind": "new_with_fixed_tool"
+},
+"1f64b-1f3fc": {
+"svg_md5": "0fe203b40dde500a7e89603cfb404ee8",
+"hit_px": 4,
+"kind": "new_with_fixed_tool"
+},
+"1f64b-1f3fd-200d-2640": {
+"svg_md5": "6c9ec58c5520d2d21a845785920d95ed",
+"hit_px": 3,
+"kind": "new_with_fixed_tool"
+},
+"1f64b-1f3fd-200d-2642": {
+"svg_md5": "43da047407de5032436159767b71530a",
+"hit_px": 3,
+"kind": "new_with_fixed_tool"
+},
+"1f64b-1f3fd": {
+"svg_md5": "f1d9fb965684b825fb05464359160e54",
+"hit_px": 6,
+"kind": "new_with_fixed_tool"
+},
+"1f64b-1f3fe-200d-2640": {
+"svg_md5": "fcec3781c0587aea2023febe8924993f",
+"hit_px": 4,
+"kind": "new_with_fixed_tool"
+},
+"1f64b-1f3fe-200d-2642": {
+"svg_md5": "c9e7cac0df3733d55560df8ef4b11add",
+"hit_px": 3,
+"kind": "new_with_fixed_tool"
+},
+"1f64b-1f3fe": {
+"svg_md5": "8ea3f5855e874bde804d2c4c3a33180e",
+"hit_px": 6,
+"kind": "new_with_fixed_tool"
+},
+"1f64b-1f3ff-200d-2640": {
+"svg_md5": "1c27db422109679e2f09754095209ead",
+"hit_px": 5,
+"kind": "new_with_fixed_tool"
+},
+"1f64b-1f3ff-200d-2642": {
+"svg_md5": "cdcff2d249d03bbac10f285d70604acc",
+"hit_px": 5,
+"kind": "new_with_fixed_tool"
+},
+"1f64b-1f3ff": {
+"svg_md5": "3598aba4902a8993632484142bf2587f",
+"hit_px": 7,
+"kind": "new_with_fixed_tool"
+},
+"1f64b-200d-2640": {
+"svg_md5": "6c88f848f006c60f118e72be477cd555",
+"hit_px": 3,
+"kind": "new_with_fixed_tool"
+},
+"1f64b-200d-2642": {
+"svg_md5": "d657955c365df61a2faeb7d1f5ff2a05",
+"hit_px": 3,
+"kind": "new_with_fixed_tool"
+},
+"1f64b": {
+"svg_md5": "b70c8fa624b204a4f0b3dc7e87691782",
+"hit_px": 4,
+"kind": "new_with_fixed_tool"
+},
+"1f64c-1f3fb": {
+"svg_md5": "53baaf41effdf35a80b3228c81909309",
+"hit_px": 70,
+"kind": "new_with_fixed_tool"
+},
+"1f64c-1f3fc": {
+"svg_md5": "06efe4ff372da8058c84a2969ad8860e",
+"hit_px": 77,
+"kind": "new_with_fixed_tool"
+},
+"1f64c-1f3fd": {
+"svg_md5": "4d5861a30e66b5771a0a78f70b5e396a",
+"hit_px": 83,
+"kind": "new_with_fixed_tool"
+},
+"1f64c-1f3fe": {
+"svg_md5": "9029258108170cf005006a7b92cee8e1",
+"hit_px": 87,
+"kind": "new_with_fixed_tool"
+},
+"1f64c-1f3ff": {
+"svg_md5": "99b43d7d82ea0e486157affe2bbfb3db",
+"hit_px": 96,
+"kind": "new_with_fixed_tool"
+},
+"1f64c": {
+"svg_md5": "9c77757d0c23a49da2d4de05891fc705",
+"hit_px": 79,
+"kind": "new_with_fixed_tool"
+},
+"1f90f-1f3fb": {
+"svg_md5": "75495fff0f7f480ff4190dccfb5d18d7",
+"hit_px": 41,
+"kind": "new_with_fixed_tool"
+},
+"1f90f-1f3fc": {
+"svg_md5": "6dd930fc6fe4eaaed1fbe241ba5fcd74",
+"hit_px": 49,
+"kind": "new_with_fixed_tool"
+},
+"1f90f-1f3fd": {
+"svg_md5": "87afdeac93237d41249998646395d941",
+"hit_px": 52,
+"kind": "new_with_fixed_tool"
+},
+"1f90f-1f3fe": {
+"svg_md5": "8c5106fa9db57422f57d89caf219813e",
+"hit_px": 56,
+"kind": "new_with_fixed_tool"
+},
+"1f90f-1f3ff": {
+"svg_md5": "d6cc7132fa12aa19255092f1ffcc0dfa",
+"hit_px": 59,
+"kind": "new_with_fixed_tool"
+},
+"1f90f": {
+"svg_md5": "0c5241c57314640efd1cf38d8048f8ec",
+"hit_px": 51,
+"kind": "new_with_fixed_tool"
+},
+"1f918-1f3fb": {
+"svg_md5": "d159a70ae620066a853db143aac76a29",
+"hit_px": 29,
+"kind": "new_with_fixed_tool"
+},
+"1f918-1f3fc": {
+"svg_md5": "32708d50e228316caeacc554a788c6a5",
+"hit_px": 36,
+"kind": "new_with_fixed_tool"
+},
+"1f918-1f3fd": {
+"svg_md5": "a59883dc12bfb03461b120748d454b4c",
+"hit_px": 41,
+"kind": "new_with_fixed_tool"
+},
+"1f918-1f3fe": {
+"svg_md5": "229d77626e7c666c0da5396bbf928af6",
+"hit_px": 45,
+"kind": "new_with_fixed_tool"
+},
+"1f918-1f3ff": {
+"svg_md5": "2f6d1e731bcec52de61240439036dc63",
+"hit_px": 50,
+"kind": "new_with_fixed_tool"
+},
+"1f918": {
+"svg_md5": "613422a5e6f12bdfcf0709e991f16b91",
+"hit_px": 40,
+"kind": "new_with_fixed_tool"
+},
+"1f919-1f3fb": {
+"svg_md5": "155bb8d6d1883540ebad98ac42bc7674",
+"hit_px": 3,
+"kind": "new_with_fixed_tool"
+},
+"1f919-1f3fc": {
+"svg_md5": "d853c377f88b6dae85413f35edccd897",
+"hit_px": 5,
+"kind": "new_with_fixed_tool"
+},
+"1f919-1f3fd": {
+"svg_md5": "a6e1c7fa2d2fc02749d7428d4639d84e",
+"hit_px": 5,
+"kind": "new_with_fixed_tool"
+},
+"1f919-1f3fe": {
+"svg_md5": "186756e97a99de66d8ebec24bf52f8ad",
+"hit_px": 8,
+"kind": "new_with_fixed_tool"
+},
+"1f919-1f3ff": {
+"svg_md5": "5121aecb0ff8aeb9d8a82d90cdcb11e3",
+"hit_px": 9,
+"kind": "new_with_fixed_tool"
+},
+"1f919": {
+"svg_md5": "b39283e97bfe0a14086133c632cff968",
+"hit_px": 5,
+"kind": "new_with_fixed_tool"
+},
+"1f91a-1f3fb": {
+"svg_md5": "ce1292503550a62e54b2b0b05bf536c2",
+"hit_px": 36,
+"kind": "new_with_fixed_tool"
+},
+"1f91a-1f3fc": {
+"svg_md5": "64bde2a7f3f9d429b39eec1ee98f2d5c",
+"hit_px": 44,
+"kind": "new_with_fixed_tool"
+},
+"1f91a-1f3fd": {
+"svg_md5": "f104d2b2d597f052249de0666f327477",
+"hit_px": 49,
+"kind": "new_with_fixed_tool"
+},
+"1f91a-1f3fe": {
+"svg_md5": "405aa952512f6c87a67b79b46f6af2dc",
+"hit_px": 51,
+"kind": "new_with_fixed_tool"
+},
+"1f91a-1f3ff": {
+"svg_md5": "c1969476d0e8834c4e2c7adad3c12d85",
+"hit_px": 57,
+"kind": "new_with_fixed_tool"
+},
+"1f91a": {
+"svg_md5": "2317f564fad0b33bc2cbf0890a1bddc5",
+"hit_px": 45,
+"kind": "new_with_fixed_tool"
+},
+"1f91b-1f3fb": {
+"svg_md5": "e4e696b8d7ba199d63c9a6eb7cf9f55b",
+"hit_px": 35,
+"kind": "new_with_fixed_tool"
+},
+"1f91b-1f3fc": {
+"svg_md5": "6518b98c79a3b5d21288ff9217b1f1b9",
+"hit_px": 64,
+"kind": "new_with_fixed_tool"
+},
+"1f91b-1f3fd": {
+"svg_md5": "6e22b39b40ff820897154e0c966e221a",
+"hit_px": 83,
+"kind": "new_with_fixed_tool"
+},
+"1f91b-1f3fe": {
+"svg_md5": "422dd11b6047ae8f497dfe45a3470631",
+"hit_px": 105,
+"kind": "new_with_fixed_tool"
+},
+"1f91b-1f3ff": {
+"svg_md5": "a34e3c58e39c457e8be57cf13c6ebe26",
+"hit_px": 91,
+"kind": "new_with_fixed_tool"
+},
+"1f91b": {
+"svg_md5": "95963a0943513511d44d2defcb577c22",
+"hit_px": 71,
+"kind": "new_with_fixed_tool"
+},
+"1f91c-1f3fb": {
+"svg_md5": "e07c3ac25177052b0a8633554aabfc3a",
+"hit_px": 37,
+"kind": "new_with_fixed_tool"
+},
+"1f91c-1f3fc": {
+"svg_md5": "fc83a6dfa8781a4999f75be02a17ca92",
+"hit_px": 68,
+"kind": "new_with_fixed_tool"
+},
+"1f91c-1f3fd": {
+"svg_md5": "332d89733042256f56905079d991fc0a",
+"hit_px": 82,
+"kind": "new_with_fixed_tool"
+},
+"1f91c-1f3fe": {
+"svg_md5": "85021f30c336937d29530a4a22150a8f",
+"hit_px": 106,
+"kind": "new_with_fixed_tool"
+},
+"1f91c-1f3ff": {
+"svg_md5": "55614a6661a67bd8fcd33de6fa488f18",
+"hit_px": 91,
+"kind": "new_with_fixed_tool"
+},
+"1f91c": {
+"svg_md5": "88ecb486636b13db5e5ba8b990086741",
+"hit_px": 73,
+"kind": "new_with_fixed_tool"
+},
+"1f91d-1f3fb": {
+"svg_md5": "0962c8a79953abc9c70dc519e7af1c05",
+"hit_px": 28,
+"kind": "new_with_fixed_tool"
+},
+"1f91d-1f3fc": {
+"svg_md5": "34a1fb868a16987419719b6dc8938b16",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1f91d-1f3fd": {
+"svg_md5": "33bf709039f8f345222f026afb662fc2",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1f91d-1f3fe": {
+"svg_md5": "5e604af994591c776648b21fd2afaa93",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1f91d-1f3ff": {
+"svg_md5": "16ba233d5e591507a5d6d4d86d9a4ade",
+"hit_px": 50,
+"kind": "new_with_fixed_tool"
+},
+"1f91d": {
+"svg_md5": "66cec11d112525d4b7ce5563b6b9fc81",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1f91e-1f3fb": {
+"svg_md5": "75d2e6509c4f14d5829718ca002aa502",
+"hit_px": 69,
+"kind": "new_with_fixed_tool"
+},
+"1f91e-1f3fc": {
+"svg_md5": "65f15801ae0592ceafa656de03b12613",
+"hit_px": 79,
+"kind": "new_with_fixed_tool"
+},
+"1f91e-1f3fd": {
+"svg_md5": "19e00e56700962807cb5df7c7dfafe25",
+"hit_px": 92,
+"kind": "new_with_fixed_tool"
+},
+"1f91e-1f3fe": {
+"svg_md5": "b5d8dd0662ddba79cba55136c8f32757",
+"hit_px": 104,
+"kind": "new_with_fixed_tool"
+},
+"1f91e-1f3ff": {
+"svg_md5": "aaccc4a7b016c8d79ecfb66c3f3da9b6",
+"hit_px": 111,
+"kind": "new_with_fixed_tool"
+},
+"1f91e": {
+"svg_md5": "67536ab62f0dc31c5c1659fe3a8c7dfd",
+"hit_px": 83,
+"kind": "new_with_fixed_tool"
+},
+"1f91f-1f3fb": {
+"svg_md5": "13694ec645805e5f6a643c9c9f63ccd3",
+"hit_px": 6,
+"kind": "new_with_fixed_tool"
+},
+"1f91f-1f3fc": {
+"svg_md5": "41ef015f6994cf76149f14742aa12550",
+"hit_px": 6,
+"kind": "new_with_fixed_tool"
+},
+"1f91f-1f3fd": {
+"svg_md5": "b4d41528cb8b2f6f65a8e4c476e75da4",
+"hit_px": 6,
+"kind": "new_with_fixed_tool"
+},
+"1f91f-1f3fe": {
+"svg_md5": "b237530a91953d473f7a2e60a0273fcd",
+"hit_px": 8,
+"kind": "new_with_fixed_tool"
+},
+"1f91f-1f3ff": {
+"svg_md5": "1cc0537a27c4a8ed2386e6855d4d955a",
+"hit_px": 10,
+"kind": "new_with_fixed_tool"
+},
+"1f91f": {
+"svg_md5": "4851bf862d7d55a5a4cf368774c19d66",
+"hit_px": 6,
+"kind": "new_with_fixed_tool"
+},
+"1f926-1f3fb-200d-2640": {
+"svg_md5": "73ce6f6ba5d022f0e8ad514370da4461",
+"hit_px": 1,
+"kind": "new_with_fixed_tool"
+},
+"1f926-1f3fc-200d-2640": {
+"svg_md5": "59c557056ce2233b7bd1d3febc240aeb",
+"hit_px": 1,
+"kind": "new_with_fixed_tool"
+},
+"1f926-1f3fc-200d-2642": {
+"svg_md5": "e2b5933c493f773373f601d8d9b83c84",
+"hit_px": 2,
+"kind": "new_with_fixed_tool"
+},
+"1f926-1f3fd-200d-2640": {
+"svg_md5": "65648b039fd19a2f947f128f5baf5941",
+"hit_px": 1,
+"kind": "new_with_fixed_tool"
+},
+"1f926-1f3fd-200d-2642": {
+"svg_md5": "79ff96b0132aba8000c0629df8626061",
+"hit_px": 2,
+"kind": "new_with_fixed_tool"
+},
+"1f926-1f3fe-200d-2640": {
+"svg_md5": "6495996775eb088eaf6eafbfbfc1104c",
+"hit_px": 2,
+"kind": "new_with_fixed_tool"
+},
+"1f926-1f3fe-200d-2642": {
+"svg_md5": "57fb456d2d6ca889989879051c4d12cf",
+"hit_px": 4,
+"kind": "new_with_fixed_tool"
+},
+"1f926-1f3ff-200d-2640": {
+"svg_md5": "9b8ec0c98f62292cb3c7643005743c7c",
+"hit_px": 4,
+"kind": "new_with_fixed_tool"
+},
+"1f926-1f3ff-200d-2642": {
+"svg_md5": "124e64d57353c462442ff244a95ecf93",
+"hit_px": 4,
+"kind": "new_with_fixed_tool"
+},
+"1f926-200d-2640": {
+"svg_md5": "f91c717d1daef5ee45d666226aae466b",
+"hit_px": 1,
+"kind": "new_with_fixed_tool"
+},
+"1f926-200d-2642": {
+"svg_md5": "658d076eed3d624159425f01fe0ac442",
+"hit_px": 2,
+"kind": "new_with_fixed_tool"
+},
+"1f932-1f3fb": {
+"svg_md5": "32a62df99f2a4c75661c2ba36b450465",
+"hit_px": 44,
+"kind": "new_with_fixed_tool"
+},
+"1f932-1f3fc": {
+"svg_md5": "7a3fe3366088daea7f2e382f7321491d",
+"hit_px": 52,
+"kind": "new_with_fixed_tool"
+},
+"1f932-1f3fd": {
+"svg_md5": "595e9e1033676ac5ebe4777ab7281c46",
+"hit_px": 59,
+"kind": "new_with_fixed_tool"
+},
+"1f932-1f3fe": {
+"svg_md5": "f0262370f214f522fd04428034c73619",
+"hit_px": 63,
+"kind": "new_with_fixed_tool"
+},
+"1f932-1f3ff": {
+"svg_md5": "273cd82827d2379820fd521e801f113d",
+"hit_px": 71,
+"kind": "new_with_fixed_tool"
+},
+"1f932": {
+"svg_md5": "8d6cdf187bc16ecd5ab4cc4a2059fb64",
+"hit_px": 55,
+"kind": "new_with_fixed_tool"
+},
+"1f933-1f3fb": {
+"svg_md5": "3c6c81f6b4d9810b9efed27c909701b4",
+"hit_px": 7,
+"kind": "new_with_fixed_tool"
+},
+"1f933-1f3fc": {
+"svg_md5": "d6e43cbb18bdf8cb6de1dde33986ce34",
+"hit_px": 8,
+"kind": "new_with_fixed_tool"
+},
+"1f933-1f3fd": {
+"svg_md5": "0466d1016b440b484a3bd2655388f1be",
+"hit_px": 10,
+"kind": "new_with_fixed_tool"
+},
+"1f933-1f3fe": {
+"svg_md5": "f40f49fd86b5f923b45eb32a05d5fda2",
+"hit_px": 14,
+"kind": "new_with_fixed_tool"
+},
+"1f933-1f3ff": {
+"svg_md5": "7ca83d4e9a05fce3a3c9cb46200d691a",
+"hit_px": 13,
+"kind": "new_with_fixed_tool"
+},
+"1f933": {
+"svg_md5": "dd32c22c848736c9d4fbeffcfb463ef0",
+"hit_px": 8,
+"kind": "new_with_fixed_tool"
+},
+"1f937-1f3fb-200d-2640": {
+"svg_md5": "de4cade6966358cebc47590c90e0cac2",
+"hit_px": 2,
+"kind": "new_with_fixed_tool"
+},
+"1f937-1f3fb-200d-2642": {
+"svg_md5": "38fd596ba8a39d240f43ee5064dfa2e7",
+"hit_px": 2,
+"kind": "new_with_fixed_tool"
+},
+"1f937-1f3fc-200d-2640": {
+"svg_md5": "24492188b3e4f8292e482e2f76f536d4",
+"hit_px": 3,
+"kind": "new_with_fixed_tool"
+},
+"1f937-1f3fc-200d-2642": {
+"svg_md5": "62cd8cc409e1023f057e811a8323dd0e",
+"hit_px": 6,
+"kind": "new_with_fixed_tool"
+},
+"1f937-1f3fd-200d-2640": {
+"svg_md5": "da1cb320412b54b694c94c8b923fcce2",
+"hit_px": 6,
+"kind": "new_with_fixed_tool"
+},
+"1f937-1f3fd-200d-2642": {
+"svg_md5": "aca15c1aa36b2ee7ca78e796c23cc967",
+"hit_px": 7,
+"kind": "new_with_fixed_tool"
+},
+"1f937-1f3fe-200d-2640": {
+"svg_md5": "754242fcb332b67d940c2af408f27478",
+"hit_px": 8,
+"kind": "new_with_fixed_tool"
+},
+"1f937-1f3fe-200d-2642": {
+"svg_md5": "0500c2beb4429e1395df313957e17325",
+"hit_px": 9,
+"kind": "new_with_fixed_tool"
+},
+"1f937-1f3ff-200d-2640": {
+"svg_md5": "c93aec82b389ed62bcc8ec481eb52a2b",
+"hit_px": 10,
+"kind": "new_with_fixed_tool"
+},
+"1f937-1f3ff-200d-2642": {
+"svg_md5": "ab5db7b036e23a36e7976e16c2f89cb1",
+"hit_px": 11,
+"kind": "new_with_fixed_tool"
+},
+"1f937-200d-2640": {
+"svg_md5": "9f6955159b94bfa240541f399053ce93",
+"hit_px": 3,
+"kind": "new_with_fixed_tool"
+},
+"1f937-200d-2642": {
+"svg_md5": "fcfe29a8c6c1c4002db7a571230c7ccb",
+"hit_px": 6,
+"kind": "new_with_fixed_tool"
+},
+"1f9b5-1f3fb": {
+"svg_md5": "de9ebacc305bab5e11d672c98b21eecc",
+"hit_px": 1,
+"kind": "new_with_fixed_tool"
+},
+"1f9b5-1f3fc": {
+"svg_md5": "79d9c32b19427af7d4d4f199733c26d9",
+"hit_px": 2,
+"kind": "new_with_fixed_tool"
+},
+"1f9b5-1f3fd": {
+"svg_md5": "267a61fb201b902a6f0588fd331602ce",
+"hit_px": 3,
+"kind": "new_with_fixed_tool"
+},
+"1f9b5-1f3fe": {
+"svg_md5": "31ddf846f43fd9e8675473cd9b16569a",
+"hit_px": 7,
+"kind": "new_with_fixed_tool"
+},
+"1f9b5-1f3ff": {
+"svg_md5": "0823035a2df3555b3c7098dc6ce6b268",
+"hit_px": 5,
+"kind": "new_with_fixed_tool"
+},
+"1f9b5": {
+"svg_md5": "5fd50b35e294b57d62e5acfbb16367cf",
+"hit_px": 2,
+"kind": "new_with_fixed_tool"
+},
+"1f9be": {
+"svg_md5": "3d7be8c35ea61d1a925e42bcbba8b412",
+"hit_px": 17,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fb-200d-1f373": {
+"svg_md5": "5d51f54f215f4700c2daa13c65606f47",
+"hit_px": 195,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fb-200d-1f3ed": {
+"svg_md5": "2c02f117d6dc84a6823d639cbb7f6591",
+"hit_px": 136,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fb-200d-1f680": {
+"svg_md5": "064b6adbb03ea1d7e5313f44312002b3",
+"hit_px": 16,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fb-200d-1f692": {
+"svg_md5": "03bb1769188dc56ade2d47958700b910",
+"hit_px": 6,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fb-200d-2708": {
+"svg_md5": "fb04282f7f995911f68705cbc6c885a5",
+"hit_px": 115,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fc-200d-1f373": {
+"svg_md5": "9f1dfb9af1d540e606530c23e28b5018",
+"hit_px": 195,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fc-200d-1f3ed": {
+"svg_md5": "6efc31a270838c35e676cf5b36debb68",
+"hit_px": 136,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fc-200d-1f680": {
+"svg_md5": "3d4a0c6bc6625036c855c1941f76c36e",
+"hit_px": 16,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fc-200d-1f692": {
+"svg_md5": "9ea5731c605b184cf43e0b19c4f3ed95",
+"hit_px": 6,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fc-200d-2708": {
+"svg_md5": "13208e28d6c81343948c5a2b7904ec51",
+"hit_px": 115,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fd-200d-1f373": {
+"svg_md5": "691eac6852e74c4d1967785ff8da4176",
+"hit_px": 195,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fd-200d-1f3ed": {
+"svg_md5": "0e59a73020a2e9f4abf05a5ece5fd999",
+"hit_px": 136,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fd-200d-1f680": {
+"svg_md5": "9e587dc143f625556d1d99fb94214f22",
+"hit_px": 16,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fd-200d-1f692": {
+"svg_md5": "77da6647782f91b557e5d2a714a124a8",
+"hit_px": 6,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fd-200d-2708": {
+"svg_md5": "5d6ba56c4eed6e91ea92bfdd30cdc007",
+"hit_px": 115,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fe-200d-1f373": {
+"svg_md5": "eba4873579e1dff87a8a652ba1247985",
+"hit_px": 195,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fe-200d-1f3ed": {
+"svg_md5": "351eb4b4a3c3c29e89bb17b5aad79a90",
+"hit_px": 136,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fe-200d-1f680": {
+"svg_md5": "e4dbcf6b613bc78fbd044c3e09525e0f",
+"hit_px": 16,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fe-200d-1f692": {
+"svg_md5": "1c1e8de0de845481830e6eb59561e57c",
+"hit_px": 6,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3fe-200d-2708": {
+"svg_md5": "1cf6395b1b96b87db84d2b61fe6f565c",
+"hit_px": 115,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3ff-200d-1f373": {
+"svg_md5": "0b7892d60b6710086799f9a2112fd0b4",
+"hit_px": 195,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3ff-200d-1f3ed": {
+"svg_md5": "8f46dba54c39d1e5db1a1edddc7a7efb",
+"hit_px": 136,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3ff-200d-1f680": {
+"svg_md5": "3738902e9bb4aba8dc47e5fc9c4dc64c",
+"hit_px": 16,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3ff-200d-1f692": {
+"svg_md5": "744d31442fb90c5c0058bcb93d6ab7f8",
+"hit_px": 6,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-1f3ff-200d-2708": {
+"svg_md5": "4a688bca6e8831d847e81f40df6efd90",
+"hit_px": 115,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-200d-1f373": {
+"svg_md5": "8500599a0324da8fab4652a815d41fb3",
+"hit_px": 195,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-200d-1f3ed": {
+"svg_md5": "ac0343d4a972c28ad381b85ac67eeb5a",
+"hit_px": 136,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-200d-1f680": {
+"svg_md5": "f49bb25d3462ce61c6c61fe3f6db97e7",
+"hit_px": 16,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-200d-1f692": {
+"svg_md5": "24d57174d842f776fc8cc53a8617401f",
+"hit_px": 6,
+"kind": "new_with_fixed_tool"
+},
+"1f9d1-200d-2708": {
+"svg_md5": "33c9d8c9fe8ec99eaa5613d235403f57",
+"hit_px": 115,
+"kind": "new_with_fixed_tool"
+},
+"1faf0-1f3fb": {
+"svg_md5": "031756c4d2ba67f300aafe21d7ffb9da",
+"hit_px": 64,
+"kind": "new_with_fixed_tool"
+},
+"1faf0-1f3fc": {
+"svg_md5": "36aa5f35fe531242714e3d93c677c7a0",
+"hit_px": 76,
+"kind": "new_with_fixed_tool"
+},
+"1faf0-1f3fd": {
+"svg_md5": "a86b0a77488d8cd2cba52f909477dfb5",
+"hit_px": 85,
+"kind": "new_with_fixed_tool"
+},
+"1faf0-1f3fe": {
+"svg_md5": "7223517acc40f6ec56739d03399d0f2d",
+"hit_px": 91,
+"kind": "new_with_fixed_tool"
+},
+"1faf0-1f3ff": {
+"svg_md5": "0400530059a4b61cb15e614015918c51",
+"hit_px": 97,
+"kind": "new_with_fixed_tool"
+},
+"1faf0": {
+"svg_md5": "ef2cf402a4cb50f3173089b85ffc7965",
+"hit_px": 81,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fb-200d-1faf2-1f3fc": {
+"svg_md5": "e2adcafb9b80586e8a2918a8082d4afa",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fb-200d-1faf2-1f3fd": {
+"svg_md5": "fa93aed4ea60b3c31d63770a6e913ec9",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fb-200d-1faf2-1f3fe": {
+"svg_md5": "bc55692590b5366177cb056bd5405a5b",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fb-200d-1faf2-1f3ff": {
+"svg_md5": "d3eb483ec7f5f41bcba40d0498ba4271",
+"hit_px": 50,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fb": {
+"svg_md5": "1e02d5affdf5608839f4c204e0e06595",
+"hit_px": 385,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fc-200d-1faf2-1f3fb": {
+"svg_md5": "0a0979d2d260035984e961863f193c38",
+"hit_px": 28,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fc-200d-1faf2-1f3fd": {
+"svg_md5": "ae9885beaa3ab03dc0df9a0636f2d8fa",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fc-200d-1faf2-1f3fe": {
+"svg_md5": "0cc24729624d4059a58340ae9b3200cc",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fc-200d-1faf2-1f3ff": {
+"svg_md5": "d31d985050823e8b4668495bf568226e",
+"hit_px": 50,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fc": {
+"svg_md5": "45c05bd2f55fe46137e2bf28580a48e0",
+"hit_px": 455,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fd-200d-1faf2-1f3fb": {
+"svg_md5": "cd20b15516101d9de300d8403302ce3a",
+"hit_px": 28,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fd-200d-1faf2-1f3fc": {
+"svg_md5": "a96a0edbace858133311943ecf9bd4da",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fd-200d-1faf2-1f3fe": {
+"svg_md5": "c86f170de1e4cf6914f284cf95323ed8",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fd-200d-1faf2-1f3ff": {
+"svg_md5": "11ddb8c6b267f81fdc4e13dbecb73207",
+"hit_px": 50,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fd": {
+"svg_md5": "9a1b1c2bd71b899599fbdde0118e287b",
+"hit_px": 505,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fe-200d-1faf2-1f3fb": {
+"svg_md5": "8e85815190eb768893037870b84c5996",
+"hit_px": 28,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fe-200d-1faf2-1f3fc": {
+"svg_md5": "d6b2e928da642fe7a5acb44e86c3646b",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fe-200d-1faf2-1f3fd": {
+"svg_md5": "9e9068592c2021a53f5c78e932c5617d",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fe-200d-1faf2-1f3ff": {
+"svg_md5": "2d09687f8cdff39562b39260bb93c07b",
+"hit_px": 50,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3fe": {
+"svg_md5": "b5a330469bc0e1e927094080a38673e6",
+"hit_px": 532,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3ff-200d-1faf2-1f3fb": {
+"svg_md5": "cc6f5d3f3c7b580f451e21825002a70b",
+"hit_px": 28,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3ff-200d-1faf2-1f3fc": {
+"svg_md5": "7a5d4a0bbb240a25a31f91fc81294a01",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3ff-200d-1faf2-1f3fd": {
+"svg_md5": "589895909c397fa429ad78dcc67f49fa",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3ff-200d-1faf2-1f3fe": {
+"svg_md5": "b5ffb874337b76e1382e4a2e6f92925a",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"1faf1-1f3ff": {
+"svg_md5": "f80f6bca537b32e859fb2c89526b304f",
+"hit_px": 570,
+"kind": "new_with_fixed_tool"
+},
+"1faf1": {
+"svg_md5": "4f2161d066868b3f2d9879efa6e44a0f",
+"hit_px": 459,
+"kind": "new_with_fixed_tool"
+},
+"1faf2-1f3fb": {
+"svg_md5": "093de65e5809ef5ba8f00cb608ee00d5",
+"hit_px": 386,
+"kind": "new_with_fixed_tool"
+},
+"1faf2-1f3fc": {
+"svg_md5": "e8ac96fc3af60c6eb38f40a0f39efc3c",
+"hit_px": 459,
+"kind": "new_with_fixed_tool"
+},
+"1faf2-1f3fd": {
+"svg_md5": "93d77512c6b6232e1bac5e595091cf51",
+"hit_px": 503,
+"kind": "new_with_fixed_tool"
+},
+"1faf2-1f3fe": {
+"svg_md5": "1463ced5951325055d552f50fd2d7323",
+"hit_px": 531,
+"kind": "new_with_fixed_tool"
+},
+"1faf2-1f3ff": {
+"svg_md5": "9b4b62d9d7338f893000bd38a3ae5b2c",
+"hit_px": 571,
+"kind": "new_with_fixed_tool"
+},
+"1faf2": {
+"svg_md5": "c71167148239a9fc4c639aabf86bb8f6",
+"hit_px": 460,
+"kind": "new_with_fixed_tool"
+},
+"1faf3-1f3fb": {
+"svg_md5": "db74e6c95075fa9423d35643a556e89d",
+"hit_px": 406,
+"kind": "new_with_fixed_tool"
+},
+"1faf3-1f3fc": {
+"svg_md5": "62a9b7b640da367771b407e4dd6aea7f",
+"hit_px": 469,
+"kind": "new_with_fixed_tool"
+},
+"1faf3-1f3fd": {
+"svg_md5": "beb4d30c4fa26cca43ea45969df4aed2",
+"hit_px": 514,
+"kind": "new_with_fixed_tool"
+},
+"1faf3-1f3fe": {
+"svg_md5": "e5fa414b1d10372cd7ad9b0e00aa9bf5",
+"hit_px": 542,
+"kind": "new_with_fixed_tool"
+},
+"1faf3-1f3ff": {
+"svg_md5": "6d81408b4d429a6041033ff1c3000302",
+"hit_px": 673,
+"kind": "new_with_fixed_tool"
+},
+"1faf3": {
+"svg_md5": "6ece5da1f9acfa6ab11887d77a9ee77a",
+"hit_px": 478,
+"kind": "new_with_fixed_tool"
+},
+"1faf4-1f3fb": {
+"svg_md5": "9a617c4db7ceeb927ad85999f326cd78",
+"hit_px": 38,
+"kind": "new_with_fixed_tool"
+},
+"1faf4-1f3fc": {
+"svg_md5": "00211223a583953f9d344b75883fa3bf",
+"hit_px": 47,
+"kind": "new_with_fixed_tool"
+},
+"1faf4-1f3fd": {
+"svg_md5": "82dfc5ff844b45e73ee6eb9cacafc38b",
+"hit_px": 52,
+"kind": "new_with_fixed_tool"
+},
+"1faf4-1f3fe": {
+"svg_md5": "0cf9d0cdc7da24e3ac4742d00fbddd7a",
+"hit_px": 55,
+"kind": "new_with_fixed_tool"
+},
+"1faf4-1f3ff": {
+"svg_md5": "1cdc85b73ed2625a6339d9465f542775",
+"hit_px": 57,
+"kind": "new_with_fixed_tool"
+},
+"1faf4": {
+"svg_md5": "aa939c4f0556c3f637988bc333932be7",
+"hit_px": 47,
+"kind": "new_with_fixed_tool"
+},
+"1faf5-1f3fb": {
+"svg_md5": "97a7e2a1a97f06a6c9bdfc4a4ef8c380",
+"hit_px": 32,
+"kind": "new_with_fixed_tool"
+},
+"1faf5-1f3fc": {
+"svg_md5": "743d7d459c3fbdccaa2c6b0d8c2e3f34",
+"hit_px": 41,
+"kind": "new_with_fixed_tool"
+},
+"1faf5-1f3fd": {
+"svg_md5": "c5a2d5304634f15c02faca8dc5ccb2dc",
+"hit_px": 46,
+"kind": "new_with_fixed_tool"
+},
+"1faf5-1f3fe": {
+"svg_md5": "b5555e874725ad04f9fa0e760cad2dc9",
+"hit_px": 53,
+"kind": "new_with_fixed_tool"
+},
+"1faf5-1f3ff": {
+"svg_md5": "c2e7e1f600dff04308ec505e863eb86e",
+"hit_px": 48,
+"kind": "new_with_fixed_tool"
+},
+"1faf5": {
+"svg_md5": "564540448470c4dff75336ed7123c437",
+"hit_px": 43,
+"kind": "new_with_fixed_tool"
+},
+"1faf6-1f3fb": {
+"svg_md5": "1ca20a3d81cb57fda2ad6783262d0a4b",
+"hit_px": 70,
+"kind": "new_with_fixed_tool"
+},
+"1faf6-1f3fc": {
+"svg_md5": "eeb57af5676ca04536ed9716a77400a0",
+"hit_px": 74,
+"kind": "new_with_fixed_tool"
+},
+"1faf6-1f3fd": {
+"svg_md5": "aace5dd889537a3f991b2a37543803c4",
+"hit_px": 78,
+"kind": "new_with_fixed_tool"
+},
+"1faf6-1f3fe": {
+"svg_md5": "d8b759e85a6b8e5db70df37e225acb52",
+"hit_px": 83,
+"kind": "new_with_fixed_tool"
+},
+"1faf6-1f3ff": {
+"svg_md5": "dd71af44c71ec581437e5bce2b4f87b7",
+"hit_px": 79,
+"kind": "new_with_fixed_tool"
+},
+"1faf6": {
+"svg_md5": "e6c0e0cc3d5cadeecc22ae03e37d3498",
+"hit_px": 75,
+"kind": "new_with_fixed_tool"
+},
+"261d-1f3fb": {
+"svg_md5": "ac1982be9577eacc76e02a680047df49",
+"hit_px": 33,
+"kind": "new_with_fixed_tool"
+},
+"261d-1f3fc": {
+"svg_md5": "e85cef6f9ca4e50438cce94013509833",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"261d-1f3fd": {
+"svg_md5": "34a4494497ba8a09907a1da1a2d86dd0",
+"hit_px": 41,
+"kind": "new_with_fixed_tool"
+},
+"261d-1f3fe": {
+"svg_md5": "cf5b39225d908806502a38490653cc8c",
+"hit_px": 46,
+"kind": "new_with_fixed_tool"
+},
+"261d-1f3ff": {
+"svg_md5": "56b4c61c6f36fa064a0a46a321d0e9ac",
+"hit_px": 50,
+"kind": "new_with_fixed_tool"
+},
+"261d": {
+"svg_md5": "796aa75114cc2800a3cb6d3886edb26d",
+"hit_px": 39,
+"kind": "new_with_fixed_tool"
+},
+"26f7": {
+"svg_md5": "5250eb406c94df7d94c004b0334c03cc",
+"hit_px": 64,
+"kind": "new_with_fixed_tool"
+},
+"270b-1f3fb": {
+"svg_md5": "1524cf285e18b313ae6e6f98a1976afd",
+"hit_px": 36,
+"kind": "new_with_fixed_tool"
+},
+"270b-1f3fc": {
+"svg_md5": "d4dba6f31ee83200233fe2c1e259a88d",
+"hit_px": 44,
+"kind": "new_with_fixed_tool"
+},
+"270b-1f3fd": {
+"svg_md5": "fbd1c0d877a80d43d1d8785ab517c68e",
+"hit_px": 49,
+"kind": "new_with_fixed_tool"
+},
+"270b-1f3fe": {
+"svg_md5": "3fb2b3e60e77d943e322fd5c7456f135",
+"hit_px": 51,
+"kind": "new_with_fixed_tool"
+},
+"270b-1f3ff": {
+"svg_md5": "e58e7079dc69b68ccfc61e5ea00f6cbf",
+"hit_px": 57,
+"kind": "new_with_fixed_tool"
+},
+"270b": {
+"svg_md5": "85675ce2b3a8ede879edec559ef0c160",
+"hit_px": 45,
+"kind": "new_with_fixed_tool"
+},
+"270c-1f3fb": {
+"svg_md5": "5f0c60d0ad12eb3aae07cd7bd1d9cb65",
+"hit_px": 25,
+"kind": "new_with_fixed_tool"
+},
+"270c-1f3fc": {
+"svg_md5": "b3db81cab5febc63405339c5cd5d2118",
+"hit_px": 27,
+"kind": "new_with_fixed_tool"
+},
+"270c-1f3fd": {
+"svg_md5": "0406cc9d678db8b5c2a19bf3d5caf5d7",
+"hit_px": 28,
+"kind": "new_with_fixed_tool"
+},
+"270c-1f3fe": {
+"svg_md5": "4f949d6fa49089f452558c25f136c4cc",
+"hit_px": 30,
+"kind": "new_with_fixed_tool"
+},
+"270c-1f3ff": {
+"svg_md5": "69c38e1a4489a394526019f419311d1f",
+"hit_px": 32,
+"kind": "new_with_fixed_tool"
+},
+"270c": {
+"svg_md5": "ad31167fc9787aecf1d639e89fff97dd",
+"hit_px": 28,
+"kind": "new_with_fixed_tool"
+},
+"270d-1f3fb": {
+"svg_md5": "cec7d4c55277db73e79a98b41437765b",
+"hit_px": 295,
+"kind": "new_with_fixed_tool"
+},
+"270d-1f3fc": {
+"svg_md5": "64362f8425fae8b2d1d9b6f9d7d2c180",
+"hit_px": 308,
+"kind": "new_with_fixed_tool"
+},
+"270d-1f3fd": {
+"svg_md5": "3c66d94f13f416dc3c03b7e4492461f7",
+"hit_px": 315,
+"kind": "new_with_fixed_tool"
+},
+"270d-1f3fe": {
+"svg_md5": "14a0e26434db07a50d090e56e22bc49e",
+"hit_px": 325,
+"kind": "new_with_fixed_tool"
+},
+"270d-1f3ff": {
+"svg_md5": "1a28b1e7b6547af30a908f5d3eb44720",
+"hit_px": 380,
+"kind": "new_with_fixed_tool"
+},
+"270d": {
+"svg_md5": "b4f1263798d995b21f9b9de0179df04e",
+"hit_px": 311,
+"kind": "new_with_fixed_tool"
+},
+"1f404": {
+"svg_md5": "f679be616002e4cae3e8929dc558d6ba",
+"hit_px": 656,
+"kind": "old_tool_hit"
+},
+"1f405": {
+"svg_md5": "0f198a6e1eafc5d51f22e47f170f370c",
+"hit_px": 19,
+"kind": "old_tool_hit"
+},
+"1f406": {
+"svg_md5": "6a7a70f5984ba666465bdbf696fc61e0",
+"hit_px": 19,
+"kind": "old_tool_hit"
+},
+"1f408-200d-2b1b": {
+"svg_md5": "dc1d8a635d8e971c43068d57337c0cf4",
+"hit_px": 371,
+"kind": "old_tool_hit"
+},
+"1f408": {
+"svg_md5": "83029f674b41a6b86ca4914a16548d9e",
+"hit_px": 370,
+"kind": "old_tool_hit"
+},
+"1f409": {
+"svg_md5": "fd7387b197fef14ace86da9865aab9dd",
+"hit_px": 77,
+"kind": "old_tool_hit"
+},
+"1f40b": {
+"svg_md5": "f490773c33a7968ca9be8a32b46208b6",
+"hit_px": 82,
+"kind": "old_tool_hit"
+},
+"1f40d": {
+"svg_md5": "d081afcb8685f25447f875ddc0af031b",
+"hit_px": 69,
+"kind": "old_tool_hit"
+},
+"1f40e": {
+"svg_md5": "414424cc37cf5dadee582ac55b55a1e5",
+"hit_px": 25,
+"kind": "old_tool_hit"
+},
+"1f40f": {
+"svg_md5": "5e2ce6133999de9f3161c17a2ee739d1",
+"hit_px": 22,
+"kind": "old_tool_hit"
+},
+"1f411": {
+"svg_md5": "1f173c3e15f05c9ac0298dce0fa65a6a",
+"hit_px": 22,
+"kind": "old_tool_hit"
+},
+"1f412": {
+"svg_md5": "0d6e099a7147475c56f0b1c31d9b6703",
+"hit_px": 3,
+"kind": "old_tool_hit"
+},
+"1f415-200d-1f9ba": {
+"svg_md5": "261637c97a8c21db98a444f2cd3917bb",
+"hit_px": 19,
+"kind": "old_tool_hit"
+},
+"1f415": {
+"svg_md5": "919f0b20098a48e08efb680b4f7aca91",
+"hit_px": 16,
+"kind": "old_tool_hit"
+},
+"1f416": {
+"svg_md5": "1d3fa6ee9f0f93f6c8e49faf4236ae6b",
+"hit_px": 340,
+"kind": "old_tool_hit"
+},
+"1f417": {
+"svg_md5": "5c17aa47985d92c707909b9cf98b384e",
+"hit_px": 354,
+"kind": "old_tool_hit"
+},
+"1f41b": {
+"svg_md5": "c23fb832affdfa6a998f257cf8b768e1",
+"hit_px": 27,
+"kind": "old_tool_hit"
+},
+"1f41c": {
+"svg_md5": "5beef8d8e763fda93b8a73e7f63e264a",
+"hit_px": 61,
+"kind": "old_tool_hit"
+},
+"1f41d": {
+"svg_md5": "0d939fef4923ad3aa9d8edc30c8f806b",
+"hit_px": 47,
+"kind": "old_tool_hit"
+},
+"1f41e": {
+"svg_md5": "01220261fa2ac69509fbaf27988c6eb6",
+"hit_px": 779,
+"kind": "old_tool_hit"
+},
+"1f41f": {
+"svg_md5": "e6cfefea9f526d7b79419ca515734384",
+"hit_px": 14,
+"kind": "old_tool_hit"
+},
+"1f421": {
+"svg_md5": "f0f8ce6ac3f0d8ee9aa493a192f1124f",
+"hit_px": 184,
+"kind": "old_tool_hit"
+},
+"1f427": {
+"svg_md5": "15c59811da9b4332e7c4fe9e8b179cc7",
+"hit_px": 443,
+"kind": "old_tool_hit"
+},
+"1f428": {
+"svg_md5": "6ff6fe97e9495fda1b13c7684d2c0280",
+"hit_px": 34,
+"kind": "old_tool_hit"
+},
+"1f429": {
+"svg_md5": "fd2f221658b0f9b306d94c1666a95d9d",
+"hit_px": 18,
+"kind": "old_tool_hit"
+},
+"1f42a": {
+"svg_md5": "0aad09d64892162eabb4209afd6ceb71",
+"hit_px": 16,
+"kind": "old_tool_hit"
+},
+"1f42b": {
+"svg_md5": "c6da2130870e4097d5750bae87aa56cf",
+"hit_px": 15,
+"kind": "old_tool_hit"
+},
+"1f42c": {
+"svg_md5": "1e0daecc3d56243b971c25c234574dd3",
+"hit_px": 17,
+"kind": "old_tool_hit"
+},
+"1f42e": {
+"svg_md5": "3fe436aa45ad3a273b30a6db5461c8fd",
+"hit_px": 656,
+"kind": "old_tool_hit"
+},
+"1f42f": {
+"svg_md5": "a4e0ca5df74ec7065c938dbd227a8ab0",
+"hit_px": 16,
+"kind": "old_tool_hit"
+},
+"1f431": {
+"svg_md5": "8bc7e48a07721a1eb5eff24f0ff3e3b3",
+"hit_px": 385,
+"kind": "old_tool_hit"
+},
+"1f432": {
+"svg_md5": "5b52465cd42f290cea72bbbccb2c3433",
+"hit_px": 23,
+"kind": "old_tool_hit"
+},
+"1f433": {
+"svg_md5": "b7018f0419ac09af759a9b9ab25733eb",
+"hit_px": 79,
+"kind": "old_tool_hit"
+},
+"1f434": {
+"svg_md5": "e62fa7a0f37fa58c3a3e56bac5591e37",
+"hit_px": 25,
+"kind": "old_tool_hit"
+},
+"1f435": {
+"svg_md5": "d809a4026cddac432b156f240d5771a6",
+"hit_px": 3,
+"kind": "old_tool_hit"
+},
+"1f436": {
+"svg_md5": "23c16e6c72198239bf524d9e16d17eca",
+"hit_px": 16,
+"kind": "old_tool_hit"
+},
+"1f437": {
+"svg_md5": "00e15e558f5adefa68746fd7914711f7",
+"hit_px": 384,
+"kind": "old_tool_hit"
+},
+"1f43a": {
+"svg_md5": "82d881d180e2d7f949df4801a484c153",
+"hit_px": 14,
+"kind": "old_tool_hit"
+},
+"1f43b-200d-2744": {
+"svg_md5": "662926a79dc6dcf2d840800d972051b2",
+"hit_px": 16,
+"kind": "old_tool_hit"
+},
+"1f43b": {
+"svg_md5": "d78efa777e1855b5543e3fb2151fbf07",
+"hit_px": 16,
+"kind": "old_tool_hit"
+},
+"1f43c": {
+"svg_md5": "572253877dd853fad10b4158d6593ee2",
+"hit_px": 16,
+"kind": "old_tool_hit"
+},
+"1f43e": {
+"svg_md5": "0acc7436aeb6f77cfa85df2801f5d86e",
+"hit_px": 365,
+"kind": "old_tool_hit"
+},
+"1f43f": {
+"svg_md5": "d09c3c876d7e0a4d2800f167dd5e45cc",
+"hit_px": 347,
+"kind": "old_tool_hit"
+},
+"1f577": {
+"svg_md5": "db0ca8338184bc4fb8fd2dab60af7903",
+"hit_px": 43,
+"kind": "old_tool_hit"
+},
+"1f980": {
+"svg_md5": "701c3ae0be69a1f37214c8e1e1dcabdb",
+"hit_px": 45,
+"kind": "old_tool_hit"
+},
+"1f981": {
+"svg_md5": "80ceda11677354215107386db50db791",
+"hit_px": 17,
+"kind": "old_tool_hit"
+},
+"1f982": {
+"svg_md5": "ab64c24109d4d92d64d75a55e61069b3",
+"hit_px": 78,
+"kind": "old_tool_hit"
+},
+"1f984": {
+"svg_md5": "8fc05ca17cf9e6a97291cba0f0a22a84",
+"hit_px": 869,
+"kind": "old_tool_hit"
+},
+"1f986": {
+"svg_md5": "0a4532e6851c54cf72dc20d9d0d15216",
+"hit_px": 48,
+"kind": "old_tool_hit"
+},
+"1f989": {
+"svg_md5": "f9a5519bcf30067a5fa582b23ed9ea49",
+"hit_px": 153,
+"kind": "old_tool_hit"
+},
+"1f98a": {
+"svg_md5": "1f836c281072df509af219fa38a7e611",
+"hit_px": 17,
+"kind": "old_tool_hit"
+},
+"1f98b": {
+"svg_md5": "cd1e6446a5c3dbab03957b7281fb9303",
+"hit_px": 1112,
+"kind": "old_tool_hit"
+},
+"1f98d": {
+"svg_md5": "ec94ac10643f1558a9ab2d94cd8da413",
+"hit_px": 22,
+"kind": "old_tool_hit"
+},
+"1f98e": {
+"svg_md5": "3475773c1e24bba42c25ed10684cd6a6",
+"hit_px": 37,
+"kind": "old_tool_hit"
+},
+"1f98f": {
+"svg_md5": "702a99c76c4494f1fe4535a8b00469dd",
+"hit_px": 24,
+"kind": "old_tool_hit"
+},
+"1f992": {
+"svg_md5": "c1a1d46a776b7ffb4c453c9c99977c22",
+"hit_px": 1413,
+"kind": "old_tool_hit"
+},
+"1f994": {
+"svg_md5": "ad73c384229a8889586e2c7acc2a7beb",
+"hit_px": 23,
+"kind": "old_tool_hit"
+},
+"1f995": {
+"svg_md5": "096ce9bc7e8e3fa421ca1b087c6066a8",
+"hit_px": 4,
+"kind": "old_tool_hit"
+},
+"1f996": {
+"svg_md5": "3154d8c399fca144b341c0e934ab9790",
+"hit_px": 66,
+"kind": "old_tool_hit"
+},
+"1f997": {
+"svg_md5": "14d7920275c02aca687a0c33a898f906",
+"hit_px": 76,
+"kind": "old_tool_hit"
+},
+"1f998": {
+"svg_md5": "c2cdb0f14d1980841050e3c8fb47b4b3",
+"hit_px": 23,
+"kind": "old_tool_hit"
+},
+"1f999": {
+"svg_md5": "2345f096bf759c4c3b808f3aa8a2fceb",
+"hit_px": 13,
+"kind": "old_tool_hit"
+},
+"1f99b": {
+"svg_md5": "d61641356633faee7083dc522a59acd2",
+"hit_px": 35,
+"kind": "old_tool_hit"
+},
+"1f99c": {
+"svg_md5": "5d071d04856d41952b8eb24f6d374185",
+"hit_px": 106,
+"kind": "old_tool_hit"
+},
+"1f99d": {
+"svg_md5": "67cd1a3b54d70dded02f70e9959c9232",
+"hit_px": 31,
+"kind": "old_tool_hit"
+},
+"1f99e": {
+"svg_md5": "70e854947ba78b5b1674b208db8d8c89",
+"hit_px": 36,
+"kind": "old_tool_hit"
+},
+"1f99f": {
+"svg_md5": "15cf946d508aa775cce1b5534f915a60",
+"hit_px": 38,
+"kind": "old_tool_hit"
+},
+"1f9a1": {
+"svg_md5": "6c1aa2110a010c27b2c6f52366b2df0d",
+"hit_px": 1812,
+"kind": "old_tool_hit"
+},
+"1f9a4": {
+"svg_md5": "9ab1bdf130da2ef0dc475aa98364ead7",
+"hit_px": 79,
+"kind": "old_tool_hit"
+},
+"1f9a5": {
+"svg_md5": "373a146819d156647e34eea8a5d3e67f",
+"hit_px": 16,
+"kind": "old_tool_hit"
+},
+"1f9a7": {
+"svg_md5": "24eb4bfadc199842598d189ccecb410c",
+"hit_px": 26,
+"kind": "old_tool_hit"
+},
+"1f9a8": {
+"svg_md5": "38184d5b6bc8efc4352a4bd37cf09115",
+"hit_px": 190,
+"kind": "old_tool_hit"
+},
+"1f9a9": {
+"svg_md5": "100d2416914b070c81b55b43d0fc610a",
+"hit_px": 43,
+"kind": "old_tool_hit"
+},
+"1f9ab": {
+"svg_md5": "1453c120932ac5bdc09aac1b74ad7c80",
+"hit_px": 16,
+"kind": "old_tool_hit"
+},
+"1f9ac": {
+"svg_md5": "e37ee439d65dd53f2042d5a0299be712",
+"hit_px": 21,
+"kind": "old_tool_hit"
+},
+"1f9ae": {
+"svg_md5": "a1fcc18ab9667c8b81ac30463b67e802",
+"hit_px": 22,
+"kind": "old_tool_hit"
+},
+"1fab1": {
+"svg_md5": "59f2501d14c22ab6ce696ff04b59f2a5",
+"hit_px": 282,
+"kind": "old_tool_hit"
+},
+"1fab3": {
+"svg_md5": "a17b8eab16f789a6a308fcc14a82c050",
+"hit_px": 664,
+"kind": "old_tool_hit"
+},
+"1facc": {
+"svg_md5": "3a53524eeae3d21a9d20ae26d33a8b8b",
+"hit_px": 190,
+"kind": "old_tool_hit"
+},
+"1facd": {
+"svg_md5": "da73dc3527d8f0ea796cd8d7fb738b9a",
+"hit_px": 54,
+"kind": "old_tool_hit"
+},
+"1face": {
+"svg_md5": "4b14e76b94f737fe8aef4c7f805ffb09",
+"hit_px": 3,
+"kind": "old_tool_hit"
+},
+"1facf": {
+"svg_md5": "628d58a5b177adc59bbc358f7f484d4f",
+"hit_px": 23,
+"kind": "old_tool_hit"
+}
+}
+}

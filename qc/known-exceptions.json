@@ -1,0 +1,487 @@
+{
+ "note": "Requirement-level known exceptions for xeroqc (hlaudit hits live in qc/hlaudit-known-exceptions.json). Each applies only while the file md5s match. Built by xeroqc/exceptions.py (policy rules with sources) from the baseline run without this list: qc/results/evidence/baseline-run-no-exceptions-20261018-0929PT.results.json.gz.",
+ "built": "2026-10-18 09:29 PT",
+ "count": 60,
+ "exceptions": [
+  {
+   "file": "1f1f3-1f1f5",
+   "req": "XQ-FLAG-01",
+   "svg_md5": "62f0a36c02e6817d614c14e5531363bc",
+   "png_md5": "2639e7ccc4bf19db024e88a5a6893aac",
+   "reason": "Nepal: the real flag is non-rectangular, so it cannot match the rectangle silhouette (flags lock)",
+   "measured": "flag silhouette IoU 0.398 < 0.9"
+  },
+  {
+   "file": "1f1f3-1f1f5",
+   "req": "XQ-MAR-01",
+   "svg_md5": "62f0a36c02e6817d614c14e5531363bc",
+   "png_md5": "2639e7ccc4bf19db024e88a5a6893aac",
+   "reason": "Flags edge margin by design (FINAL-SET-STATUS-20261018-0200PT, Flags row; locked)",
+   "measured": "margin 113px outside flag tile (by design 67px) 60-75"
+  },
+  {
+   "file": "1f38c",
+   "req": "XQ-MAR-01",
+   "svg_md5": "7d4b4b321be54698f34b16fe3b3d5402",
+   "png_md5": "92a86e86756de35f9645cc63bb3636be",
+   "reason": "Flags edge margin by design (FINAL-SET-STATUS-20261018-0200PT, Flags row; locked)",
+   "measured": "margin 3px outside pennant flag (by design 47px) 40-50"
+  },
+  {
+   "file": "1f47b",
+   "req": "XQ-OUT-01",
+   "svg_md5": "96f888b9796b27d018781ca2677404ca",
+   "png_md5": "119b1b000778fa5a877171dcf4fb40c1",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "outline 17px outside non-yellow face 4.875-14.625"
+  },
+  {
+   "file": "1f480",
+   "req": "XQ-OUT-01",
+   "svg_md5": "c72addedaf6b900d9cadf9759f5d02c4",
+   "png_md5": "09750d7f94c63e0559ca5fdfb79ce3bc",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "outline 17px outside non-yellow face 4.875-14.625"
+  },
+  {
+   "file": "1f495",
+   "req": "XQ-MAR-01",
+   "svg_md5": "aa4336e753ace20ba32e935049600a6f",
+   "png_md5": "68ec082f2d68caa78ac291ef23bc22cd",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "margin 46px outside object/symbol 12-45"
+  },
+  {
+   "file": "1f498",
+   "req": "XQ-MAR-01",
+   "svg_md5": "0c0750cfb0b70fbe31e7a7e50eace10e",
+   "png_md5": "3b53bcca7cacd818da7ea34cad5cd16e",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "margin 53px outside object/symbol 12-45"
+  },
+  {
+   "file": "1f4a4",
+   "req": "XQ-OUT-01",
+   "svg_md5": "99c3331d2310a5ef6a7d69803019bcb9",
+   "png_md5": "7c6c36f408ca49a6855a9696f6bd8657",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "outline 8px outside object/symbol (13px house) 11-15"
+  },
+  {
+   "file": "1f505",
+   "req": "XQ-MAR-01",
+   "svg_md5": "898a31a58b8e779bf8972a1fab0b022a",
+   "png_md5": "6eea945253e58b25d12d6c07ae916328",
+   "reason": "Symbols edge margin by design (FINAL-SET-STATUS-20261018-0200PT, Symbols row; locked)",
+   "measured": "margin 60px outside object/symbol 12-45"
+  },
+  {
+   "file": "1f528",
+   "req": "XQ-MAR-01",
+   "svg_md5": "b4c6161c16afc653cdec825e2ec1f0ee",
+   "png_md5": "3924d8a607a3e6693654182240c49197",
+   "reason": "Objects edge margin by design (FINAL-SET-STATUS-20261018-0200PT, Objects row; locked)",
+   "measured": "margin 58px outside object/symbol 12-45"
+  },
+  {
+   "file": "1f538",
+   "req": "XQ-MAR-01",
+   "svg_md5": "5c3f59afa6ba52a856d93d74714d6730",
+   "png_md5": "6ab462d2420fe525c2199562341e9ef9",
+   "reason": "Symbols edge margin by design (FINAL-SET-STATUS-20261018-0200PT, Symbols row; locked)",
+   "measured": "margin 115px outside object/symbol 12-45"
+  },
+  {
+   "file": "1f539",
+   "req": "XQ-MAR-01",
+   "svg_md5": "1d19cdb0f11d1aaa5b0e8beef9d06c5f",
+   "png_md5": "ce8f3fa5e57b0a49295290d5feac88e7",
+   "reason": "Symbols edge margin by design (FINAL-SET-STATUS-20261018-0200PT, Symbols row; locked)",
+   "measured": "margin 115px outside object/symbol 12-45"
+  },
+  {
+   "file": "1f5e1",
+   "req": "XQ-MAR-01",
+   "svg_md5": "9139980c3ffc5e94a89da485390c6517",
+   "png_md5": "9c635b2efb15f1a04152fdab4f9de8da",
+   "reason": "Objects edge margin by design (FINAL-SET-STATUS-20261018-0200PT, Objects row; locked)",
+   "measured": "margin 71px outside object/symbol 12-45"
+  },
+  {
+   "file": "1f60b",
+   "req": "XQ-FACE-04",
+   "svg_md5": "e22af2aef310889f873359a8c6295325",
+   "png_md5": "199dc6159c13cf5651f33f53dc286c62",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "mouth vertical position 0.704 not in 0.237-0.648"
+  },
+  {
+   "file": "1f611",
+   "req": "XQ-FACE-03",
+   "svg_md5": "ec00eec4280b9e2defb26555976a6eff",
+   "png_md5": "50457fededb1b30f93e962bf92d08f6f",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "eye height / face 0.033 not in 0.0337-0.453"
+  },
+  {
+   "file": "1f611",
+   "req": "XQ-FACE-04",
+   "svg_md5": "ec00eec4280b9e2defb26555976a6eff",
+   "png_md5": "50457fededb1b30f93e962bf92d08f6f",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "mouth height / face 0.033 not in 0.0475-0.408"
+  },
+  {
+   "file": "1f617",
+   "req": "XQ-FACE-04",
+   "svg_md5": "353dafd1e07008a624a81c2aeb162fc9",
+   "png_md5": "be4455ecc50b396071ac92e13f610b8b",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "mouth width / face 0.101 not in 0.321-0.85"
+  },
+  {
+   "file": "1f619",
+   "req": "XQ-FACE-04",
+   "svg_md5": "011167b43af3f0035ea850df935a2a91",
+   "png_md5": "8d0144972bb37b41ee0ec6ebd81747a4",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "mouth width / face 0.0989 not in 0.321-0.85"
+  },
+  {
+   "file": "1f62e-200d-1f4a8",
+   "req": "XQ-FACE-02",
+   "svg_md5": "b10e696d0ede578fcbe94757a602720e",
+   "png_md5": "dbe81f15ceff023b2097a4c79bfef7e3",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "gloss highlight x 0.532 not in -0.406-0.324"
+  },
+  {
+   "file": "1f635",
+   "req": "XQ-FACE-04",
+   "svg_md5": "7d69bba3939a8cf43851c79decb1494f",
+   "png_md5": "f94310ed0ca785ebbc2c64b1d34539f8",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "mouth width / face 0.218 not in 0.321-0.85"
+  },
+  {
+   "file": "1f636",
+   "req": "XQ-FACE-04",
+   "svg_md5": "b4098b5d69f0d18c0bf5f99a3e4cc47d",
+   "png_md5": "5adcb484bc93b0f224ed1f8b5750bbb2",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "mouth vertical position 0.163 not in 0.237-0.648; mouth height / face 0.033 not in 0.0475-0.408"
+  },
+  {
+   "file": "1f636-200d-1f32b",
+   "req": "XQ-FACE-02",
+   "svg_md5": "85a3965681e16027755d2633eebef2a5",
+   "png_md5": "8397d385d5333f2ec20e2dbc64e6a88b",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "gloss highlight size 0.505 not in -0.0529-0.412"
+  },
+  {
+   "file": "1f636-200d-1f32b",
+   "req": "XQ-MAR-01",
+   "svg_md5": "85a3965681e16027755d2633eebef2a5",
+   "png_md5": "8397d385d5333f2ec20e2dbc64e6a88b",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "margin 46px outside face 13.15-37.85"
+  },
+  {
+   "file": "1f63b",
+   "req": "XQ-FACE-06",
+   "svg_md5": "4c09d229bc3a4546aea2a1f6640894b0",
+   "png_md5": "d8871608acf5e1c0297f1d95c0034152",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "share of feature pixels off the house palette 0.669 not in 0-0.615"
+  },
+  {
+   "file": "1f63d",
+   "req": "XQ-FACE-02",
+   "svg_md5": "03a80e4eb9faabfba8d5b1c692abdc29",
+   "png_md5": "b209ae7005410860231f0ebffac93750",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "gloss highlight y -0.532 not in -0.42-0.718"
+  },
+  {
+   "file": "1f63d",
+   "req": "XQ-FACE-04",
+   "svg_md5": "03a80e4eb9faabfba8d5b1c692abdc29",
+   "png_md5": "b209ae7005410860231f0ebffac93750",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "mouth width / face 0.135 not in 0.321-0.85"
+  },
+  {
+   "file": "1f642-200d-2194",
+   "req": "XQ-MAR-01",
+   "svg_md5": "bd839657bce921c16d4e1cf608de83b0",
+   "png_md5": "ab4e0a3452a4b7152777351f175a48f1",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "margin 40px outside face 13.15-37.85"
+  },
+  {
+   "file": "1f642-200d-2195",
+   "req": "XQ-MAR-01",
+   "svg_md5": "9594d651b27f9b26b55664fa34809f06",
+   "png_md5": "9b87a00719b1810b6a5514ccaec98656",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "margin 40px outside face 13.15-37.85"
+  },
+  {
+   "file": "1f643",
+   "req": "XQ-FACE-01",
+   "svg_md5": "34adb521ef5df176191c54d7d1df6a47",
+   "png_md5": "cfbce9f6de83516ac10df46dc21d3985",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "yellow top hue 55.3 not in 43.8-53.4"
+  },
+  {
+   "file": "1f6e0",
+   "req": "XQ-MAR-01",
+   "svg_md5": "211ef7878801582f0405fc175e3a3bfe",
+   "png_md5": "ef2ead2b2271f391c56d9043861ebece",
+   "reason": "Objects edge margin by design (FINAL-SET-STATUS-20261018-0200PT, Objects row; locked)",
+   "measured": "margin 4px outside object/symbol 12-45"
+  },
+  {
+   "file": "1f913",
+   "req": "XQ-FACE-07",
+   "svg_md5": "210f445188eb7d21b13c7228a25fd506",
+   "png_md5": "f9ae1cb2240928bb5c71ef703c372dcd",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "number of distinct colours 18 not in 4.72-16.3"
+  },
+  {
+   "file": "1f914",
+   "req": "XQ-FACE-01",
+   "svg_md5": "fd7e2d54af605c0816cfec78c6a0e443",
+   "png_md5": "a77feac91b19304207b46a97a9449ce3",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "yellow mid hue 34.2 not in 37.1-47.9"
+  },
+  {
+   "file": "1f915",
+   "req": "XQ-FACE-01",
+   "svg_md5": "8e71379536e4167f222c1557a0b849a0",
+   "png_md5": "0f2bc3922f79645a9a348d154e5b96a9",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "yellow top hue 55.3 not in 43.8-53.4"
+  },
+  {
+   "file": "1f920",
+   "req": "XQ-FACE-01",
+   "svg_md5": "59e383e45c6fdeecc714ba6ff42bcdd2",
+   "png_md5": "dd3788995910ce668c7372e3f3fc8e5d",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "yellow top sat 0.829 not in 0.896-1.01; yellow top val 0.733 not in 0.912-1.01"
+  },
+  {
+   "file": "1f920",
+   "req": "XQ-FACE-03",
+   "svg_md5": "59e383e45c6fdeecc714ba6ff42bcdd2",
+   "png_md5": "dd3788995910ce668c7372e3f3fc8e5d",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "eye vertical position -0.599 not in -0.51-0.0329"
+  },
+  {
+   "file": "1f923",
+   "req": "XQ-MAR-01",
+   "svg_md5": "e0791cef86469a5ccf17eeb630aa2edc",
+   "png_md5": "3380b56288efcaa7540fc7aa98b987bc",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "margin 46px outside face 13.15-37.85"
+  },
+  {
+   "file": "1f92b",
+   "req": "XQ-FACE-04",
+   "svg_md5": "f3434ccf54ad46681fbc238e9f1b3bd2",
+   "png_md5": "cb798b9e86c8cf8bcf799fe8ca59eaf9",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "mouth width / face 0.304 not in 0.321-0.85"
+  },
+  {
+   "file": "1f937",
+   "req": "XQ-HAND-02",
+   "svg_md5": "cb48aa0947f20d3c96338a985a16257e",
+   "png_md5": "8e9380abd21071dee9e547538257c175",
+   "reason": "base/darkest 🤷 keep the 2.3 hand stroke: Max declined the fix 2026-10-18 09:06 PT (FINAL-SET-STATUS-20261018-0910PT)",
+   "measured": "hand stroke [2.3] vs tone family [4.7]"
+  },
+  {
+   "file": "1f937-1f3ff",
+   "req": "XQ-HAND-02",
+   "svg_md5": "6a8cda0cc0577b9c7da22c67bca01f25",
+   "png_md5": "2305bb4f791a9e9b4f37016f8013cb91",
+   "reason": "base/darkest 🤷 keep the 2.3 hand stroke: Max declined the fix 2026-10-18 09:06 PT (FINAL-SET-STATUS-20261018-0910PT)",
+   "measured": "hand stroke [2.3] vs tone family [4.7]"
+  },
+  {
+   "file": "1f970",
+   "req": "XQ-FACE-02",
+   "svg_md5": "9c0761f1fb542537fd934c3a91777d22",
+   "png_md5": "03c36bc8f76db556ea7216dfd1f9ce82",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "gloss highlight x 0.724 not in -0.406-0.324; gloss highlight y -0.503 not in -0.42-0.718"
+  },
+  {
+   "file": "1f971",
+   "req": "XQ-FACE-01",
+   "svg_md5": "af56fe8a16e28c526d0d93728bc3eeea",
+   "png_md5": "e84cf1bb69b6aff6c3348665261550eb",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "yellow bot hue 34.2 not in 43.5-57.1"
+  },
+  {
+   "file": "1f971",
+   "req": "XQ-MAR-01",
+   "svg_md5": "af56fe8a16e28c526d0d93728bc3eeea",
+   "png_md5": "e84cf1bb69b6aff6c3348665261550eb",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "margin 47px outside face 13.15-37.85"
+  },
+  {
+   "file": "1f973",
+   "req": "XQ-MAR-01",
+   "svg_md5": "bbdf5efe7a68c049113eb89fce46f805",
+   "png_md5": "a8b7640f7bc248ffe16b111ca0c9a5d1",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "margin 12px outside face 13.15-37.85"
+  },
+  {
+   "file": "1f9d0",
+   "req": "XQ-FACE-02",
+   "svg_md5": "7cb66c730ee357965ee0713c140ef3eb",
+   "png_md5": "91143e44cf4eb76657bc01cc9232f7b4",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "gloss highlight x 0.458 not in -0.406-0.324"
+  },
+  {
+   "file": "1fae1",
+   "req": "XQ-FACE-01",
+   "svg_md5": "427d4c7bc78c848d5d735a8e8b35d96d",
+   "png_md5": "4c6b791838a4bf85f57557ac0e5ca7aa",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "yellow mid hue 34.2 not in 37.1-47.9"
+  },
+  {
+   "file": "1fae2",
+   "req": "XQ-FACE-01",
+   "svg_md5": "4bb72a07709e7404b34170d1022cfe38",
+   "png_md5": "debe82cbb14259ff0e554c56c9d789df",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "yellow mid hue 34.2 not in 37.1-47.9"
+  },
+  {
+   "file": "1fae3",
+   "req": "XQ-FACE-01",
+   "svg_md5": "40543c61a9890f4354f570bf81bfcd75",
+   "png_md5": "394a39d73d8a8cda3a2a6c43604304a8",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "yellow mid hue 34.2 not in 37.1-47.9"
+  },
+  {
+   "file": "1fae5",
+   "req": "XQ-OUT-01",
+   "svg_md5": "324f412a1563093137ec8cca23a92eb2",
+   "png_md5": "f8294b1e0b9cf38876e5aadcd0ab6014",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "outline 17px outside non-yellow face 4.875-14.625"
+  },
+  {
+   "file": "1fae8",
+   "req": "XQ-MAR-01",
+   "svg_md5": "25f5403b22f3765558896b0a6c068593",
+   "png_md5": "1e60bde5d131ea46a0331eeaed9c9235",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "margin 43px outside face 13.15-37.85"
+  },
+  {
+   "file": "1faea",
+   "req": "XQ-MAR-01",
+   "svg_md5": "ccc3ae4b81fdc9ec0007861eeac1ddae",
+   "png_md5": "276e188daa5aab0cfd382e1bdb7a835f",
+   "reason": "smileys v3 lock: shape meant to differ, accepted as is (FINAL-SET-STATUS-20261018-0200PT, Smileys row)",
+   "measured": "margin 13px outside face 13.15-37.85"
+  },
+  {
+   "file": "25aa",
+   "req": "XQ-MAR-01",
+   "svg_md5": "6ab31bf307647ec578da56d63c921692",
+   "png_md5": "1a9d1493fe94dabb36272e34afe50b2f",
+   "reason": "Symbols edge margin by design (FINAL-SET-STATUS-20261018-0200PT, Symbols row; locked)",
+   "measured": "margin 163px outside object/symbol 12-45"
+  },
+  {
+   "file": "25ab",
+   "req": "XQ-MAR-01",
+   "svg_md5": "589fbf4698264be05054d54faf36b5cb",
+   "png_md5": "b74a9ecb8ec1fc771333476629f813bc",
+   "reason": "Symbols edge margin by design (FINAL-SET-STATUS-20261018-0200PT, Symbols row; locked)",
+   "measured": "margin 163px outside object/symbol 12-45"
+  },
+  {
+   "file": "25fb",
+   "req": "XQ-MAR-01",
+   "svg_md5": "6d3e9277d0b6b1dffb025f37fe736f46",
+   "png_md5": "cae87fd3d2b1845315a76d2e026d7b86",
+   "reason": "Symbols edge margin by design (FINAL-SET-STATUS-20261018-0200PT, Symbols row; locked)",
+   "measured": "margin 83px outside object/symbol 12-45"
+  },
+  {
+   "file": "25fc",
+   "req": "XQ-MAR-01",
+   "svg_md5": "9e76524202b5e3aedea85bde9c0b1788",
+   "png_md5": "c4483ec8bb7f09d57e44b87768e3552b",
+   "reason": "Symbols edge margin by design (FINAL-SET-STATUS-20261018-0200PT, Symbols row; locked)",
+   "measured": "margin 83px outside object/symbol 12-45"
+  },
+  {
+   "file": "25fd",
+   "req": "XQ-MAR-01",
+   "svg_md5": "e56187c1ff080e34bf8f16793f816d10",
+   "png_md5": "4b34331fbdc8ef7b17edde74e158bf21",
+   "reason": "Symbols edge margin by design (FINAL-SET-STATUS-20261018-0200PT, Symbols row; locked)",
+   "measured": "margin 123px outside object/symbol 12-45"
+  },
+  {
+   "file": "25fe",
+   "req": "XQ-MAR-01",
+   "svg_md5": "fbd9342a14943c109e4c938c222eda4c",
+   "png_md5": "a7450a6dc3973bd0ed00e1fe7ae712b8",
+   "reason": "Symbols edge margin by design (FINAL-SET-STATUS-20261018-0200PT, Symbols row; locked)",
+   "measured": "margin 123px outside object/symbol 12-45"
+  },
+  {
+   "file": "2694",
+   "req": "XQ-MAR-01",
+   "svg_md5": "22eb1243639acd163862e645546a68b8",
+   "png_md5": "07d82c7003fd9989808061ca9505e086",
+   "reason": "Objects edge margin by design (FINAL-SET-STATUS-20261018-0200PT, Objects row; locked)",
+   "measured": "margin 4px outside object/symbol 12-45"
+  },
+  {
+   "file": "26cf",
+   "req": "XQ-MAR-01",
+   "svg_md5": "7bf8048547b04b8d3a60d840c0e65c17",
+   "png_md5": "ddfc47b5a33780c2ff67f307748b7e93",
+   "reason": "Objects edge margin by design (FINAL-SET-STATUS-20261018-0200PT, Objects row; locked)",
+   "measured": "margin 69px outside object/symbol 12-45"
+  },
+  {
+   "file": "26d3",
+   "req": "XQ-MAR-01",
+   "svg_md5": "cad84cce1edaa796f2cb579f4ddb5818",
+   "png_md5": "4b137684d77bf6a143692d541a8ff0b4",
+   "reason": "Objects edge margin by design (FINAL-SET-STATUS-20261018-0200PT, Objects row; locked)",
+   "measured": "margin 54px outside object/symbol 12-45"
+  },
+  {
+   "file": "26d3-fe0f-200d-1f4a5",
+   "req": "XQ-MAR-01",
+   "svg_md5": "5f05a06ab8a14cbdaf742d40bf06614a",
+   "png_md5": "b81c13df7d5ab34cce6f6cca0d71c4ac",
+   "reason": "Objects edge margin by design (FINAL-SET-STATUS-20261018-0200PT, Objects row; locked)",
+   "measured": "margin 4px outside object/symbol 12-45"
+  }
+ ]
+}

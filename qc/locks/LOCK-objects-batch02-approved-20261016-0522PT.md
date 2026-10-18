@@ -1,0 +1,50 @@
+# LOCK: Objects batch 02 clothing 25-47 approved by Max Infeld, 2026-10-16 05:22 PT
+
+Do not modify without Max's explicit OK. `md5sum -c` (paths relative to set/).
+
+ab7b323a704c3d5726854a2c9b290314  svg/1f6cd.svg
+3865c0b600b87c6fde2fabfd24ce8901  png/1f6cd.png
+a00d0f61096f62dd63692aa4bbb29e72  svg/1f392.svg
+6f2cee448d7d5bab72e46232d7bced2c  png/1f392.png
+69b4a91e42e72b4a43f52e642a2d60e6  svg/1fa74.svg
+60fd50ede0a3986e86699c8262c92025  png/1fa74.png
+1c6472fde6ee7794183b2301dcc50708  svg/1f45e.svg
+9d31f217563235942634a92833713ad9  png/1f45e.png
+0b7a40ba82775503316b1e00bd638210  svg/1f45f.svg
+9d70a97ac916ab57475948db6a30b73c  png/1f45f.png
+a7596c2ce41a7ebba22347afc4d8c0a7  svg/1f97e.svg
+65d2c4d6bcbd96183a1fbe71c29aa90d  png/1f97e.png
+876db18ef0a8c54ecd2971a69626d5ba  svg/1f97f.svg
+0e38028141b22d18de3149c510b8be8e  png/1f97f.png
+7049aa228a751c05c5280a4fa3cd9b90  svg/1f460.svg
+2c893ef0a36631ef5689f628c3fb5f05  png/1f460.png
+825892450d9a516c030d54344667fc98  svg/1f461.svg
+baf56ec30e3e27973b05d98f3266e7f1  png/1f461.png
+7123e29e5173a735543be33a1ae615d2  svg/1fa70.svg
+3f08df614ca6324591cf1ed7abf35d76  png/1fa70.png
+5051455065305ab855a0bc455059469b  svg/1f462.svg
+34e797aa02546fda5f7ad1dfd3b18e3e  png/1f462.png
+0126667f53194755133f1124d3ccccdc  svg/1faae.svg
+7ada15c5656ae2083a76573890b20b23  png/1faae.png
+eda0796f7041f23ba0455a46882c7624  svg/1f451.svg
+0be6a453b5e22302e223c77ebaff5c0a  png/1f451.png
+2c6e6bdd5b6d43a686a1972abdd36227  svg/1f452.svg
+6cf06271af39f6424e47bddac3c48dfd  png/1f452.png
+00c5a4f272e6e5024e80ede9f2d9112a  svg/1f3a9.svg
+604abee3e0c81a42df2ef0aec120172f  png/1f3a9.png
+c3317b6cf9515cc0de8ea29aea6c5dfd  svg/1f393.svg
+730f5ba4cc9c39edd2e02c3c054e4bc9  png/1f393.png
+48afb218515aa1ddcac46e04096ba67d  svg/1f9e2.svg
+174119cdac69f11ca57502acdf0cf987  png/1f9e2.png
+7c0cb503ee8b687ea412a7ada506de97  svg/1fa96.svg
+c8f63ebe48b00d78abc6442cbeb6ff12  png/1fa96.png
+68ebd831bca45785da70b2372a26bd82  svg/26d1.svg
+9e6b4874aeeb67a0825f2aceff5067e9  png/26d1.png
+a02507c803d24f6f537c090d34269219  svg/1f4ff.svg
+d3e2b0cfd67faa7a776e49db304ee994  png/1f4ff.png
+36f34a1ec2c6b106195048a81e0bba57  svg/1f484.svg
+0fb78d00de3cc30c72d13319936e7579  png/1f484.png
+e2608aa1f441a3398e80df1ab55b8e76  svg/1f48d.svg
+3f561e88cdfc8bd42ee10ccdd8841f18  png/1f48d.png
+9807b4e566fef6aeae28e342ff6f02dc  svg/1f48e.svg
+1cf81d76a96860bfa1afa199cddbfece  png/1f48e.png

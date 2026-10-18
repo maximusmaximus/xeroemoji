@@ -1,0 +1,50 @@
+# LOCK: Travel batch 01 map + geographic + religious (23 emoji, incl. volcano/beach/island redo) approved by Max Infeld, 2026-10-15 22:30 PT
+
+Do not modify without Max's explicit OK. `md5sum -c` (paths relative to set/).
+
+5c5a6d49f3aa5f4aac9932b23e648f8f  svg/1f30d.svg
+3c382b487c900634f8357eca6ed6a979  png/1f30d.png
+f3427143ee21bcc2afb72091a57dd8ed  svg/1f30e.svg
+7cd03e81c0a2df58fee1964086b0ecce  png/1f30e.png
+e3d0f6d578b0bf36addce5c8a86f99f7  svg/1f30f.svg
+835f97e58f93e28b3a0559d8f61b0275  png/1f30f.png
+9151c8c49d464e2c522cd3efac2f8521  svg/1f310.svg
+e7cdb27c49288034dad89cdba2ad9b49  png/1f310.png
+185f4a36d565f70f547a90ad86a2d7d1  svg/1f5fa.svg
+2ec0902b9544c993022db95e2f0715b4  png/1f5fa.png
+0463e2e558be6c7d69f5596731507660  svg/1f5fe.svg
+4f52ad0f8c4d5fe6e8dcdc97f26afb9d  png/1f5fe.png
+7dfa7b03292b33aa02a5af29ec3283e8  svg/1f9ed.svg
+537504ac8a61e33b5bcdd2141cb320b7  png/1f9ed.png
+b1d48c7ce45c074b9f6d74dee134ef05  svg/1f3d4.svg
+932462c7ee34e11a2109e483fd1ed744  png/1f3d4.png
+792d8124c656c7e07f295c9337423df5  svg/26f0.svg
+9cc6d538f91cf4da9f68d366e1ac893b  png/26f0.png
+89bb0b5c635004a87213291b418cf39f  svg/1f6d8.svg
+4aa8fe379d05c14724be5ba399d528bf  png/1f6d8.png
+e45df4e44338a571f04abb1b8d5d98be  svg/1f30b.svg
+b58b088774926fc3e4bd5a05c14bcf39  png/1f30b.png
+5c2eba051dc0176d6d8ea21d2c6f1f1c  svg/1f5fb.svg
+2b43c1542ca9ddf5fcc5cb6627bfc92e  png/1f5fb.png
+689892ff589ce3cdb24623813d4fac6f  svg/1f3d5.svg
+9fecd33b1b4a79e2dafb314a36256059  png/1f3d5.png
+aa1b15146f21080a48bada2dd21f6d01  svg/1f3d6.svg
+b855e82c167cff87def05995ba9acf26  png/1f3d6.png
+c56db8f31f6b44ee2fb447616ffc34ac  svg/1f3dc.svg
+4cfa80d36ed9d8b08d954cd48d6c8788  png/1f3dc.png
+187c47c8cf497406ea0903b08105e978  svg/1f3dd.svg
+ce5ad61ad8f3898c89317dbeec511558  png/1f3dd.png
+152cbd03f3a28b1bda1174b66d99821e  svg/1f3de.svg
+239f3b837fb5979c38120230b116a250  png/1f3de.png
+b9ac24fd405ee6a980360bc2d2d84724  svg/26ea.svg
+aaa4461d99fb2863e290ef77bb6efc22  png/26ea.png
+32a4d39244fc748feb6b1db904c7ee90  svg/1f54c.svg
+f5b5b662536dbd246115246c8c1d6aba  png/1f54c.png
+054898e75741c75de343f83397b63e6d  svg/1f6d5.svg
+5562915a75f3c28613c6160f5cb8a9c0  png/1f6d5.png
+0c70b6e40da5f394f32c678aeebf6946  svg/1f54d.svg
+af30827dd57b5c16a493af6deb862aa5  png/1f54d.png
+10da5b85b6025d46ea9384b4135642a2  svg/26e9.svg
+5ee456621372a927ac8620fdc969eb31  png/26e9.png
+5803a7b0b71db84d992f7f141d0f6cdd  svg/1f54b.svg
+ab4a998ffa30c248aad0f7929392c595  png/1f54b.png

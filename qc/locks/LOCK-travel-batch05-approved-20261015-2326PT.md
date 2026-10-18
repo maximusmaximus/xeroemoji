@@ -1,0 +1,54 @@
+# LOCK: Travel batch 05 ground transport 2 (25 emoji) approved by Max Infeld, 2026-10-15 23:26 PT
+
+Do not modify without Max's explicit OK. `md5sum -c` (paths relative to set/).
+
+e5fc9bb6ca8c697dcc906526ef473da1  svg/1f6fb.svg
+0aa91f6ff4f64895db7ee1b35fc2ea71  png/1f6fb.png
+02b09485b3cf6903cf9121cd9ec5a301  svg/1f69a.svg
+dbadc228ea1238ae14c2c1eab50a8033  png/1f69a.png
+cb336b5e270510e8e21e12547833c932  svg/1f69b.svg
+73cdc770e61be5a314a7ee052f81829f  png/1f69b.png
+9de5794b52997a1cc19264d05ea29570  svg/1f69c.svg
+e74f1896c0c1bef2b22a2d79eaa88460  png/1f69c.png
+8ef122688f42f001c8a21c0a9b3046b4  svg/1f3ce.svg
+b2fe44d736b3986da9a4ab37ec37a837  png/1f3ce.png
+a8eb911a9b61ff290f91e992f2fff126  svg/1f3cd.svg
+2470a158fa6fb11bb671841ed91356e2  png/1f3cd.png
+750dde0228a452b537f6d4d4c213f327  svg/1f6f5.svg
+742f5d0076bcdd11bd431bb7b074d870  png/1f6f5.png
+ff3d97a455574355da4ec36eecf64532  svg/1f9bd.svg
+51f4316d6883a84ba2010ae9592002b1  png/1f9bd.png
+c1437966236ad562e8396eea77ef8915  svg/1f9bc.svg
+13e50f44ab58a8017a1626fc7322064c  png/1f9bc.png
+5204fb1f7e93c47f825c02035b148fc1  svg/1f6fa.svg
+c061aa1a70fd37a865a4279f8970377e  png/1f6fa.png
+84849a0d584ed0eb4c0cf3e1d7de91d3  svg/1f6b2.svg
+9443cd87d7ca711905ca08149fc57839  png/1f6b2.png
+f2ea2be57725dc4eda26d72f66c69011  svg/1f6f4.svg
+2f74e959c77a6c9343290578a06a512e  png/1f6f4.png
+1619b525188de45d896fb785fecfe8cd  svg/1f6f9.svg
+a0c9e9e9121d8196314d3dc7d743ebb2  png/1f6f9.png
+85cdb38eee5b3e169f98d7e29086ac68  svg/1f6fc.svg
+8a6d07767063a6aa958a6a19e8b10f46  png/1f6fc.png
+bc05acb20e95afd9a8d8e3d9a7dd2678  svg/1f68f.svg
+c8a523862661b449a07e484a89dce6af  png/1f68f.png
+5bf29f72fadd021d2a6656aec9d35609  svg/1f6e3.svg
+19c7aea24c84a60f8a22e3c26b30269b  png/1f6e3.png
+d303a0fd517beb459e12be66e277da7c  svg/1f6e4.svg
+75b28f35839125063d40e8a85285d10d  png/1f6e4.png
+5a510512439d156dcb41eba94d98dbb7  svg/1f6e2.svg
+d5856fe4e9625f68346260b194ae1d67  png/1f6e2.png
+44a647de53989cda437fce573296bdcb  svg/26fd.svg
+63e087ffa032b119e712921a317becfc  png/26fd.png
+761a9b6a6da880ba929fb726a0af6cce  svg/1f6de.svg
+7086fd4bf0fa7c5dcfda0de59b242407  png/1f6de.png
+573150d96b0c2ee7d81c94059f528e0a  svg/1f6a8.svg
+1e485eadaa3171112d971725e3b0b69a  png/1f6a8.png
+748c895064dc5f5f86b7aad6126bbec3  svg/1f6a5.svg
+b63b1501b62cf09b589629ac474a92bd  png/1f6a5.png
+d4d55d6981f6a4f5b774a4e46d1ef766  svg/1f6a6.svg
+446e2f4d51cb6d08c16d4890ad5e365e  png/1f6a6.png
+94c8b52ed620ed6ffaab5a0bdf420801  svg/1f6d1.svg
+5f427b99b39a31bd9ff242ad16bbc849  png/1f6d1.png
+7c7b644b6b931315d442243e5b003249  svg/1f6a7.svg
+7badc7e50cd45a90a87c40087007953d  png/1f6a7.png
