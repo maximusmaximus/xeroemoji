@@ -87,7 +87,7 @@ def out_range(E):
         r=sp['metrics_nonyellow_face']['outline_px']; return 'non-yellow face',r['min_allowed'],r['max_allowed']
     r=sp['metrics_symbol']['outline_px']; return 'object/symbol (13px house)',r['min_allowed'],r['max_allowed']
 @req('XQ-OUT-01','Outline width in the group range','hard',3,'all with a measurable outline',
-     'check.metrics outline_px @512: yellow faces 8.55-12.45; non-yellow faces 4.875-14.625; PB hands 4-8; PB body parts 5-8 (house 6px); other People & Body 5-15; everything else 11-15 (house 13px). n/a if no outline is measurable (outline_px 0)')
+     'check.metrics outline_px @512: yellow faces 8.55-12.45; non-yellow faces 4.875-14.625; PB hands 4-8; PB body parts 5-8 (house 6px); other People & Body 5-15; everything else 11-15 (house 13px). Toned files are measured tone-neutral (check.tone_neutral_outline: skin stops and the dark-tone inner contrast rim swapped for base colours, so dark skin is not counted as ink). n/a if no outline is measurable (outline_px 0)')
 def t_out(E):
     v=E['m'].get('outline_px',0)
     if not v: return NA,0,''

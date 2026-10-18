@@ -17,11 +17,17 @@ Xero Emoji was started in 2016. Created by maxi.grok.me.
 | `qc/results/` | the latest full QC run (results.json/.csv, summary.md, report.html, tests.log) and evidence files |
 | `qc/locks/` + `qc/verify_locks.sh` | the 75 approved lock manifests (md5 of every file) |
 | `qc/*.json` | house spec, skin tones, known-exception lists |
+| `qc/coverage.csv` | the Unicode emoji-test 18.0 coverage list the set is checked against (3,963 entries) |
+| `qc/FINAL-SET-STATUS-*.md` | the current whole-set status |
 
 ## Quality control
-Latest run (2026-10-18 09:35 PT, xeroqc 1.0.0): 3,373 PASS, 576 PASS-with-known-exceptions, 14 FAIL; mean score 99.90.
-See `qc/results/20261018-0935PT/summary.md`. Note: in this snapshot the scorer's paths (`qc/xeroqc/paths.py`) point at the
-working set it was developed against; they need repointing to this repo layout before it runs here.
+Latest run (2026-10-18 12:24 PT, xeroqc 1.0.0): 3,386 PASS, 577 PASS-with-known-exceptions, 0 FAIL; mean score 99.92.
+Set checks: coverage 3,963/3,963, no duplicates or orphans, 75/75 locks verify. See `qc/results/20261018-1224PT/summary.md`
+and `qc/FINAL-SET-STATUS-*.md`.
+
+Run it from the repo: `cd qc && python3 -m xeroqc run` (results go to `qc/results/<timestamp>PT/`; `--out DIR` to write elsewhere),
+tests: `cd qc && python3 -m unittest discover -s tests`, locks: `bash qc/verify_locks.sh`. Paths resolve from the repo layout
+(override with `XEROQC_SET` and `XEROQC_COVERAGE`). Needs Python 3 with numpy, Pillow, cairosvg, scikit-image, imagehash.
 
 ## License
 The artwork is licensed under **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**, see `LICENSE`.

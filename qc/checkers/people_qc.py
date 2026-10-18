@@ -1,8 +1,17 @@
-import sys,json
-sys.path.insert(0,'/workspace/xerographer-emojis/set/qc'); sys.path.insert(0,'/workspace/xerographer-emojis/set/work')
+import sys,json,os
+def _find_set(start):
+    """Set root = XEROQC_SET env var, else the nearest parent dir holding svg/ and qc/ (works in the workspace set/ and in the repo)."""
+    e=os.environ.get('XEROQC_SET')
+    if e: return os.path.abspath(e)
+    d=os.path.dirname(os.path.abspath(start))
+    while d!=os.path.dirname(d):
+        if os.path.isdir(d+'/svg') and os.path.isdir(d+'/qc'): return d
+        d=os.path.dirname(d)
+    raise SystemExit('xeroqc: cannot find the set root (dir with svg/ and qc/); set XEROQC_SET')
+SET=_find_set(__file__)
+sys.path.insert(0,SET+'/qc'); sys.path.insert(0,SET+'/work' if os.path.isdir(SET+'/work') else SET+'/qc/checkers')
 import check, hlaudit as H, hatfit as HF, posecheck as PC
 from PIL import Image
-SET='/workspace/xerographer-emojis/set'
 b=sys.argv[1]; plan=json.load(open(f'{SET}/qc/people-review-plan.json'))[b]; files=[f for x in plan for f in x['files']]
 RNG={f:((4,8) if x['sg'].startswith('hand') else (5,15)) for x in plan for f in x['files']}   # same split as check.py: PB:hand* -> metrics_hand 4-8, every other People & Body subgroup -> metrics_people 5-15
 spec=json.load(open(f'{SET}/qc/house-spec.json'))
@@ -13,6 +22,8 @@ HEADWEAR={'1f33e','1f373','1f527','1f3ed','1f393','1f477','1f46e','1f482','1f472
           '1fac5','1f385','1f936','1f575','1f9d9','1f9d1-200d-1f384','1f3a9','1f452','1f9e2','26d1','1f451','1f468-200d-2708','2708','1f680','1f692'}
 for f in files:
     m=check.metrics(Image.open(f'{SET}/png/{f}.png').convert('RGBA'),force_face=False)
+    tno=check.tone_neutral_outline(f,open(f'{SET}/svg/{f}.svg').read(),False)   # dark-tone skin is not outline (check.py 2026-10-18)
+    if tno is not None: m['outline_px']=tno
     w=m.get('outline_px',0); mg=m.get('margin_min_px',0)
     if not RNG[f][0]<=w<=RNG[f][1] or not 12<=mg<=60: bad.append((f,w,mg))
     _s=open(f'{SET}/svg/{f}.svg').read(); v=H.audit(_s,2)

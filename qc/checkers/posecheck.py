@@ -4,7 +4,7 @@
 A file built from the body kit carries <g data-skeleton='{json}'/> (work/skel9.py). Every metric is measured from those
 joints and compared with the pose's biomechanics range (SPEC). Proportions are checked against Winter (2009) segment ratios."""
 import sys,re,math,json
-sys.path.insert(0,'/workspace/xerographer-emojis/set/work')
+import os; sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))   # skel9 sits next to this file (work/ or qc/checkers/)
 import skel9 as S
 # (metric, lo, hi, why).  Roles resolved per skeleton: F/B = front/back leg (larger/smaller thigh angle);
 # AF/AB = forward/back arm (larger/smaller shoulder angle); C = cane arm (contact 'cane'); X = free arm.

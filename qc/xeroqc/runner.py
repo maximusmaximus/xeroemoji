@@ -2,7 +2,7 @@
 import os,re,io,json,csv,hashlib,subprocess,datetime,collections
 import numpy as np
 from PIL import Image
-from .paths import SET,QC,WORK
+from .paths import SET,QC,WORK,LOCKDIR
 from . import VERSION, context as CX, silhouettes as SIL, requirements as RQ
 G={}   # worker globals (fork)
 def _tools():
@@ -47,6 +47,9 @@ def evaluate(f,svg_path=None,png_path=None):
         m=check.metrics(E['png'],check.isface(E['sg']))
         if E['sg']=='monkey-face': m['yellow_face']=0.0
         if E['svg'] is not None: m.update(check.svg_metrics(sp))
+        if E['svg'] is not None:
+            tno=check.tone_neutral_outline(f,E['svg'],check.isface(E['sg']))   # outline measured with dark skin neutralised
+            if tno is not None: m['outline_px']=tno
         if '_featpx' in m:
             cen=np.array([[int(h[i:i+2],16) for i in (1,3,5)] for h in ctx.spec['feature_palette']])
             m['offpalette_frac']=check.palette_off(m['_featpx'],cen,ctx.spec['palette_max_dist']); m.pop('_featpx')
@@ -105,6 +108,7 @@ def tool_fingerprint():
     for p in ('qc/check.py','work/hlaudit.py','work/hatfit.py','work/posecheck.py','work/skel9.py','work/mouthbowl.py','work/people_qc.py',
               'qc/verify_locks.sh','qc/house-spec.json','qc/skin-tones.json','qc/hlaudit-known-exceptions.json','qc/known-exceptions.json'):
         fp=f'{SET}/{p}'
+        if not os.path.exists(fp) and '/' in p: fp=f'{QC}/checkers/{p.split("/")[-1]}'   # repo layout
         if os.path.exists(fp): fps[p]=CX.md5(fp)
     agg=hashlib.md5(''.join(f'{k}={v}\n' for k,v in sorted(fps.items())).encode()).hexdigest()
     return agg,fps
@@ -118,7 +122,7 @@ def run(files=None,jobs=7,out=None):
     now=datetime.datetime.now()   # box clock = America/Los_Angeles
     agg,fps=tool_fingerprint(); ctx=G['ctx']
     meta={'tool':'xeroqc','version':VERSION,'tool_md5':agg,'tool_files_md5':fps,'git':_git(),'timestamp':now.strftime('%Y-%m-%d %H:%M:%S')+' PT (America/Los_Angeles)',
-          'n_files':len(fl),'lock_state':{'active_locks':len(CX.active_locks()),'locks':{l:CX.md5(f'{SET}/{l}') for l in CX.active_locks()}},
+          'n_files':len(fl),'lock_state':{'active_locks':len(CX.active_locks()),'locks':{l:CX.md5(f'{LOCKDIR}/{l}') for l in CX.active_locks()}},
           'known_exceptions':{'hlaudit':_n(QC+'/hlaudit-known-exceptions.json','count'),'requirement':len(ctx.kx)}}
     sc=set_checks(ctx,allf) if not files else {}
     meta['lock_state']['verify_locks']=sc.get('XQ-SET-04',{}).get('measure')

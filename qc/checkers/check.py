@@ -7,10 +7,20 @@ import numpy as np
 from PIL import Image,ImageDraw,ImageFont
 import imagehash
 from skimage.metrics import structural_similarity as ssim
-ROOT='/workspace/xerographer-emojis'; SET=ROOT+'/set'; QC=SET+'/qc'
-sys.path.insert(0,SET+'/work')
+def _find_set(start):
+    """Set root = XEROQC_SET env var, else the nearest parent dir holding svg/ and qc/ (works in the workspace set/ and in the repo)."""
+    e=os.environ.get('XEROQC_SET')
+    if e: return os.path.abspath(e)
+    d=os.path.dirname(os.path.abspath(start))
+    while d!=os.path.dirname(d):
+        if os.path.isdir(d+'/svg') and os.path.isdir(d+'/qc'): return d
+        d=os.path.dirname(d)
+    raise SystemExit('xeroqc: cannot find the set root (dir with svg/ and qc/); set XEROQC_SET')
+SET=_find_set(__file__); QC=SET+'/qc'; ROOT=os.path.dirname(SET)
+sys.path.insert(0,SET+'/work' if os.path.isdir(SET+'/work') else QC+'/checkers')
+COVERAGE=next((p for p in (os.environ.get('XEROQC_COVERAGE'),QC+'/coverage.csv',SET+'/plan/coverage.csv',ROOT+'/plan/coverage.csv') if p and os.path.exists(p)),ROOT+'/plan/coverage.csv')
 def subgroups():
-    return {'-'.join(x.lower() for x in r['sequence'].split() if x!='FE0F'):(r['subgroup'] if r['group']!='People & Body' else 'PB:'+r['subgroup']) for r in csv.DictReader(open(ROOT+'/plan/coverage.csv',encoding='utf-8')) if r['group'] in ('Smileys & Emotion','People & Body')}
+    return {'-'.join(x.lower() for x in r['sequence'].split() if x!='FE0F'):(r['subgroup'] if r['group']!='People & Body' else 'PB:'+r['subgroup']) for r in csv.DictReader(open(COVERAGE,encoding='utf-8')) if r['group'] in ('Smileys & Emotion','People & Body')}
 isface=lambda sg: sg.startswith('face') or sg in ('cat-face','monkey-face')
 def originals():
     import ast
@@ -74,6 +84,30 @@ def metrics(im,force_face=None):
     else: px=a[al&~dark][:,:3]
     if len(px)>50: m['_featpx']=px[np.random.RandomState(0).choice(len(px),min(800,len(px)),replace=False)]
     return m
+def tone_neutral_outline(cp,svg_text,force_face=None):
+    """Outline width measured independently of skin darkness (2026-10-18, Max "update fails with best practices").
+    metrics() counts every pixel with v<0.32 as outline ink; the darkest skin tone (1f3ff base #4a2c1e, rim #291810) and the
+    1f3fe rim fall under that threshold, so on dark-tone files the ink run continues into the skin and the outline reads too thick
+    (e.g. thumbs-up 1f3ff 10.5px while its SVG stroke is identical to 1f3fe's 6px). For files with a tone modifier, the tone's 4 skin
+    stops are swapped for the base (yellow) stops in the SVG and the outline is measured on that render: same geometry, same ink,
+    skin no longer mistaken for outline. Files without a tone modifier: returns None (measure the PNG as before)."""
+    tones=[t for t in cp.split('-') if t in ('1f3fb','1f3fc','1f3fd','1f3fe','1f3ff')]
+    if not tones: return None
+    import io,cairosvg
+    T=json.load(open(QC+'/skin-tones.json')); act=T['active_palette']; base=T['tones']['base']['palettes'][act]['stops']
+    s=svg_text
+    for t in tones:
+        for a,b in zip(T['tones'][t]['palettes'][act]['stops'],base):
+            s=re.sub(re.escape(a),b,s,flags=re.I)
+    # Dark tones (1f3fe/1f3ff) carry an inner contrast rim: a non-ink stroke clipped inside the skin shape so the black outline
+    # stays distinguishable from dark skin. It is skin detail, not outline; give it the base rim colour too. Ink strokes (v<0.25)
+    # are never touched.
+    def _rim(mt):
+        c=mt.group(2); v=max(int(c[i:i+2],16) for i in (1,3,5))/255
+        return mt.group(1)+(base[3] if v>=0.25 else c)+mt.group(3)
+    s=re.sub(r'(<path[^>]*fill="none"[^>]*stroke=")(#[0-9a-fA-F]{6})("[^>]*clip-path=)',_rim,s)
+    im=Image.open(io.BytesIO(cairosvg.svg2png(bytestring=s.encode(),output_width=512,output_height=512))).convert('RGBA')
+    return metrics(im,force_face).get('outline_px',0.)
 def svg_metrics(p):
     s=open(p).read()
     return {'svg_kb':len(s)/1024,'svg_fills':len(set(re.findall(r'#[0-9a-fA-F]{6}',s))),'svg_has_text':float('<text' in s)}
@@ -133,6 +167,8 @@ def run():
     SG=subgroups(); SN=spec.get('metrics_nonyellow_face',{}); SS=spec.get('metrics_symbol',{})
     for cp in cps:
         sg=SG.get(cp,''); m=metrics(imgs[cp],isface(sg))
+        tno=tone_neutral_outline(cp,open(f'{SET}/svg/{cp}.svg').read(),isface(sg))
+        if tno is not None: m['outline_px']=tno
         if sg=='monkey-face': m['yellow_face']=0.0
         m.update(svg_metrics(f'{SET}/svg/{cp}.svg'))
         if '_featpx' in m: m['offpalette_frac']=palette_off(m['_featpx'],cen,spec['palette_max_dist'])

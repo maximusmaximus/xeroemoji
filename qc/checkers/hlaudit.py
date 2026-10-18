@@ -39,7 +39,11 @@ if __name__=='__main__':
 def known_exception(name,svg):
     """True if this file is a recorded exception AND unchanged (svg md5 matches); gates count its hits as known, not failures"""
     import json,hashlib,os
-    p='/workspace/xerographer-emojis/set/qc/hlaudit-known-exceptions.json'
+    d=os.environ.get('XEROQC_SET')
+    if not d:   # set root: nearest parent of this file holding svg/ and qc/ (work/ in the workspace, qc/checkers/ in the repo)
+        d=os.path.dirname(os.path.abspath(__file__))
+        while d!=os.path.dirname(d) and not (os.path.isdir(d+'/svg') and os.path.isdir(d+'/qc')): d=os.path.dirname(d)
+    p=d+'/qc/hlaudit-known-exceptions.json'
     if not os.path.exists(p): return False
     e=json.load(open(p))['files'].get(name)
     return bool(e) and e['svg_md5']==hashlib.md5(svg.encode()).hexdigest()

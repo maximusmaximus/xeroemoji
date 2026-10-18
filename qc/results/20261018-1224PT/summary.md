@@ -1,16 +1,16 @@
-# xeroqc results: 2026-10-18 09:35:31 PT (America/Los_Angeles)
+# xeroqc results: 2026-10-18 12:24:47 PT (America/Los_Angeles)
 
-Tool xeroqc 1.0.0 (tool_md5 `080908226c53b5449b960704787de3c7`), 3963 emoji, 29 scored requirements. Locks: 75 active, verify_locks {'locks_ok': 75, 'locks_fail': 0}. Spec: qc/REQUIREMENTS.md.
+Tool xeroqc 1.0.0 (tool_md5 `e5dfb4c59a36e061bc559624ec2cbdeb`), 3963 emoji, 29 scored requirements. Locks: 75 active, verify_locks {'locks_ok': 75, 'locks_fail': 0}. Spec: qc/REQUIREMENTS.md.
 
 ## Grades
 | grade | emoji |
 |---|---|
-| PASS | 3373 |
-| PASS-with-known-exceptions | 576 |
-| FAIL | 14 |
+| PASS | 3386 |
+| PASS-with-known-exceptions | 577 |
+| FAIL | 0 |
 
 ## Score (0-100, weighted passes over applicable requirements; known exceptions count as met)
-mean 99.9, median 100.0, min 91.43, 5th pct 100.0, max 100.0; 3876 emoji at 100. Strict score (known exceptions not counted as met): mean 98.82, min 84.21.
+mean 99.92, median 100.0, min 95.0, 5th pct 100.0, max 100.0; 3890 emoji at 100. Strict score (known exceptions not counted as met): mean 98.85, min 86.49.
 
 | score | emoji |
 |---|---|
@@ -24,7 +24,7 @@ mean 99.9, median 100.0, min 91.43, 5th pct 100.0, max 100.0; 3876 emoji at 100.
 | Flags | 270 | 268 | 2 | 0 | 100.00 |
 | Food & Drink | 132 | 132 | 0 | 0 | 100.00 |
 | Objects | 268 | 258 | 10 | 0 | 100.00 |
-| People & Body | 2430 | 1977 | 439 | 14 | 99.83 |
+| People & Body | 2430 | 1990 | 440 | 0 | 99.88 |
 | Smileys & Emotion | 172 | 138 | 34 | 0 | 100.00 |
 | Symbols | 224 | 215 | 9 | 0 | 100.00 |
 | Travel & Places | 221 | 221 | 0 | 0 | 100.00 |
@@ -41,7 +41,7 @@ mean 99.9, median 100.0, min 91.43, 5th pct 100.0, max 100.0; 3876 emoji at 100.
 | XQ-SVG-04 | PNG is the render of the SVG | hard | 3 | 3963 | 3963 | 0 | 0 |
 | XQ-LOCK-01 | Covered by exactly one active lock | hard | 3 | 3963 | 3963 | 0 | 0 |
 | XQ-LOCK-02 | Lock hash matches | hard | 3 | 3963 | 3963 | 0 | 0 |
-| XQ-OUT-01 | Outline width in the group range | hard | 3 | 3961 | 3949 | 4 | 8 |
+| XQ-OUT-01 | Outline width in the group range | hard | 3 | 3961 | 3957 | 4 | 0 |
 | XQ-MAR-01 | Edge margin in the group range | hard | 3 | 3963 | 3935 | 28 | 0 |
 | XQ-FACE-01 | House yellow face gradient | soft | 2 | 111 | 103 | 8 | 0 |
 | XQ-FACE-02 | Gloss highlight position and size | soft | 1 | 90 | 85 | 5 | 0 |
@@ -50,10 +50,10 @@ mean 99.9, median 100.0, min 91.43, 5th pct 100.0, max 100.0; 3876 emoji at 100.
 | XQ-FACE-05 | Face diameter | soft | 1 | 111 | 111 | 0 | 0 |
 | XQ-FACE-06 | Feature colours on the house palette | soft | 1 | 111 | 110 | 1 | 0 |
 | XQ-FACE-07 | Colour count | soft | 1 | 111 | 110 | 1 | 0 |
-| XQ-HL-01 | Highlights do not touch the outline | hard | 3 | 2585 | 2062 | 523 | 0 |
+| XQ-HL-01 | Highlights do not touch the outline | hard | 3 | 2591 | 2068 | 523 | 0 |
 | XQ-MOUTH-01 | Crescent mouths carry the shared mouth gradient | hard | 2 | 1917 | 1917 | 0 | 0 |
 | XQ-EYE-01 | Eye rims present | hard | 2 | 1996 | 1996 | 0 | 0 |
-| XQ-HAT-01 | Headwear fits the head (hatfit) | hard | 3 | 548 | 542 | 0 | 6 |
+| XQ-HAT-01 | Headwear fits the head (hatfit) | hard | 3 | 548 | 548 | 0 | 0 |
 | XQ-POSE-01 | Skeleton figures pass posecheck | hard | 3 | 717 | 717 | 0 | 0 |
 | XQ-HAND-01 | Paired hands are matched | soft | 2 | 813 | 740 | 0 | 73 |
 | XQ-HAND-02 | Hand stroke consistent across skin tones | soft | 1 | 1316 | 1314 | 2 | 0 |
@@ -72,26 +72,10 @@ mean 99.9, median 100.0, min 91.43, 5th pct 100.0, max 100.0; 3876 emoji at 100.
 | id | emoji failing |
 |---|---|
 | XQ-HAND-01 | 73 |
-| XQ-OUT-01 | 8 |
-| XQ-HAT-01 | 6 |
 
-## Every FAIL (14), with reasons (hard fails decide the grade; soft fails listed too)
+## Every FAIL (0), with reasons (hard fails decide the grade; soft fails listed too)
 | cp | name | group | score | reasons |
 |---|---|---|---|---|
-| 1f44d-1f3ff | thumbs up: dark skin tone | People & Body | 92.11 | XQ-OUT-01: outline 10.5px outside PB hand 4-8 |
-| 1f44e-1f3ff | thumbs down: dark skin tone | People & Body | 92.11 | XQ-OUT-01: outline 11px outside PB hand 4-8 |
-| 1f468-1f3fb-200d-1f373 | man cook: light skin tone | People & Body | 92.86 | XQ-HAT-01: headwear without data-hat markers |
-| 1f468-1f3fc-200d-1f373 | man cook: medium-light skin tone | People & Body | 92.86 | XQ-HAT-01: headwear without data-hat markers |
-| 1f468-1f3fd-200d-1f373 | man cook: medium skin tone | People & Body | 92.86 | XQ-HAT-01: headwear without data-hat markers |
-| 1f468-1f3fe-200d-1f373 | man cook: medium-dark skin tone | People & Body | 92.86 | XQ-HAT-01: headwear without data-hat markers |
-| 1f468-1f3ff-200d-1f373 | man cook: dark skin tone | People & Body | 92.86 | XQ-HAT-01: headwear without data-hat markers |
-| 1f468-200d-1f373 | man cook | People & Body | 92.86 | XQ-HAT-01: headwear without data-hat markers |
-| 1f476 | baby | People & Body | 91.43 | XQ-OUT-01: outline 16px outside People 5-15 |
-| 1f476-1f3fb | baby: light skin tone | People & Body | 91.43 | XQ-OUT-01: outline 16px outside People 5-15 |
-| 1f476-1f3fc | baby: medium-light skin tone | People & Body | 91.43 | XQ-OUT-01: outline 16px outside People 5-15 |
-| 1f476-1f3fd | baby: medium skin tone | People & Body | 91.43 | XQ-OUT-01: outline 16px outside People 5-15 |
-| 1f476-1f3fe | baby: medium-dark skin tone | People & Body | 91.43 | XQ-OUT-01: outline 17px outside People 5-15 |
-| 270c-1f3ff | victory hand: dark skin tone | People & Body | 92.11 | XQ-OUT-01: outline 9px outside PB hand 4-8 |
 
 ## Passing emoji with soft fails (73)
 | cp | name | score | soft fails |

@@ -1,6 +1,7 @@
-# LOCK: People pilot v3 approved by Max Infeld, 2026-10-18 09:07 PT
-# Fix approved by Max 2026-10-18 02:03 AM PT ("Fix the suggestions"); review approved 09:06 AM PT ("Approve the fixes and re-lock").
-# Supersedes LOCK-people-pilot-approved-v2-20261017-1721PT.md. Change: 🤷 1f937-1f3fb..fe hand outline 2.3→4.7 (4 emoji); 🙅 1f645 ×6 highlight-on-outline fix; 👩‍🚀 1f469*-200d-1f680 ×6 rebuilt in the house role style (work/roles_oi.py); 🧑‍⚕️ 1f9d1*-200d-2695 ×6 rebuilt as health worker (people4.figure4). 44 of 228 files changed (qc/openitems-audit.md); all others byte-identical.
+# LOCK: People pilot v5 approved by Max Infeld, 2026-10-18 12:21 PT
+# Approved by Max 2026-10-18 12:21 PM PT ("Fix 👶🏿 and refresh the local repo, don't push yet").
+# Supersedes LOCK-people-pilot-approved-v4-20261018-1028PT.md. Change: 👶🏿 1f476-1f3ff outline ring thinned 6→5 units, the same fix as 👶 🏻–🏾 in v4 (tone-neutral outline 16→13 px). Proposed file: review/qcfails-proposed/; backup: review/before-babydark-20261018-1221/.
+# 1 emoji / 2 files changed; all other 226 files byte-identical to v4.
 # 114 emoji, 228 files. `md5sum -c` (paths relative to set/).
 
 ea8ce979968753f00cf63fb70a1048b3  svg/1f44d.svg
@@ -75,18 +76,18 @@ d343f2886731e38368943a13219ecd01  svg/1f64f-1f3fe.svg
 958a7da1c3fc216e9691c6e168b60351  png/1f64f-1f3fe.png
 4637b2ff472f4fafba8f3b755fafa32d  svg/1f64f-1f3ff.svg
 6f6e35ac0e52ad48e857c32010dd98f2  png/1f64f-1f3ff.png
-80a8b75e29ff1e458e3cae017b4268a9  svg/1f476.svg
-a638e5d78b83cf4fb3ad67d96d028170  png/1f476.png
-91abea8f308021cea18643aa0c4cabe9  svg/1f476-1f3fb.svg
-897a829922cad001a96e71bad9e5c024  png/1f476-1f3fb.png
-aa00bc75d17c20087543c860c6761d11  svg/1f476-1f3fc.svg
-a8c704540e94b437214e1b40259c4bfe  png/1f476-1f3fc.png
-c68df2e8cd603cafb68088fc7f9f1611  svg/1f476-1f3fd.svg
-92919de25a844aa5bd47eb3fdb91e259  png/1f476-1f3fd.png
-7c81c66d3743db21981c8e16b852af16  svg/1f476-1f3fe.svg
-6e6b96609a1e9026574ba9340b3ce7fe  png/1f476-1f3fe.png
-f90d6650c3f9490e4c2c9cb5b8f73483  svg/1f476-1f3ff.svg
-63d7313285b4810f4c4f1c3a85aaba46  png/1f476-1f3ff.png
+af94172e6545961ff3f73d3c9737b826  svg/1f476.svg
+e46e080c03782a408c31339399445ed7  png/1f476.png
+1d2dfb3d29df65b38479395e00b916ea  svg/1f476-1f3fb.svg
+59b209bdab1b76eb97529f4e66af2044  png/1f476-1f3fb.png
+3f3b7644a1c9e88a78761540ca5b15f3  svg/1f476-1f3fc.svg
+a3455cdceb44b2fb76fbdabbcce8fd21  png/1f476-1f3fc.png
+b8c047791e609a4e6b9ace9c037d9e0a  svg/1f476-1f3fd.svg
+ef92ad2ff6c8c7cc2357faa23c97cb01  png/1f476-1f3fd.png
+db3dd1d158e824bd4753414bc446f165  svg/1f476-1f3fe.svg
+a91316d54fe01a8b9371657ae4ebcc99  png/1f476-1f3fe.png
+ec64663624636798eb531d62a750e4dc  svg/1f476-1f3ff.svg
+4393a200f4d773855d76d355599c68c9  png/1f476-1f3ff.png
 21ecad4fe1c0033f2eb5fd060d7f7b0b  svg/1f466.svg
 113adc31921a2752d228d8e395c72ede  png/1f466.png
 e6da79046eca3cca303383fa0e65f1fb  svg/1f466-1f3fb.svg
@@ -171,18 +172,18 @@ a3d4b71cebafdcd504afe3d990b04710  svg/1f469-1f3fe-200d-1f680.svg
 3a26566d441afdf0cdc922eb09d8a14c  png/1f469-1f3fe-200d-1f680.png
 6bb63d107b014fa2ebcf69e3302a2379  svg/1f469-1f3ff-200d-1f680.svg
 9e53c84cc6a0c67c42535447c784e1a5  png/1f469-1f3ff-200d-1f680.png
-d27b9e252b1681b678a420e5c1c0d559  svg/1f468-200d-1f373.svg
-ad258777e71ede1d9437512640120e08  png/1f468-200d-1f373.png
-ee5c56de4fdb2d0934a72703ccbdc0bf  svg/1f468-1f3fb-200d-1f373.svg
-1e237ffe1dd0cfae968730f77ca920e2  png/1f468-1f3fb-200d-1f373.png
-143162800d2f0b6346f606c6934254d8  svg/1f468-1f3fc-200d-1f373.svg
-c573ba37d8f7f7181d2d63aa2ff745d4  png/1f468-1f3fc-200d-1f373.png
-56d898815599d25af432589419187e98  svg/1f468-1f3fd-200d-1f373.svg
-a690b0123584b1279182ea57f2c1b678  png/1f468-1f3fd-200d-1f373.png
-e38bec065060bc9bb6dbefa03caaad60  svg/1f468-1f3fe-200d-1f373.svg
-7ec5a36ac581b36dd42c83830055da2c  png/1f468-1f3fe-200d-1f373.png
-4d57fd175b92e9fca3a1a54fe9623a3b  svg/1f468-1f3ff-200d-1f373.svg
-82c22b351dbaf1867fbd2caafbfcdab3  png/1f468-1f3ff-200d-1f373.png
+325eadcdf563c09e22d7b32639939a4a  svg/1f468-200d-1f373.svg
+2565e4a5c31f91a06b0af9b218b17a61  png/1f468-200d-1f373.png
+b69751ea15dc279ad7f20eeec329e431  svg/1f468-1f3fb-200d-1f373.svg
+807014735ec5f5c01a16854db547f51b  png/1f468-1f3fb-200d-1f373.png
+f0b3068247a72f601759221cdd04f4d5  svg/1f468-1f3fc-200d-1f373.svg
+d958aad02184277cfb91b45c2c09f11b  png/1f468-1f3fc-200d-1f373.png
+f007fd5561e8e61034ff660ce3959692  svg/1f468-1f3fd-200d-1f373.svg
+75dcb17d0ba7e9fa5b646fc7e88c5e43  png/1f468-1f3fd-200d-1f373.png
+ebcbab4fd2952fa89d96f6cdb7b2d411  svg/1f468-1f3fe-200d-1f373.svg
+ae028c647e8940a8e7cf035edcda2726  png/1f468-1f3fe-200d-1f373.png
+8e4a6ee21af4624491cb71cecefb9e09  svg/1f468-1f3ff-200d-1f373.svg
+f18696197261c7a379e5fdc11fd368c5  png/1f468-1f3ff-200d-1f373.png
 6531d216881e52bee0906dd75f27c4d9  svg/1f646.svg
 b2a6a952edaa65245b3c4dd5266a1d59  png/1f646.png
 47df97649be1b11125e73527b3414475  svg/1f646-1f3fb.svg
