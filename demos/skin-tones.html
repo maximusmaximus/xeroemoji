@@ -1,0 +1,35 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Skin tones · Xero Emoji</title><meta name="description" content="Every Xero Emoji with skin-tone variants, side by side in all six tones."><link rel="icon" href="../svg/1f600.svg"><link rel="stylesheet" href="demo.css"></head><body><header class="top"><a class="brand" href="../index.html"><img src="../svg/1f600.svg" alt="">Xero Emoji</a><nav><a href="index.html">Gallery</a><a href="chat.html">Chat demo</a><a href="skin-tones.html" class="on">Skin tones</a><a href="https://github.com/maximusmaximus/xeroemoji">GitHub</a></nav></header>
+<main>
+<h1>Skin tones</h1>
+<p class="lead">Every emoji with skin-tone variants comes in the default yellow plus the five Fitzpatrick skin-tone modifiers (U+1F3FB to U+1F3FF). Mixed-tone couples and families use one modifier per person. Pick a tone to restyle the sample text, or browse every base emoji below.</p>
+<div class="card" style="margin-bottom:16px">
+ <div class="chips" id="tonepick"></div>
+ <p id="sample" style="font-size:22px;margin:6px 0 0"></p>
+</div>
+<div class="controls"><input id="q" type="search" placeholder="Filter: wave, cook, astronaut…"><span class="count" id="count"></span></div>
+<div id="list"></div>
+</main>
+<style>.row{display:flex;align-items:center;gap:6px;padding:6px 0;border-bottom:1px solid var(--line)}.row img{width:48px;height:48px}.row span{flex:1;color:var(--mut);font-size:14px;margin-left:8px}</style>
+<footer>Xero Emoji by Max Infeld · started in 2016 · 3,963 emoji, Unicode Emoji 18.0 · artwork <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>, commercial use: <a href="https://github.com/maximusmaximus/xeroemoji/blob/main/COMMERCIAL-LICENSE.md">commercial license</a> · Created by maxi.grok.me</footer>
+<script src="xero-emoji.js"></script>
+<script>
+const T=['','1f3fb','1f3fc','1f3fd','1f3fe','1f3ff'], TN=['default','light','medium-light','medium','medium-dark','dark'];
+const SW=['#ffd21f','#f7d0bf','#dcb08f','#b88452','#8a5530','#4a2c1e'];   // house palette base colours (qc/skin-tones.json)
+const SAMPLE=['1f44b','1f44d','1f64c','1f9d1-200d-1f373','1f469-200d-1f680','1f9d1-200d-1f3a8','1f3c3','1f6b4','1f44f','1f91d'];
+let X, tone='';
+function withTone(k,t){ if(!t) return k; const p=k.split('-'); p.splice(1,0,t); const k2=p.join('-'); return X.map[k2]?k2:(X.map[k+'-'+t]?k+'-'+t:null); }
+function el(k){ const e=X.map[k]; return `<img src="../svg/${e[0]}.svg" alt="${e[1]}" title="${e[2]}" class="xero-emoji">`; }
+XeroEmoji.load({base:'../'}).then(x=>{ X=x;
+  document.getElementById('tonepick').innerHTML=T.map((t,i)=>`<button class="chip${i?'':' on'}" data-t="${t}"><span style="display:inline-block;width:14px;height:14px;border-radius:50%;vertical-align:-2px;border:1px solid #0003;background:${SW[i]}"></span> ${TN[i]}</button>`).join('');
+  document.getElementById('tonepick').onclick=ev=>{const b=ev.target.closest('button');if(!b)return;tone=b.dataset.t;
+    document.querySelectorAll('#tonepick .chip').forEach(c=>c.classList.toggle('on',c===b));sample();};
+  sample(); draw(); document.getElementById('q').oninput=draw; });
+function sample(){ document.getElementById('sample').innerHTML='Hello from Xero Emoji '+SAMPLE.map(k=>{const k2=withTone(k,tone)||k;return el(k2);}).join(' '); }
+function draw(){
+  const q=document.getElementById('q').value.trim().toLowerCase();
+  const bases=Object.keys(X.map).sort((a,b)=>X.map[a][5]-X.map[b][5]).filter(k=>!/1f3f[b-f]/.test(k)&&withTone(k,'1f3fb')&&X.map[k][2].includes(q));
+  document.getElementById('count').textContent=bases.length+' base emoji with tones';
+  document.getElementById('list').innerHTML=bases.map(k=>'<div class="row">'+T.map(t=>{const k2=withTone(k,t);return k2?`<img loading="lazy" src="../svg/${X.map[k2][0]}.svg" alt="${X.map[k2][1]}" title="${X.map[k2][2]}">`:'';}).join('')+`<span>${X.map[k][2]}</span></div>`).join('');
+}
+</script></body></html>

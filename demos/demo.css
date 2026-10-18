@@ -1,0 +1,35 @@
+:root{--bg:#fbfaf7;--fg:#1d1b18;--mut:#6b665e;--card:#fff;--line:#e6e2da;--acc:#ff9f00;--acc2:#d63ad6}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg)}
+a{color:#a0179f}
+header.top{display:flex;gap:18px;align-items:center;flex-wrap:wrap;padding:14px 22px;background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+header.top .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;text-decoration:none;color:var(--fg)}
+header.top .brand img{width:34px;height:34px}
+header.top nav{display:flex;gap:14px;flex-wrap:wrap}
+header.top nav a{text-decoration:none;color:var(--mut);font-weight:600}
+header.top nav a.on{color:var(--fg);border-bottom:3px solid var(--acc)}
+main{max-width:1180px;margin:0 auto;padding:22px}
+h1{font-size:30px;margin:6px 0 4px}
+.lead{color:var(--mut);margin:0 0 18px}
+.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+input[type=search],input[type=text]{font:inherit;padding:9px 12px;border:1px solid var(--line);border-radius:10px;min-width:260px;background:#fff}
+button,.chip{font:inherit;border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;cursor:pointer;color:var(--fg)}
+.chip.on{background:var(--fg);color:#fff;border-color:var(--fg)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.count{color:var(--mut);font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(76px,1fr));gap:6px}
+.grid button{border-radius:12px;padding:8px;display:flex;flex-direction:column;align-items:center;gap:2px;border:1px solid transparent;background:transparent}
+.grid button:hover,.grid button:focus{background:#fff;border-color:var(--line);outline:none}
+.grid img{width:56px;height:56px}
+h2.sg{grid-column:1/-1;font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--mut);margin:14px 0 0}
+.panel{position:fixed;right:18px;bottom:18px;width:330px;background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 12px 40px rgba(0,0,0,.14);padding:18px;display:none;z-index:9}
+.panel.on{display:block}
+.panel img.big{width:160px;height:160px;display:block;margin:0 auto 6px}
+.panel .sizes{display:flex;gap:10px;justify-content:center;align-items:flex-end;margin-bottom:8px}
+.panel code{background:#f3f0ea;border-radius:6px;padding:1px 6px;font-size:13px;word-break:break-all}
+.panel .x{position:absolute;right:12px;top:8px;border:0;font-size:20px}
+.panel dl{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:14px;margin:8px 0}
+.panel dt{color:var(--mut)}
+img.xero-emoji{width:1.35em;height:1.35em;vertical-align:-0.3em;margin:0 .03em}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+footer{color:var(--mut);font-size:13px;text-align:center;padding:30px 20px}
