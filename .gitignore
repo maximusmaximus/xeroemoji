@@ -1,3 +1,11 @@
 __pycache__/
 *.pyc
 .DS_Store
+dist/
+packages/npm/emoji-map.json
+packages/npm/xero-emoji.js
+packages/npm/LICENSE
+packages/python/xeroemoji/emoji-map.json
+packages/python/build/
+*.egg-info/
+node_modules/

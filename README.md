@@ -13,6 +13,100 @@ It was first shown in public as **"Xeromoji"** in Max Infeld's
 **Live demos (GitHub Pages):** [home](https://maximusmaximus.github.io/xeroemoji/) · [gallery](https://maximusmaximus.github.io/xeroemoji/demos/) ·
 [chat demo](https://maximusmaximus.github.io/xeroemoji/demos/chat.html) · [skin tones](https://maximusmaximus.github.io/xeroemoji/demos/skin-tones.html) · **How to use it:** [docs/USAGE.md](docs/USAGE.md)
 
+## For app developers: use it in 60 seconds
+
+All examples use the stable URLs below. Pin `@v1.0.0` in production; `@latest` follows the newest release.
+
+**1. One image from the CDN** (jsDelivr, served straight from this repo):
+```html
+<img src="https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@latest/svg/1f680.svg" alt="🚀" width="32" height="32">
+<img src="https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/png/1f44d-1f3ff.png" alt="👍🏿" width="64" height="64">
+```
+
+**2. Turn every emoji on a page into Xero Emoji** (about 5 KB of JS, no build step):
+```html
+<script src="https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/demos/xero-emoji.js"></script>
+<script>
+  XeroEmoji.load({ base: 'https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/' })
+    .then(X => X.parse(document.body));   // or: el.innerHTML = X.toHTML('Ship it 🚀👍🏽')
+</script>
+<style>img.xero-emoji { width: 1.35em; height: 1.35em; vertical-align: -0.3em; }</style>
+```
+
+**3. Download the whole set** from the [latest release](https://github.com/maximusmaximus/xeroemoji/releases/latest):
+
+| asset | contents | size |
+|---|---|---|
+| [`xeroemoji-svg.zip`](https://github.com/maximusmaximus/xeroemoji/releases/latest/download/xeroemoji-svg.zip) | 3,963 SVG | 24 MiB |
+| [`xeroemoji-png-512.zip`](https://github.com/maximusmaximus/xeroemoji/releases/latest/download/xeroemoji-png-512.zip) | 3,963 PNG 512×512 | 244 MiB |
+| [`xeroemoji-png-128.zip`](https://github.com/maximusmaximus/xeroemoji/releases/latest/download/xeroemoji-png-128.zip) | 3,963 PNG 128×128 | 56 MiB |
+| [`xeroemoji-png-72.zip`](https://github.com/maximusmaximus/xeroemoji/releases/latest/download/xeroemoji-png-72.zip) | 3,963 PNG 72×72 | 25 MiB |
+| [`emoji-map.json`](https://github.com/maximusmaximus/xeroemoji/releases/latest/download/emoji-map.json) · [`xero-emoji.js`](https://github.com/maximusmaximus/xeroemoji/releases/latest/download/xero-emoji.js) · [`SHA256SUMS.txt`](https://github.com/maximusmaximus/xeroemoji/releases/latest/download/SHA256SUMS.txt) | map, replacer, checksums | |
+
+```bash
+curl -fLO https://github.com/maximusmaximus/xeroemoji/releases/latest/download/xeroemoji-svg.zip && unzip -q xeroemoji-svg.zip   # -> xeroemoji/svg/*.svg
+```
+Every zip also contains `emoji-map.json`, `LICENSE` and `COMMERCIAL-LICENSE.md`.
+
+**4. npm** (package prepared, *not published to npm yet*; for now install the release tarball):
+```bash
+npm install https://github.com/maximusmaximus/xeroemoji/releases/download/v1.0.0/xeroemoji-1.0.0.tgz
+npx xeroemoji get 👍🏿          # metadata + URLs; also: search cat · variants 👋 · download 🚀 png ./emoji
+```
+```js
+const xe = require('xeroemoji');           // ships only the emoji map (440 KB); images come from the CDN
+xe.get('👩🏽‍🚀').svgUrl                     // https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/svg/1f469-1f3fd-200d-1f680.svg
+xe.search('cat', { limit: 5 }); xe.variants('👋'); xe.setBase('/static/xeroemoji/');   // self-host after unzipping
+```
+
+**5. React**
+```jsx
+import { get } from 'xeroemoji';
+export function Emoji({ e, size = 24 }) {
+  const x = get(e);
+  return x ? <img src={x.svgUrl} alt={e} title={x.name} width={size} height={size} style={{ verticalAlign: '-0.2em' }} /> : <span>{e}</span>;
+}
+// <p>Launch day <Emoji e="🚀" /> <Emoji e="👍🏾" size={32} /></p>
+```
+
+**6. Python** (no dependencies; *not on PyPI yet*):
+```bash
+pip install https://github.com/maximusmaximus/xeroemoji/releases/download/v1.0.0/xeroemoji-1.0.0-py3-none-any.whl
+python -m xeroemoji get 🐙     # also: search, variants, emojify, download, mcp
+```
+```python
+import xeroemoji as xe
+xe.get('🐙')['png_url']; xe.search('pizza', limit=3); xe.emojify('hi 👋🏽')   # -> HTML with <img> tags
+```
+
+**7. iOS, Android, Flutter**: bundle the PNGs and load them by file name.
+- **iOS:** unzip `png-72` (24 pt @3x) or `png-128` into the app bundle or an asset catalog, then use `UIImage(named: "1f680")`.
+- **Android:** use `assets/xeroemoji/` and open files with `assets.open("xeroemoji/1f680.png")`. Not `res/drawable`, because resource names cannot start with a digit or contain `-`.
+- **Flutter:**
+  - Pure PNG: list `assets/xeroemoji/png-72/` under `flutter: assets:`, then `Image.asset('assets/xeroemoji/png-72/1f680.png')`.
+  - SVG: use `flutter_svg` with the SVGs, and check the gradients render.
+- **Keyboard or picker UI:** use `emoji-map.json` for names, groups and ordering.
+- **App size:** ship only the subset you need. All 3,963 PNGs at 72 px are 25 MiB.
+
+**8. Naming convention**: `svg/<name>.svg` and `png/<name>.png`. `<name>` is the codepoints in lowercase hex, at least 4 digits, joined by `-`.
+
+| emoji | rule | file |
+|---|---|---|
+| 😀 | single codepoint | `1f600` |
+| ❤️ | U+FE0F is dropped | `2764` |
+| #️⃣ | keycap: FE0F dropped, padded to 4 digits | `0023-20e3` |
+| 👍🏿 | skin tone right after the base | `1f44d-1f3ff` |
+| 👩🏽‍🚀 | ZWJ sequence, `200d` kept | `1f469-1f3fd-200d-1f680` |
+| 🧑🏻‍🤝‍🧑🏿 | one tone per person | `1f9d1-1f3fb-200d-1f91d-200d-1f9d1-1f3ff` |
+| 🇯🇵 | flag = 2 regional indicators | `1f1ef-1f1f5` |
+| 🏳️‍🌈 🏳️‍⚧️ 🏴‍☠️ ⛓️‍💥 | the only 4 names that keep FE0F | `1f3f3-fe0f-200d-1f308`, `1f3f3-fe0f-200d-26a7-fe0f`, `1f3f4-200d-2620-fe0f`, `26d3-fe0f-200d-1f4a5` |
+
+The easiest lookup is `emoji-map.json`. Its keys are the codepoints with FE0F removed, so text with or without variation selectors finds the same entry. The value is `[file, emoji, name, group, subgroup, order]`.
+
+**9. License**: the artwork is **CC BY-NC 4.0**. Credit "Xero Emoji by Max Infeld" and link this repo. **Commercial use needs a license**, see [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md).
+
+**For AI agents:** see [AGENTS.md](AGENTS.md), [llms.txt](llms.txt) and the [MCP server](mcp/README.md), which offers `search_emoji`, `get_emoji`, `list_categories`, `get_skin_tone_variants` and `emojify_text`.
+
 **License:** artwork under [CC BY-NC 4.0](LICENSE); commercial use needs a separate license, see [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md).
 
 ### House style
@@ -34,13 +128,6 @@ Latest run: **3,386 PASS · 577 PASS-with-known-exceptions · 0 FAIL** (mean sco
 More contact sheets: [people](docs/images/people.jpg) · [travel](docs/images/travel.jpg) · [activities](docs/images/activities.jpg) · [objects](docs/images/objects.jpg) · [symbols](docs/images/symbols.jpg) · [flags](docs/images/flags.jpg)
 (rendered from the approved PNGs by `tools/make_showcase.py`).
 
-### Quick start
-```html
-<img src="https://maximusmaximus.github.io/xeroemoji/svg/1f680.svg" alt="🚀" width="32">
-<script src="https://maximusmaximus.github.io/xeroemoji/demos/xero-emoji.js"></script>
-<script>XeroEmoji.load({ base: 'https://maximusmaximus.github.io/xeroemoji/' }).then(X => X.parse(document.body));</script>
-```
-
 ## Layout
 | path | contents |
 |---|---|
@@ -57,7 +144,10 @@ More contact sheets: [people](docs/images/people.jpg) · [travel](docs/images/tr
 | `qc/FINAL-SET-STATUS-*.md` | the current whole-set status |
 | `demos/` | GitHub Pages demos (gallery, chat, skin tones), `xero-emoji.js` replacer and `emoji-map.json` |
 | `docs/` | `USAGE.md`, `HISTORY.md` (sources), showcase images |
-| `tools/` | `build_emoji_map.py`, `make_showcase.py` |
+| `tools/` | `build_emoji_map.py`, `build_release.py` (release assets), `make_showcase.py`, `ci/release.yml` |
+| `packages/` | `python/` (lib + CLI + MCP server) and `npm/` (lib + CLI), prepared, not published to registries |
+| `mcp/` | MCP server for AI agents and IDEs |
+| `AGENTS.md`, `llms.txt` | guides for coding agents and LLMs |
 
 ## QC details
 Latest run (2026-10-18 12:24 PT, xeroqc 1.0.0): 3,386 PASS, 577 PASS-with-known-exceptions, 0 FAIL; mean score 99.92.

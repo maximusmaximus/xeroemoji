@@ -1,0 +1,21 @@
+# Xero Emoji
+
+> All 3,963 emoji of Unicode Emoji 18.0 as SVG and 512px PNG, in the Xerographer style, by Max Infeld (started in 2016; first previewed as "Xeromoji" on Steemit, World Emoji Day 2017). Created by maxi.grok.me. Artwork CC BY-NC 4.0; commercial use needs a separate license.
+
+File naming: svg/<name>.svg and png/<name>.png, where <name> is the lowercase hex codepoints (at least 4 digits) joined by "-" with U+FE0F removed (4 flag/ZWJ names keep FE0F; use demos/emoji-map.json). Skin tones: the modifier U+1F3FB-1F3FF follows the person/hand codepoint, e.g. 1f44d-1f3ff, 1f9d1-1f3fd-200d-1f373.
+CDN: https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@latest/svg/1f600.svg (pin @v1.0.0 in production). Downloads: https://github.com/maximusmaximus/xeroemoji/releases/latest/download/xeroemoji-svg.zip
+
+## Docs
+- [README](https://github.com/maximusmaximus/xeroemoji/blob/main/README.md): overview and "For app developers: use it in 60 seconds"
+- [USAGE](https://github.com/maximusmaximus/xeroemoji/blob/main/docs/USAGE.md): file names, emoji map, HTML, JS replacer, skin tones
+- [AGENTS.md](https://github.com/maximusmaximus/xeroemoji/blob/main/AGENTS.md): layout, lookup rules, license rules, checks for agents
+- [MCP server](https://github.com/maximusmaximus/xeroemoji/blob/main/mcp/README.md): search_emoji, get_emoji, list_categories, get_skin_tone_variants, emojify_text
+- [HISTORY](https://github.com/maximusmaximus/xeroemoji/blob/main/docs/HISTORY.md): origin and sources
+
+## Data
+- [emoji-map.json](https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@latest/demos/emoji-map.json): {key: [file, emoji, name, group, subgroup, order]}
+- [xero-emoji.js](https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@latest/demos/xero-emoji.js): browser replacer
+- [Latest release](https://github.com/maximusmaximus/xeroemoji/releases/latest): SVG zip, PNG 512/128/72 zips, map, checksums
+
+## Optional
+- [Gallery](https://maximusmaximus.github.io/xeroemoji/demos/), [License](https://github.com/maximusmaximus/xeroemoji/blob/main/LICENSE), [Commercial license](https://github.com/maximusmaximus/xeroemoji/blob/main/COMMERCIAL-LICENSE.md), [QC requirements](https://github.com/maximusmaximus/xeroemoji/blob/main/qc/REQUIREMENTS.md)

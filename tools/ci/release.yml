@@ -1,0 +1,31 @@
+# GitHub Action: build the release assets on every v* tag and attach them to the GitHub Release.
+# To enable it, move this file to .github/workflows/release.yml. Adding workflow files needs a token with the
+# "workflow" scope (or the GitHub web UI), which is why it is kept here for now.
+name: release
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: pip install pillow
+      - name: verify locks + tests
+        run: |
+          bash qc/verify_locks.sh
+          python3 -m unittest discover -s packages/python/tests -v
+          (cd packages/npm && node test.js)
+      - name: build assets
+        run: python3 tools/build_release.py --version "${GITHUB_REF_NAME#v}"
+      - name: upload to the release (creates it if missing)
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1 || gh release create "$GITHUB_REF_NAME" --title "Xero Emoji $GITHUB_REF_NAME" --notes-file docs/RELEASE_NOTES.md
+          gh release upload "$GITHUB_REF_NAME" dist/* --clobber
