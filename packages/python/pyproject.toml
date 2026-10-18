@@ -1,17 +1,26 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "xeroemoji"
-version = "1.0.0"
+version = "1.0.1"
 description = "Xero Emoji lookup + MCP server: 3,963 Unicode Emoji 18.0 emoji -> SVG/PNG URLs, names, groups, skin tones (no dependencies)"
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [{ name = "Max Infeld" }]
-license = { text = "Code: see repository. Artwork: CC BY-NC 4.0; commercial license available" }
+license = "CC-BY-NC-4.0"
+license-files = ["LICENSE", "COMMERCIAL-LICENSE.md"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Text Processing :: Fonts",
+  "Topic :: Multimedia :: Graphics",
+]
 keywords = ["emoji", "svg", "unicode", "emoji-font", "mcp"]
-urls = { Homepage = "https://maximusmaximus.github.io/xeroemoji/", Source = "https://github.com/maximusmaximus/xeroemoji" }
+urls = { Homepage = "https://maximusmaximus.github.io/xeroemoji/", Source = "https://github.com/maximusmaximus/xeroemoji", Issues = "https://github.com/maximusmaximus/xeroemoji/issues", "Commercial license" = "https://github.com/maximusmaximus/xeroemoji/blob/main/COMMERCIAL-LICENSE.md" }
 
 [project.scripts]
 xeroemoji = "xeroemoji.__main__:main"

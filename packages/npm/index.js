@@ -3,7 +3,8 @@
  *   const xe = require('xeroemoji');
  *   xe.get('👍🏿').svgUrl   // https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/svg/1f44d-1f3ff.svg
  */
-const VERSION = '1.0.0';
+const VERSION = '1.0.1';
+const ART_TAG = 'v1.0.0';   // the GitHub tag the images are served from (art is unchanged since v1.0.0)
 let MAP = null;
 function map() {
   if (!MAP) MAP = require('./emoji-map.json');   // bundled by `npm pack` (prepack copies ../../demos/emoji-map.json)
@@ -11,7 +12,7 @@ function map() {
 }
 const TONES = { '1f3fb': 'light', '1f3fc': 'medium-light', '1f3fd': 'medium', '1f3fe': 'medium-dark', '1f3ff': 'dark' };
 const TONE_RE = /-1f3f[b-f]/g;
-let BASE = `https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v${VERSION}/`;
+let BASE = `https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@${ART_TAG}/`;
 
 /** '👍🏿' -> '1f44d-1f3ff' (FE0F dropped, at least 4 hex digits): the emoji-map.json key. */
 function key(emoji) { return Array.from(emoji).map(c => c.codePointAt(0)).filter(c => c !== 0xfe0f).map(c => c.toString(16).padStart(4, '0')).join('-'); }

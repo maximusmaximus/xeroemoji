@@ -5,6 +5,7 @@ dist/
 packages/npm/emoji-map.json
 packages/npm/xero-emoji.js
 packages/npm/LICENSE
+packages/npm/COMMERCIAL-LICENSE.md
 packages/python/xeroemoji/emoji-map.json
 packages/python/build/
 *.egg-info/

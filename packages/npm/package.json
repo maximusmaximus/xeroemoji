@@ -1,16 +1,17 @@
 {
   "name": "xeroemoji",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Xero Emoji lookup: 3,963 Unicode Emoji 18.0 emoji -> SVG/PNG URLs (jsDelivr), names, groups, skin tones, plus the browser replacer.",
   "main": "index.js",
   "types": "index.d.ts",
-  "bin": { "xeroemoji": "cli.js" },
-  "files": ["index.js", "index.d.ts", "cli.js", "xero-emoji.js", "emoji-map.json", "README.md", "LICENSE"],
+  "bin": {"xeroemoji": "cli.js"},
+  "files": ["index.js", "index.d.ts", "cli.js", "xero-emoji.js", "emoji-map.json", "README.md", "LICENSE", "COMMERCIAL-LICENSE.md"],
   "keywords": ["emoji", "svg", "unicode", "emoji-font", "xeroemoji"],
   "homepage": "https://maximusmaximus.github.io/xeroemoji/",
-  "repository": { "type": "git", "url": "git+https://github.com/maximusmaximus/xeroemoji.git", "directory": "packages/npm" },
-  "author": "Max Infeld",
-  "license": "SEE LICENSE IN LICENSE",
-  "engines": { "node": ">=18" },
-  "scripts": { "prepack": "node -e \"const fs=require('fs');fs.copyFileSync('../../demos/emoji-map.json','emoji-map.json');fs.copyFileSync('../../demos/xero-emoji.js','xero-emoji.js');fs.copyFileSync('../../LICENSE','LICENSE')\"", "test": "node test.js" }
+  "bugs": {"url": "https://github.com/maximusmaximus/xeroemoji/issues"},
+  "repository": {"type": "git", "url": "git+https://github.com/maximusmaximus/xeroemoji.git", "directory": "packages/npm"},
+  "author": {"name": "Max Infeld", "url": "https://github.com/maximusmaximus"},
+  "license": "CC-BY-NC-4.0",
+  "engines": {"node": ">=18"},
+  "scripts": {"prepack": "node -e \"const fs=require('fs');fs.copyFileSync('../../demos/emoji-map.json','emoji-map.json');fs.copyFileSync('../../demos/xero-emoji.js','xero-emoji.js');fs.copyFileSync('../../LICENSE','LICENSE');fs.copyFileSync('../../COMMERCIAL-LICENSE.md','COMMERCIAL-LICENSE.md')\"", "test": "node test.js"}
 }
