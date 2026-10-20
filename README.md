@@ -19,7 +19,7 @@ It was first shown in public as **"Xeromoji"** in Max Infeld's
 
 Xero Emoji is published as **`xeroemoji`** on [npm](https://www.npmjs.com/package/xeroemoji) and [PyPI](https://pypi.org/project/xeroemoji/). Both packages look up any emoji (including skin tones) and give you its Xero Emoji SVG or PNG link, search by name, and turn text into HTML with Xero Emoji images.
 
-**JavaScript / Node** (needs Node 16 or newer):
+**JavaScript / Node** (needs Node 18 or newer):
 ```sh
 npm install xeroemoji
 ```
@@ -31,7 +31,7 @@ xe.variants('👋');                // the default + 5 skin tones
 ```
 Command line, no install needed: `npx xeroemoji get 🚀`, `npx xeroemoji search pizza`, `npx xeroemoji download 🚀 png ./emoji`.
 
-**Python** (3.8 or newer):
+**Python** (3.9 or newer):
 ```sh
 pip install xeroemoji
 ```
