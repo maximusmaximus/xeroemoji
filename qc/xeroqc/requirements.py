@@ -13,13 +13,13 @@ def req(id,title,severity,weight,applies,test_desc):
 def rng(v,lo,hi): return lo<=v<=hi
 # ------------------------------------------------------------------ files / canvas
 @req('XQ-FILE-01','Codepoint file naming, in Unicode 18.0','hard',3,'all',
-     'filename = lowercase hex codepoints joined by "-", FE0F dropped (except the 4 names Max kept: 1f3f3-fe0f-200d-1f308, 1f3f3-fe0f-200d-26a7-fe0f, 1f3f4-200d-2620-fe0f, 26d3-fe0f-200d-1f4a5); maps to a fully-qualified emoji-test 18.0 entry (plan/coverage.csv)')
+     'filename = lowercase hex codepoints joined by "-", FE0F dropped (no exceptions); maps to a fully-qualified emoji-test 18.0 entry (plan/coverage.csv)')
 def t_name(E):
     """File name must be the emoji's codepoint sequence, so it maps to exactly one Unicode emoji."""
     f=E['f']
     if not re.fullmatch(r'[0-9a-f]{2,6}(-[0-9a-f]{2,6})*',f): return FAIL,f,'not lowercase hex codepoints'
     if E['key'] is None: return FAIL,f,'not a fully-qualified Unicode 18.0 emoji'
-    if f!=E['key'].replace('-fe0f','') and f not in E['ctx_keep']: return FAIL,E['key'],'FE0F in the name (house naming drops FE0F except the 4 Max kept)'
+    if f!=E['key'].replace('-fe0f','') and f not in E['ctx_keep']: return FAIL,E['key'],'FE0F in the name (house naming drops FE0F)'
     return PASS,E['key'],''
 @req('XQ-FILE-02','SVG and PNG both present','hard',3,'all','svg/<cp>.svg and png/<cp>.png exist and are non-empty')
 def t_pair(E):

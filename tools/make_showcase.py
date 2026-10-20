@@ -23,7 +23,7 @@ def hero():
     W,H=1600,560; im=Image.new('RGB',(W,H),BG); d=ImageDraw.Draw(im)
     picks=['1f600','1f60d','1f923','1f92f','1f60e','1f973','1f47d','1f4a9','1f431','1f436','1f984','1f419','1f355','1f354','1f369','1f680',
            '1f308','1f525','2764','1f3b8','1f3ae','26bd','1f381','1f4a1','1f9d1-1f3fd-200d-1f680','1f469-1f3ff-200d-1f373','1f44d-1f3fe','1f44b-1f3fb',
-           '1f9d9','1f9dc-200d-2640','1f1ef-1f1f5','1f3f3-fe0f-200d-1f308','1f30d','1f335','1f98b','1f388','1f9c1','1f6f8','1f47b','1f921']
+           '1f9d9','1f9dc-200d-2640','1f1ef-1f1f5','1f3f3-200d-1f308','1f30d','1f335','1f98b','1f388','1f9c1','1f6f8','1f47b','1f921']
     random.seed(7); spots=[]
     for i,f in enumerate(picks):
         for _ in range(400):

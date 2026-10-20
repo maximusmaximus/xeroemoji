@@ -5,10 +5,10 @@ Key   = the emoji's codepoints in lowercase hex, joined by '-', with every FE0F 
         (so text with or without variation selectors finds the same entry).
 Value = [file, emoji, name, group, subgroup, order]; file is the base filename in svg/ and png/ (no extension);
         order is the emoji-test 18.0 position (JS sorts number-like keys such as '2764' first, so sort by it).
-File names drop FE0F except for 4 sequences that keep it (see KEEP_FE0F).
+File names drop FE0F (KEEP_FE0F is empty; the 4 former exceptions were renamed 2026-10-19).
 Usage: python3 tools/build_emoji_map.py   (run from the repo root)"""
 import csv,json,os,sys
-KEEP_FE0F={'1f3f3-fe0f-200d-1f308','1f3f3-fe0f-200d-26a7-fe0f','1f3f4-200d-2620-fe0f','26d3-fe0f-200d-1f4a5'}
+KEEP_FE0F=set()   # none since 2026-10-19 (Max: all filenames drop FE0F)
 root=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 svgs={f[:-4] for f in os.listdir(f'{root}/svg') if f.endswith('.svg')}
 out={}

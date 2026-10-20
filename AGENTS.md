@@ -23,7 +23,7 @@ This file is for coding agents (Cursor, Claude Code, Codex, Copilot and others) 
 
 ## Looking up an emoji
 - **Key:** the emoji's codepoints in lowercase hex, at least 4 digits, joined by `-`, with every U+FE0F removed. Examples: `👍🏿` → `1f44d-1f3ff`; `©️` → `00a9`.
-- **File:** `emoji-map.json[key][0]`. It equals the key, except 4 names that keep FE0F: `1f3f3-fe0f-200d-1f308`, `1f3f3-fe0f-200d-26a7-fe0f`, `1f3f4-200d-2620-fe0f`, `26d3-fe0f-200d-1f4a5`.
+- **File:** `emoji-map.json[key][0]`. It always equals the key (FE0F is dropped from every filename).
 - **Skin tones:** U+1F3FB…1F3FF go right after the person or hand codepoint, before any ZWJ: `1f9d1-1f3fd-200d-1f373`.
 - **Helpers:** `python3 -m xeroemoji get 👍🏿` (run from `packages/python`, or after `pip install`), `node packages/npm/cli.js get 👍🏿` (after `cd packages/npm && node test.js` once, which bundles the map), or the MCP tools.
 - **URLs:** `https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/svg/<file>.svg` (pinned) or `@latest`.

@@ -20,7 +20,7 @@ automated row below from the registry in `qc/xeroqc/requirements.py` (this table
 ## Per-emoji requirements (scored)
 | id | requirement | severity | weight | applies to | automated test |
 |---|---|---|---|---|---|
-| XQ-FILE-01 | Codepoint file naming, in Unicode 18.0 | hard | 3 | all | filename = lowercase hex codepoints joined by "-", FE0F dropped (except the 4 names Max kept: 1f3f3-fe0f-200d-1f308, 1f3f3-fe0f-200d-26a7-fe0f, 1f3f4-200d-2620-fe0f, 26d3-fe0f-200d-1f4a5); maps to a fully-qualified emoji-test 18.0 entry (plan/coverage.csv) |
+| XQ-FILE-01 | Codepoint file naming, in Unicode 18.0 | hard | 3 | all | filename = lowercase hex codepoints joined by "-", FE0F dropped (no exceptions); maps to a fully-qualified emoji-test 18.0 entry (plan/coverage.csv) |
 | XQ-FILE-02 | SVG and PNG both present | hard | 3 | all | svg/<cp>.svg and png/<cp>.png exist and are non-empty |
 | XQ-PNG-01 | PNG canvas 512x512 RGBA | hard | 3 | all | PIL: size == (512,512), mode RGBA, transparent background (corner alpha 0), art present |
 | XQ-SVG-01 | Valid square SVG | hard | 3 | all | parses as XML, root <svg> in the SVG namespace with a square viewBox, renders with cairosvg |

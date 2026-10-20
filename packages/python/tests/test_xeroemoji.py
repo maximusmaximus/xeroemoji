@@ -16,7 +16,7 @@ class Core(unittest.TestCase):
         self.assertEqual(xe.get('👍🏿')['codepoints'], 'U+1F44D U+1F3FF')
         self.assertEqual(xe.get('1f469-1f3fd-200d-1f680')['skin_tone'], 'medium')
         self.assertEqual(xe.get('U+1F600')['emoji'], '😀')
-        self.assertEqual(xe.get('🏳‍🌈')['file'], '1f3f3-fe0f-200d-1f308')   # FE0F missing in input
+        self.assertEqual(xe.get('🏳‍🌈')['file'], '1f3f3-200d-1f308')   # FE0F missing in input
         self.assertEqual(xe.get('#️⃣')['file'], '0023-20e3')
         self.assertEqual(xe.get('2764.svg')['name'], 'red heart')
         self.assertEqual(xe.get('Flag: Japan')['file'], '1f1ef-1f1f5')

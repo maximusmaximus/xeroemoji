@@ -5,8 +5,8 @@ const xe = require('./index.js');
 const m = xe.map(); assert.strictEqual(Object.keys(m).length, 3963);
 assert.strictEqual(xe.get('👍🏿').file, '1f44d-1f3ff');
 assert.strictEqual(xe.get('U+1F469 U+1F3FD U+200D U+1F680').name, 'woman astronaut: medium skin tone');
-assert.strictEqual(xe.get('🏳️‍🌈').file, '1f3f3-fe0f-200d-1f308');
-assert.strictEqual(xe.get('🏳‍🌈').file, '1f3f3-fe0f-200d-1f308');            // without FE0F
+assert.strictEqual(xe.get('🏳️‍🌈').file, '1f3f3-200d-1f308');
+assert.strictEqual(xe.get('🏳‍🌈').file, '1f3f3-200d-1f308');            // without FE0F
 assert.strictEqual(xe.get('#️⃣').file, '0023-20e3');
 assert.strictEqual(xe.get('red heart').file, '2764');
 assert.strictEqual(xe.get('1F600').emoji, '😀');

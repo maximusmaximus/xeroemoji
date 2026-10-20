@@ -107,7 +107,7 @@ xe.get('🐙')['png_url']; xe.search('pizza', limit=3); xe.emojify('hi 👋🏽'
 | 👩🏽‍🚀 | ZWJ sequence, `200d` kept | `1f469-1f3fd-200d-1f680` |
 | 🧑🏻‍🤝‍🧑🏿 | one tone per person | `1f9d1-1f3fb-200d-1f91d-200d-1f9d1-1f3ff` |
 | 🇯🇵 | flag = 2 regional indicators | `1f1ef-1f1f5` |
-| 🏳️‍🌈 🏳️‍⚧️ 🏴‍☠️ ⛓️‍💥 | the only 4 names that keep FE0F | `1f3f3-fe0f-200d-1f308`, `1f3f3-fe0f-200d-26a7-fe0f`, `1f3f4-200d-2620-fe0f`, `26d3-fe0f-200d-1f4a5` |
+| 🏳️‍🌈 🏳️‍⚧️ 🏴‍☠️ ⛓️‍💥 | FE0F dropped here too, no exceptions | `1f3f3-200d-1f308`, `1f3f3-200d-26a7`, `1f3f4-200d-2620`, `26d3-200d-1f4a5` |
 
 The easiest lookup is `emoji-map.json`. Its keys are the codepoints with FE0F removed, so text with or without variation selectors finds the same entry. The value is `[file, emoji, name, group, subgroup, order]`.
 
