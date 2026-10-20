@@ -1,0 +1,26 @@
+# CI: spec check against Unicode emoji-test.txt 18.0 + package tests, on every push and pull request.
+# Live location: .github/workflows/ci.yml
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  spec-and-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - name: file names + code points vs emoji-test.txt 18.0
+        run: python3 tools/ci/check_spec.py
+      - name: locked SVG hashes
+        run: bash qc/verify_locks.sh
+      - name: python package tests
+        run: python3 -m unittest discover -s packages/python/tests -v
+      - name: npm package tests
+        run: cd packages/npm && npm run prepack && node test.js

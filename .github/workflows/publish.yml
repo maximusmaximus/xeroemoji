@@ -1,0 +1,40 @@
+# Publish packages/npm and packages/python when a version tag (v1.2.3) is pushed.
+# Needs repo secrets NPM_TOKEN (npm automation/granular token with publish rights) and PYPI_TOKEN.
+# The tag must match the version in packages/npm/package.json and packages/python/pyproject.toml.
+# Live location: .github/workflows/publish.yml
+name: publish
+on:
+  push:
+    tags: ['v*.*.*']
+permissions:
+  contents: read
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - uses: actions/setup-node@v4
+        with: { node-version: '20', registry-url: 'https://registry.npmjs.org' }
+      - name: tag matches package versions
+        run: |
+          V="${GITHUB_REF_NAME#v}"
+          test "$(node -p "require('./packages/npm/package.json').version")" = "$V"
+          grep -q "^version = \"$V\"" packages/python/pyproject.toml
+      - name: checks
+        run: |
+          python3 tools/ci/check_spec.py
+          python3 -m unittest discover -s packages/python/tests -v
+          (cd packages/npm && npm run prepack && node test.js)
+      - name: publish to npm
+        working-directory: packages/npm
+        env: { NODE_AUTH_TOKEN: '${{ secrets.NPM_TOKEN }}' }
+        run: npm publish --access public
+      - name: publish to PyPI
+        working-directory: packages/python
+        env: { TWINE_USERNAME: '__token__', TWINE_PASSWORD: '${{ secrets.PYPI_TOKEN }}' }
+        run: |
+          pip install build twine
+          rm -rf dist && python -m build
+          twine upload dist/*
