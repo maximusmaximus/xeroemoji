@@ -1,6 +1,6 @@
 # Xero Emoji
 
-![Xero Emoji](docs/images/hero.jpg)
+[![Xero Emoji: a city of emoji around a farm plot](docs/images/banner.jpg)](examples/banner/xero-emoji-banner.svg)
 
 **Xero Emoji** is a complete emoji set in the Xerographer style: all **3,963** fully-qualified emoji of **Unicode Emoji 18.0**
 (emoji-test 18.0), each drawn as an SVG and rendered as a 512×512 PNG. Every skin tone, ZWJ sequence, flag and keycap is included.
