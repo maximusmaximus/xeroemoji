@@ -1,0 +1,10 @@
+numpy>=1.26
+scipy>=1.11
+scikit-image>=0.22
+Pillow>=10.0
+lxml>=5.0
+svgelements>=1.9
+CairoSVG>=2.7
+pyclipper>=1.3
+pytest>=8.0
+# system: potrace >= 1.16 (apt-get install potrace) for engine_raster; or run tools/get_potrace.sh

@@ -1,0 +1,1 @@
+{"1f9ec": {"topology_loops": "DNA: the two strands run within ~1 line weight of each other where they cross; the output keeps the small lens between them open (0->1 raster, 0->3 vector) while the reference closes it at wire weight. Visually reviewed v6-final: strands, rungs and over/under are correct."}}

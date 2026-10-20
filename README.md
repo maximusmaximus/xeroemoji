@@ -136,11 +136,55 @@ Latest run: **3,386 PASS · 577 PASS-with-known-exceptions · 0 FAIL** (mean sco
 More contact sheets: [people](docs/images/people.jpg) · [travel](docs/images/travel.jpg) · [activities](docs/images/activities.jpg) · [objects](docs/images/objects.jpg) · [symbols](docs/images/symbols.jpg) · [flags](docs/images/flags.jpg)
 (rendered from the approved PNGs by `tools/make_showcase.py`).
 
+## Black line set
+A monochrome version of all 3,963 emoji: black outlines, a white fill and a transparent outside. There is no colour and no
+grey. Use it as a fallback where colour emoji don't fit, as a light or print-friendly set, for colouring pages, or
+anywhere you need one-colour icons.
+
+![Black line sample](docs/images/blackline-sample.png)
+
+**Files** (in [`blackline/`](blackline)). The file names match `svg/` and `png/` exactly (codepoints, FE0F dropped),
+so you can swap the folder in any path or URL:
+| path | contents |
+|---|---|
+| `blackline/svg/<name>.svg` | 3,963 SVGs, 512×512 viewBox, each one white path and one black path |
+| `blackline/png/<name>.png` | 512×512 RGBA renders |
+| `blackline/png-72/<name>.png` | 72×72 renders with heavier lines for small sizes |
+| `blackline/emoji-map.json` | the same emoji → file map as `demos/emoji-map.json` |
+
+**Get it**
+- Whole repo: `git clone https://github.com/maximusmaximus/xeroemoji.git`
+- Only the black line folder:
+  ```
+  git clone --filter=blob:none --sparse https://github.com/maximusmaximus/xeroemoji.git
+  cd xeroemoji && git sparse-checkout set blackline
+  ```
+- Single files: `https://raw.githubusercontent.com/maximusmaximus/xeroemoji/main/blackline/svg/1f600.svg`, or the
+  CDN `https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@main/blackline/png/1f600.png` (the black line set isn't in the v1.0.0 release, so use `@main`).
+- The npm and Python packages return colour URLs only. To get the black line file, replace `svg/` or `png/` in the
+  path they return with `blackline/svg/` or `blackline/png/`.
+
+**Regenerate and validate** with [`tools/blackline`](tools/blackline) (see its `README.md` and `PIPELINE.md`):
+```
+cd tools/blackline && pip install -r requirements.txt && bash tools/get_potrace.sh   # or set POTRACE
+python3 pipeline.py build --engine vector --src ../../svg --out /tmp/blv --map ../../demos/emoji-map.json
+python3 pipeline.py build --engine raster --src ../../svg --out /tmp/blr --map ../../demos/emoji-map.json
+python3 pipeline.py check --build /tmp/blv --src ../../svg --out /tmp/blv-qc    # line weight, density, fidelity, topology, structure
+python3 xray_test.py --build /tmp/blv --log /tmp/blv/build-log.json --out /tmp/blv-xray
+python3 -m pytest -q                                                            # sheet labels + golden regression, both engines
+```
+The published set is the v6-final selection: the vector engine's output where it passes every check and the x-ray
+test, otherwise the raster engine's (16 emoji). Results: x-ray 0 failures, rule checks 0 failures (1 reviewed waiver,
+listed in `golden/reviewed.json`), spec audit 10/10. To keep the repo small, the published SVGs were simplified
+with no visible change: points within 0.12px were dropped and coordinates rounded to 0.1px, and every file renders
+≥ 99.99% identical to the unsimplified output.
+
 ## Layout
 | path | contents |
 |---|---|
 | `svg/` | 3,963 SVG files, named by codepoints (lowercase hex joined by `-`, FE0F dropped except 4 names), e.g. `1f600.svg`, `1f469-1f3fd-200d-1f680.svg` |
 | `png/` | 3,963 PNG renders of the SVGs, 512×512 RGBA, same names |
+| `blackline/` | the black line set: `svg/`, `png/` (512), `png-72/`, `emoji-map.json` (see [Black line set](#black-line-set)) |
 | `qc/REQUIREMENTS.md` | the codified house requirements (29 scored per emoji, 4 set-level, 4 manual) |
 | `qc/xeroqc/` | the QC scorer (`python3 -m xeroqc run`), version 1.0.0 |
 | `qc/tests/` | unit tests for the scorer |
@@ -152,7 +196,7 @@ More contact sheets: [people](docs/images/people.jpg) · [travel](docs/images/tr
 | `qc/FINAL-SET-STATUS-*.md` | the current whole-set status |
 | `demos/` | GitHub Pages demos (gallery, chat, skin tones), `xero-emoji.js` replacer and `emoji-map.json` |
 | `docs/` | `USAGE.md`, `HISTORY.md` (sources), showcase images |
-| `tools/` | `build_emoji_map.py`, `build_release.py` (release assets), `make_showcase.py`, `ci/release.yml` |
+| `tools/` | `build_emoji_map.py`, `build_release.py` (release assets), `make_showcase.py`, `ci/release.yml`, `blackline/` (black line pipeline + tests) |
 | `packages/` | `python/` (lib + CLI + MCP server) and `npm/` (lib + CLI), prepared, not published to registries |
 | `mcp/` | MCP server for AI agents and IDEs |
 | `AGENTS.md`, `llms.txt` | guides for coding agents and LLMs |
