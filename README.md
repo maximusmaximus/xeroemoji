@@ -44,6 +44,23 @@ xe.emojify('hi 👋🏽')             # HTML with Xero Emoji <img> tags
 
 Images load from the jsDelivr CDN by default. To host them yourself, download the zips from the [latest release](https://github.com/maximusmaximus/xeroemoji/releases/latest) and point the package at your copy (`xe.setBase('/static/xeroemoji/')` in JS). More details are in the [npm package guide](packages/npm/README.md), the [Python package guide](packages/python/README.md) and [docs/USAGE.md](docs/USAGE.md).
 
+## Color emoji font
+
+A COLRv1 color font covering all 3,963 emoji (ZWJ sequences, skin tones, flags and keycaps included) is in [`fonts/`](fonts/) and attached to the [v1.1.0 release](https://github.com/maximusmaximus/xeroemoji/releases/tag/v1.1.0). Use it on the web with no JavaScript:
+
+```css
+@font-face {
+  font-family: "Xero Emoji";
+  src: url("https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.1.0/fonts/XeroEmoji-COLRv1.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.1.0/fonts/XeroEmoji-COLRv1.ttf") format("truetype");
+  font-display: swap;
+}
+body { font-family: system-ui, sans-serif, "Xero Emoji"; }
+.emoji { font-family: "Xero Emoji"; }
+```
+
+COLRv1 is supported in Chrome, Edge and Firefox. Safari falls back to the system emoji, so use the SVGs or npm package where Safari matters. To install on a desktop, download `XeroEmoji-COLRv1.ttf` and open it. Rebuild with `tools/font/build_font.sh`.
+
 ## Example posters
 
 Three 18×24" posters built only from unmodified Xero Emoji SVGs. Click a thumbnail for the full vector SVG (15–25 MB, so it can take a moment to open). The PDFs are pinned on IPFS.
