@@ -13,13 +13,44 @@ It was first shown in public as **"Xeromoji"** in Max Infeld's
 **Live demos (GitHub Pages):** [home](https://maximusmaximus.github.io/xeroemoji/) · [gallery](https://maximusmaximus.github.io/xeroemoji/demos/) ·
 [chat demo](https://maximusmaximus.github.io/xeroemoji/demos/chat.html) · [skin tones](https://maximusmaximus.github.io/xeroemoji/demos/skin-tones.html) · **How to use it:** [docs/USAGE.md](docs/USAGE.md)
 
+[![npm](https://img.shields.io/npm/v/xeroemoji?label=npm)](https://www.npmjs.com/package/xeroemoji) [![PyPI](https://img.shields.io/pypi/v/xeroemoji?label=PyPI)](https://pypi.org/project/xeroemoji/)
+
+## Install
+
+Xero Emoji is published as **`xeroemoji`** on [npm](https://www.npmjs.com/package/xeroemoji) and [PyPI](https://pypi.org/project/xeroemoji/). Both packages look up any emoji (including skin tones) and give you its Xero Emoji SVG or PNG link, search by name, and turn text into HTML with Xero Emoji images.
+
+**JavaScript / Node** (needs Node 16 or newer):
+```sh
+npm install xeroemoji
+```
+```js
+const xe = require('xeroemoji');
+xe.get('🚀').svgUrl;              // link to the rocket SVG
+xe.search('cat', { limit: 5 });   // find emoji by name
+xe.variants('👋');                // the default + 5 skin tones
+```
+Command line, no install needed: `npx xeroemoji get 🚀`, `npx xeroemoji search pizza`, `npx xeroemoji download 🚀 png ./emoji`.
+
+**Python** (3.8 or newer):
+```sh
+pip install xeroemoji
+```
+```python
+import xeroemoji as xe
+xe.get('👍🏿')['png_url']        # link to the PNG
+xe.search('pizza', limit=3)     # find emoji by name
+xe.emojify('hi 👋🏽')             # HTML with Xero Emoji <img> tags
+```
+
+Images load from the jsDelivr CDN by default. To host them yourself, download the zips from the [latest release](https://github.com/maximusmaximus/xeroemoji/releases/latest) and point the package at your copy (`xe.setBase('/static/xeroemoji/')` in JS). More details are in the [npm package guide](packages/npm/README.md), the [Python package guide](packages/python/README.md) and [docs/USAGE.md](docs/USAGE.md).
+
 ## Example posters
 
 Three 18×24" posters built only from unmodified Xero Emoji SVGs. Click a thumbnail for the full vector SVG (15–25 MB, so it can take a moment to open). The PDFs are pinned on IPFS.
 
 <table><tr><td align="center" width="33%"><a href="examples/posters/xero-emoji-poster-1-day-city.svg"><img src="examples/posters/xero-emoji-poster-1-day-city-thumb.jpg" alt="Xero Emoji poster: Day City" width="260"></a><br><b>Day City</b><br><a href="examples/posters/xero-emoji-poster-1-day-city.svg">SVG</a> · <a href="https://gateway.pinata.cloud/ipfs/QmWTtsp5cNkPFfViiKFeVboZdUm7s8ygYHc7Xt7NYmUMyD">artwork PDF</a> · <a href="https://gateway.pinata.cloud/ipfs/QmPix2Quxq2sstuhKxcxJRqiwvoJxcx8aGpJu4BLXUsUG7">18×24 print PDF</a></td><td align="center" width="33%"><a href="examples/posters/xero-emoji-poster-2-carnival.svg"><img src="examples/posters/xero-emoji-poster-2-carnival-thumb.jpg" alt="Xero Emoji poster: Carnival" width="260"></a><br><b>Carnival</b><br><a href="examples/posters/xero-emoji-poster-2-carnival.svg">SVG</a> · <a href="https://gateway.pinata.cloud/ipfs/Qmf9q9cnTCQ57PSqZknkVUMC3zwaLX7zURMJtHx982yQiV">artwork PDF</a> · <a href="https://gateway.pinata.cloud/ipfs/Qmb6zEKup4xnT5KBnCPA4ETtkWfrzDDuGwV5bjeNn6bKEz">18×24 print PDF</a></td><td align="center" width="33%"><a href="examples/posters/xero-emoji-poster-3-harbour.svg"><img src="examples/posters/xero-emoji-poster-3-harbour-thumb.jpg" alt="Xero Emoji poster: Harbour" width="260"></a><br><b>Harbour</b><br><a href="examples/posters/xero-emoji-poster-3-harbour.svg">SVG</a> · <a href="https://gateway.pinata.cloud/ipfs/QmcnYNdZsSWRRTnsNkoyugb55L4NLV1Co3MXMREpGfEuSb">artwork PDF</a> · <a href="https://gateway.pinata.cloud/ipfs/QmXT9h8T3qTZAFoHwsejXNBkDsoPSoGveLPh2Py2KB5bEo">18×24 print PDF</a></td></tr></table>
 
-**App tooling:** [live demo site](https://maximusmaximus.github.io/xeroemoji/) · [gallery](https://maximusmaximus.github.io/xeroemoji/demos/) · [chat replacer demo](https://maximusmaximus.github.io/xeroemoji/demos/chat.html) ([`xero-emoji.js`](demos/xero-emoji.js)) · [skin-tone tool](https://maximusmaximus.github.io/xeroemoji/demos/skin-tones.html) · [MCP server](mcp/README.md) · [npm package](packages/npm) · [Python package](packages/python) · [latest release](https://github.com/maximusmaximus/xeroemoji/releases/latest) · [CDN usage](#for-app-developers-use-it-in-60-seconds) · [usage guide](docs/USAGE.md)
+**App tooling:** [live demo site](https://maximusmaximus.github.io/xeroemoji/) · [gallery](https://maximusmaximus.github.io/xeroemoji/demos/) · [chat replacer demo](https://maximusmaximus.github.io/xeroemoji/demos/chat.html) ([`xero-emoji.js`](demos/xero-emoji.js)) · [skin-tone tool](https://maximusmaximus.github.io/xeroemoji/demos/skin-tones.html) · [MCP server](mcp/README.md) · [npm package](https://www.npmjs.com/package/xeroemoji) · [Python package](https://pypi.org/project/xeroemoji/) · [latest release](https://github.com/maximusmaximus/xeroemoji/releases/latest) · [CDN usage](#for-app-developers-use-it-in-60-seconds) · [usage guide](docs/USAGE.md)
 
 ## For app developers: use it in 60 seconds
 
