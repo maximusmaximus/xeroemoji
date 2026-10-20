@@ -13,7 +13,7 @@ It was first shown in public as **"Xeromoji"** in Max Infeld's
 **Live demos (GitHub Pages):** [home](https://maximusmaximus.github.io/xeroemoji/) · [gallery](https://maximusmaximus.github.io/xeroemoji/demos/) ·
 [chat demo](https://maximusmaximus.github.io/xeroemoji/demos/chat.html) · [skin tones](https://maximusmaximus.github.io/xeroemoji/demos/skin-tones.html) · **How to use it:** [docs/USAGE.md](docs/USAGE.md)
 
-[![npm](https://img.shields.io/npm/v/xeroemoji?label=npm)](https://www.npmjs.com/package/xeroemoji) [![PyPI](https://img.shields.io/pypi/v/xeroemoji?label=PyPI)](https://pypi.org/project/xeroemoji/)
+[![CI](https://github.com/maximusmaximus/xeroemoji/actions/workflows/ci.yml/badge.svg)](https://github.com/maximusmaximus/xeroemoji/actions/workflows/ci.yml) [![npm](https://img.shields.io/npm/v/xeroemoji?label=npm)](https://www.npmjs.com/package/xeroemoji) [![PyPI](https://img.shields.io/pypi/v/xeroemoji?label=PyPI)](https://pypi.org/project/xeroemoji/)
 
 ## Install
 
