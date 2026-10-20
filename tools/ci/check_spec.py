@@ -17,6 +17,7 @@ for d in ('svg', 'png'):
     errs += [f'{d}: missing {k} ({want[k]})' for k in sorted(set(want) - have)]
     errs += [f'{d}: not in emoji-test 18.0: {k}' for k in sorted(have - set(want))]
 for mp in ('demos/emoji-map.json', 'packages/python/xeroemoji/emoji-map.json'):
+    if not (ROOT / mp).exists(): continue  # generated at build time (gitignored)
     m = json.loads((ROOT / mp).read_text(encoding='utf-8'))
     if set(m) != set(want): errs.append(f'{mp}: keys differ from emoji-test 18.0 ({len(m)} vs {len(want)})')
 print(f'emoji-test 18.0 fully-qualified: {len(want)}; problems: {len(errs)}')
