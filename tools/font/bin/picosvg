@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+"""picosvg wrapper used by build_font.sh: same CLI, but Affine2D.decompose_translation solves the 2x2 system
+with a general inverse. Upstream divides by a (or c) and crashes on ~7 Xero Emoji gradients whose matrices have a≈0."""
+import sys
+from picosvg import svg_transform as T
+def decompose_translation(self):
+    p = self._replace(e=0, f=0)
+    if self.almost_equals(p): return T.Affine2D.identity(), p
+    a, b, c, d, e, f = self; det = a * d - b * c
+    if abs(det) < 1e-12: return T.Affine2D.identity(), self   # degenerate: keep as is
+    x = (d * e - c * f) / det; y = (a * f - b * e) / det
+    return T.Affine2D.identity().translate(x, y), p
+T.Affine2D.decompose_translation = decompose_translation
+from picosvg.picosvg import main
+sys.exit(main())
