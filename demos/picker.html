@@ -1,0 +1,23 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Emoji picker · Xero Emoji</title><link rel="icon" href="../svg/1f600.svg"><link rel="stylesheet" href="demo.css"></head><body>
+<header class="top"><a class="brand" href="../index.html"><img src="../svg/1f600.svg" alt="">Xero Emoji</a><nav><a href="index.html">Gallery</a><a href="chat.html">Chat</a><a href="skin-tones.html">Skin tones</a><a class="on" href="picker.html">Picker</a></nav></header>
+<main>
+<h1>Emoji picker widget</h1>
+<p class="lead"><code>xero-emoji-picker.js</code> is a small, dependency-free picker with search, category tabs and a skin-tone switch. It ships in the <code>xeroemoji</code> npm package.</p>
+<div class="controls"><input id="msg" type="text" placeholder="Type a message…" style="min-width:320px"><button id="open" type="button">😀 Pick emoji</button></div>
+<p id="out" style="font-size:20px;min-height:30px"></p>
+<h2>Inline picker</h2><div id="inline"></div>
+<h2>Use it</h2>
+<pre style="white-space:pre-wrap;font-size:14px;background:#fff;border:1px solid #e6e2da;border-radius:10px;padding:12px">&lt;script src="https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@main/packages/npm/xero-emoji-picker.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+  XeroEmojiPicker.attach(document.querySelector('#btn'), {
+    onSelect: e =&gt; input.value += e.emoji   // e = { emoji, name, file, url }
+  });
+&lt;/script&gt;</pre>
+</main>
+<script src="../packages/npm/xero-emoji-picker.js"></script>
+<script>
+const base='../', msg=document.getElementById('msg'), out=document.getElementById('out');
+XeroEmojiPicker.attach(document.getElementById('open'),{base,onSelect:e=>{msg.value+=e.emoji;msg.focus();}});
+XeroEmojiPicker.create({base,container:document.getElementById('inline'),onSelect:e=>{out.innerHTML=`<img src="${e.url}" width="32" height="32" alt="${e.emoji}" style="vertical-align:middle"> ${e.name} · <code>${e.file}</code>`;}});
+</script></body></html>

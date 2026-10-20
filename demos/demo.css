@@ -35,3 +35,4 @@ img.xero-emoji{width:1.35em;height:1.35em;vertical-align:-0.3em;margin:0 .03em}
 footer{color:var(--mut);font-size:13px;text-align:center;padding:30px 20px}
 
 .book{margin:12px 0;padding:10px 14px;border-radius:10px;background:#fff6d6;border:1px solid #f0d77a}
+.tones{display:flex;gap:4px;flex-wrap:wrap}.tones .chip{padding:4px 9px}

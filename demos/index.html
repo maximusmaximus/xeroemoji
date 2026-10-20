@@ -1,10 +1,11 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Gallery · Xero Emoji</title><meta name="description" content="Search all 3,963 Xero Emoji by name, emoji or codepoint."><link rel="icon" href="../svg/1f600.svg"><link rel="stylesheet" href="demo.css"></head><body><header class="top"><a class="brand" href="../index.html"><img src="../svg/1f600.svg" alt="">Xero Emoji</a><nav><a href="index.html" class="on">Gallery</a><a href="chat.html">Chat demo</a><a href="skin-tones.html">Skin tones</a><a href="https://github.com/maximusmaximus/xeroemoji">GitHub</a></nav></header>
+<title>Gallery · Xero Emoji</title><meta name="description" content="Search all 3,963 Xero Emoji by name, emoji or codepoint."><link rel="icon" href="../svg/1f600.svg"><link rel="stylesheet" href="demo.css"></head><body><header class="top"><a class="brand" href="../index.html"><img src="../svg/1f600.svg" alt="">Xero Emoji</a><nav><a href="index.html" class="on">Gallery</a><a href="chat.html">Chat demo</a><a href="skin-tones.html">Skin tones</a><a href="picker.html">Picker</a><a href="https://github.com/maximusmaximus/xeroemoji">GitHub</a></nav></header>
 <main>
 <h1>Gallery</h1>
 <p class="lead">All 3,963 emoji of Unicode Emoji 18.0. Search by name, paste an emoji, or type a codepoint (e.g. <code>1f600</code>). Click any emoji for its files.</p>
 <div class="controls"><input id="q" type="search" placeholder="Search: cat, 🍕, flag, 1f680…" autofocus>
-<label><input id="tones" type="checkbox"> show skin-tone variants</label><span class="count" id="count"></span></div>
+<span class="tones" id="tones" role="radiogroup" aria-label="skin tone"><button data-t="" class="chip on" title="default (no tone)">✋</button><button data-t="1f3fb" class="chip" title="light">✋🏻</button><button data-t="1f3fc" class="chip" title="medium-light">✋🏼</button><button data-t="1f3fd" class="chip" title="medium">✋🏽</button><button data-t="1f3fe" class="chip" title="medium-dark">✋🏾</button><button data-t="1f3ff" class="chip" title="dark">✋🏿</button><button data-t="all" class="chip" title="every tone variant">all tones</button></span><span class="count" id="count"></span></div>
+<p class="count" style="margin:-6px 0 12px">Click an emoji to copy it; the panel also copies its CDN URL. <span id="toast" role="status"></span></p>
 <div class="book" id="book" hidden></div>
 <div class="chips" id="groups"></div>
 <div class="grid" id="grid"></div>
@@ -13,8 +14,8 @@
 <footer>Xero Emoji by Max Infeld · started in 2016 · 3,963 emoji, Unicode Emoji 18.0 · artwork <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>, commercial use: <a href="https://github.com/maximusmaximus/xeroemoji/blob/main/COMMERCIAL-LICENSE.md">commercial license</a> · Created by maxi.grok.me</footer>
 <script src="xero-emoji.js"></script>
 <script>
-const TONE=/-1f3f[b-f]/, $=id=>document.getElementById(id);
-let ALL=[], group='All', PICK=null;
+const TONE=/-1f3f[b-f]/g, $=id=>document.getElementById(id), CDN='https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/svg/';
+let ALL=[], group='All', tone='', PICK=null, timer=0;
 // Deep links from the book's QR codes: ?page=126-127 (book pages, see book-pages.json) or ?cp=1f600,1f44d (file names)
 async function pick(){
   const u=new URLSearchParams(location.search), pg=u.get('page'), cp=u.get('cp');
@@ -29,39 +30,63 @@ async function pick(){
   return {label:B.book+' · '+pp+(t.length?' · '+t.join(' / '):''),f:all?null:f,all};
 }
 XeroEmoji.load({base:'../'}).then(X=>{
-  ALL=Object.entries(X.map).map(([k,e])=>({k,f:e[0],e:e[1],n:e[2],g:e[3],sg:e[4],o:e[5]})).sort((a,b)=>a.o-b.o);
+  ALL=Object.entries(X.map).map(([k,e])=>{const t=k.match(TONE)||[];
+    return {k,f:e[0],e:e[1],n:e[2],g:e[3],sg:e[4],o:e[5],
+      tn:t.length?t.map(s=>s.slice(1)):null,                       // tone codes in this emoji
+      base:t.length?k.replace(TONE,''):k,
+      s:(e[2]+' '+e[4]+' '+e[3]+' '+k).toLowerCase()};})          // precomputed search text
+    .sort((a,b)=>a.o-b.o);
+  const hasTone=new Set(ALL.filter(x=>x.tn).map(x=>x.base));
+  ALL.forEach(x=>x.toneable=!x.tn&&hasTone.has(x.k));
   const groups=['All',...new Set(ALL.map(x=>x.g))];
   $('groups').innerHTML=groups.map(g=>`<button class="chip${g==='All'?' on':''}" data-g="${g}">${g}</button>`).join('');
   $('groups').onclick=ev=>{const b=ev.target.closest('button');if(!b)return;group=b.dataset.g;
     document.querySelectorAll('#groups .chip').forEach(c=>c.classList.toggle('on',c===b));draw();};
+  $('tones').onclick=ev=>{const b=ev.target.closest('button');if(!b)return;tone=b.dataset.t;
+    document.querySelectorAll('#tones .chip').forEach(c=>c.classList.toggle('on',c===b));draw();};
   const h=decodeURIComponent(location.hash.slice(1)); if(h) $('q').value=h;
-  $('q').oninput=draw; $('tones').onchange=draw;
-  return pick().then(P=>{ if(P){ PICK=P.f?new Set(P.f):null; $('tones').checked=true;
+  $('q').oninput=()=>{clearTimeout(timer);timer=setTimeout(draw,90);};
+  return pick().then(P=>{ if(P){ PICK=P.f?new Set(P.f):null; tone='all';
       $('book').hidden=false; $('book').innerHTML=`<b>${P.label}</b> <span id="bookcount"></span> · <a href="index.html">show all 3,963</a>`; }
     draw(); });
 });
+function toneOK(x){
+  if(tone==='all') return true;
+  if(!tone) return !x.tn;
+  if(x.tn) return x.tn.every(t=>t===tone);          // uniform-tone variants for the chosen tone
+  return !x.toneable;                                // tone-less emoji stay; their toned version replaces toneable bases
+}
 function match(x,q){ if(!q) return true;
   const qk=Array.from(q).filter(c=>c!=='\ufe0f').map(c=>c.codePointAt(0).toString(16).padStart(4,'0')).join('-');
-  return x.n.includes(q)||x.sg.includes(q)||x.k===qk||x.f.includes(q)||x.e===q; }
+  return x.k===qk||x.e===q||x.f.includes(q)||q.split(/\s+/).every(w=>x.s.includes(w)); }
 function draw(){
-  const q=$('q').value.trim().toLowerCase(), tones=$('tones').checked||/skin|tone|1f3f/.test(q);
-  const list=ALL.filter(x=>(PICK?PICK.has(x.f):(group==='All'||x.g===group)&&(tones||!TONE.test(x.k)))&&match(x,q));
+  const q=$('q').value.trim().toLowerCase();
+  const list=ALL.filter(x=>(PICK?PICK.has(x.f):(group==='All'||x.g===group))&&(PICK||/1f3f/.test(q)?true:toneOK(x))&&match(x,q));
   $('count').textContent=list.length+' emoji'; if($('bookcount')) $('bookcount').textContent='· '+list.length+' emoji';
   let html='',sg='';
   for(const x of list){ if(x.sg!==sg){sg=x.sg;html+=`<h2 class="sg">${x.g} · ${sg}</h2>`;}
-    html+=`<button data-k="${x.k}" title="${x.n}"><img src="../svg/${x.f}.svg" alt="${x.e}" loading="lazy" width="56" height="56"></button>`; }
+    html+=`<button data-k="${x.k}" title="${x.n} (click to copy)"><img src="../svg/${x.f}.svg" alt="${x.e}" loading="lazy" width="56" height="56"></button>`; }
   $('grid').innerHTML=html||'<p>No match.</p>';
 }
-$('grid').onclick=ev=>{const b=ev.target.closest('button[data-k]'); if(!b) return; show(ALL.find(x=>x.k===b.dataset.k));};
+function copy(text,label){
+  const done=()=>{$('toast').textContent='Copied '+label; clearTimeout(copy.t); copy.t=setTimeout(()=>$('toast').textContent='',1800);};
+  if(navigator.clipboard&&isSecureContext) navigator.clipboard.writeText(text).then(done,()=>fallback(text,done)); else fallback(text,done);
+}
+function fallback(text,done){const t=document.createElement('textarea');t.value=text;document.body.appendChild(t);t.select();
+  try{document.execCommand('copy');done();}catch(e){} t.remove();}
+$('grid').onclick=ev=>{const b=ev.target.closest('button[data-k]'); if(!b) return; const x=ALL.find(x=>x.k===b.dataset.k);
+  copy(x.e,x.e+' '+x.n); show(x);};
 function show(x){
-  const cps=x.k.split('-').map(c=>'U+'+c.toUpperCase()).join(' ');
+  const cps=x.k.split('-').map(c=>'U+'+c.toUpperCase()).join(' '), url=CDN+x.f+'.svg';
   $('pbody').innerHTML=`<img class="big" src="../svg/${x.f}.svg" alt="${x.e}">
    <div class="sizes"><img src="../svg/${x.f}.svg" width="64" alt=""><img src="../svg/${x.f}.svg" width="32" alt=""><img src="../svg/${x.f}.svg" width="24" alt=""><img src="../svg/${x.f}.svg" width="16" alt=""></div>
    <b>${x.n}</b> <span style="font-size:22px">${x.e}</span>
    <dl><dt>group</dt><dd>${x.g} · ${x.sg}</dd><dt>codepoints</dt><dd><code>${cps}</code></dd>
-   <dt>file</dt><dd><code>${x.f}</code></dd></dl>
-   <a href="../svg/${x.f}.svg" download>SVG</a> · <a href="../png/${x.f}.png" download>PNG 512</a> ·
-   <button onclick="navigator.clipboard.writeText('<img src=&quot;svg/${x.f}.svg&quot; alt=&quot;${x.e}&quot; width=&quot;32&quot;>')">copy &lt;img&gt;</button>`;
+   <dt>file</dt><dd><code>${x.f}</code></dd><dt>CDN</dt><dd><code>${url}</code></dd></dl>
+   <button id="c1">copy ${x.e}</button> <button id="c2">copy CDN URL</button> <button id="c3">copy &lt;img&gt;</button><br>
+   <a href="../svg/${x.f}.svg" download>SVG</a> · <a href="../png/${x.f}.png" download>PNG 512</a>`;
+  $('c1').onclick=()=>copy(x.e,x.e); $('c2').onclick=()=>copy(url,'CDN URL');
+  $('c3').onclick=()=>copy(`<img src="${url}" alt="${x.e}" width="32" height="32">`,'<img> tag');
   $('panel').classList.add('on');
 }
 </script></body></html>
