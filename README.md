@@ -200,10 +200,17 @@ Paste-ready announcements and banners are in [`promo/`](promo/):
 - [Signal message](promo/signal-announcement.txt)
 - [Instagram banner, 1080×1350](promo/instagram-xero-world-banner.png) and [square, 1080×1080](promo/instagram-xero-world-banner-square.png)
 - [Instagram caption](promo/instagram-caption.txt)
+- Instagram Stories, 1080×1920: [Day City](promo/stories/xero-emoji-story-1-day-city.png) · [Carnival](promo/stories/xero-emoji-story-2-carnival.png) · [Harbour](promo/stories/xero-emoji-story-3-harbour.png)
 
 Links: [GitHub](https://github.com/maximusmaximus/xeroemoji) · [Xero Emoji World](https://xeroemoji.grok.me)
 
 [![Xero Emoji World banner](promo/instagram-xero-world-banner-square.png)](promo/README.md)
+
+<p>
+<a href="promo/stories/xero-emoji-story-1-day-city.png"><img src="promo/stories/xero-emoji-story-1-day-city.png" width="240" alt="Day City story"></a>
+<a href="promo/stories/xero-emoji-story-2-carnival.png"><img src="promo/stories/xero-emoji-story-2-carnival.png" width="240" alt="Carnival story"></a>
+<a href="promo/stories/xero-emoji-story-3-harbour.png"><img src="promo/stories/xero-emoji-story-3-harbour.png" width="240" alt="Harbour story"></a>
+</p>
 
 ## Black line set
 A monochrome version of all 3,963 emoji: black outlines, a white fill and a transparent outside. There is no colour and no

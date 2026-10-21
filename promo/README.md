@@ -62,6 +62,16 @@ Square 1080×1080 — [instagram-xero-world-banner-square.png](instagram-xero-wo
 
 ![Xero Emoji World square banner](instagram-xero-world-banner-square.png)
 
+## Instagram Stories (1080×1920)
+
+Same style as the Xero Emoji posters: Day City, Carnival and Harbour. Text sits inside the Story safe zone (clear of the top and bottom 250 px), and every border emoji is fully inside the frame. Built with [`make_stories.py`](make_stories.py).
+
+<p>
+<a href="stories/xero-emoji-story-1-day-city.png"><img src="stories/xero-emoji-story-1-day-city.png" width="260" alt="Day City story"></a>
+<a href="stories/xero-emoji-story-2-carnival.png"><img src="stories/xero-emoji-story-2-carnival.png" width="260" alt="Carnival story"></a>
+<a href="stories/xero-emoji-story-3-harbour.png"><img src="stories/xero-emoji-story-3-harbour.png" width="260" alt="Harbour story"></a>
+</p>
+
 ### Caption — [instagram-caption.txt](instagram-caption.txt)
 
 Instagram captions don't make links clickable, so put https://xeroemoji.grok.me in your bio.
