@@ -184,6 +184,14 @@ Latest run: **3,386 PASS · 577 PASS-with-known-exceptions · 0 FAIL** (mean sco
 More contact sheets: [people](docs/images/people.jpg) · [travel](docs/images/travel.jpg) · [activities](docs/images/activities.jpg) · [objects](docs/images/objects.jpg) · [symbols](docs/images/symbols.jpg) · [flags](docs/images/flags.jpg)
 (rendered from the approved PNGs by `tools/make_showcase.py`).
 
+## Demo project
+
+**[Xero Emoji World](https://github.com/maximusmaximus/xero-emoji-world)** is a live, isometric 3D city built entirely from the Xero Emoji set: buildings, villagers, trees and props are all emoji from this repo.
+
+**Live:** https://xeroemoji.grok.me
+
+[![Xero Emoji World, a live 3D city built from Xero Emoji](docs/images/xero-emoji-world.png)](https://xeroemoji.grok.me)
+
 ## Black line set
 A monochrome version of all 3,963 emoji: black outlines, a white fill and a transparent outside. There is no colour and no
 grey. Use it as a fallback where colour emoji don't fit, as a light or print-friendly set, for colouring pages, or
