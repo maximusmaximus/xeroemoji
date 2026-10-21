@@ -69,6 +69,13 @@ Three 18×24" posters built only from unmodified Xero Emoji SVGs. Click a thumbn
 
 **App tooling:** [live demo site](https://maximusmaximus.github.io/xeroemoji/) · [gallery](https://maximusmaximus.github.io/xeroemoji/demos/) · [chat replacer demo](https://maximusmaximus.github.io/xeroemoji/demos/chat.html) ([`xero-emoji.js`](demos/xero-emoji.js)) · [skin-tone tool](https://maximusmaximus.github.io/xeroemoji/demos/skin-tones.html) · [MCP server](mcp/README.md) · [npm package](https://www.npmjs.com/package/xeroemoji) · [Python package](https://pypi.org/project/xeroemoji/) · [latest release](https://github.com/maximusmaximus/xeroemoji/releases/latest) · [CDN usage](#for-app-developers) · [usage guide](docs/USAGE.md)
 
+
+### Xero Worlds cover posters (no glow)
+
+The cover art from the *Xero Worlds* book as posters, with no glow on the text. Click a preview for the print PDF pinned on IPFS.
+
+<table><tr><td align="center"><a href="https://gateway.pinata.cloud/ipfs/QmaSwnsJkwKxPwmS3b8fRHtGWEyJ8PUe1uPRKPcA22tHQ4"><img src="examples/posters/xero-worlds-cover-poster-24x18-noglow-thumb.jpg" alt="Xero Worlds cover poster, horizontal 24x18" width="420"></a><br><b>Horizontal 24×18</b><br><a href="https://gateway.pinata.cloud/ipfs/QmaSwnsJkwKxPwmS3b8fRHtGWEyJ8PUe1uPRKPcA22tHQ4">print PDF</a></td><td align="center"><a href="https://gateway.pinata.cloud/ipfs/Qmas1B3ZE7StRBbMiPLeZKoRyjkHBdpoUwvqoDoMCu2DPw"><img src="examples/posters/xero-worlds-cover-poster-18x24-noglow-thumb.jpg" alt="Xero Worlds cover poster, vertical 18x24" width="316"></a><br><b>Vertical 18×24</b><br><a href="https://gateway.pinata.cloud/ipfs/Qmas1B3ZE7StRBbMiPLeZKoRyjkHBdpoUwvqoDoMCu2DPw">print PDF</a></td></tr></table>
+
 ## For app developers
 
 All examples use the stable URLs below. Pin `@v1.0.0` in production; `@latest` follows the newest release.
@@ -200,6 +207,7 @@ Paste-ready announcements and banners are in [`promo/`](promo/):
 - [Signal message](promo/signal-announcement.txt)
 - [Instagram banner, 1080×1350](promo/instagram-xero-world-banner.png) and [square, 1080×1080](promo/instagram-xero-world-banner-square.png)
 - [Instagram caption](promo/instagram-caption.txt)
+- Xero Worlds cover posters, no glow: [horizontal 24×18 PDF](https://gateway.pinata.cloud/ipfs/QmaSwnsJkwKxPwmS3b8fRHtGWEyJ8PUe1uPRKPcA22tHQ4) · [vertical 18×24 PDF](https://gateway.pinata.cloud/ipfs/Qmas1B3ZE7StRBbMiPLeZKoRyjkHBdpoUwvqoDoMCu2DPw) ([previews](#xero-worlds-cover-posters-no-glow))
 - Instagram Stories, 1080×1920: [Day City](promo/stories/xero-emoji-story-1-day-city.png) · [Carnival](promo/stories/xero-emoji-story-2-carnival.png) · [Harbour](promo/stories/xero-emoji-story-3-harbour.png)
 
 Links: [GitHub](https://github.com/maximusmaximus/xeroemoji) · [Xero Emoji World](https://xeroemoji.grok.me)
