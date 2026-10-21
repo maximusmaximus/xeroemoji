@@ -1,0 +1,12 @@
+✨ Welcome to XERO EMOJI WORLD ✨
+
+😀 3,963 emoji, all redrawn in one style
+🌍 Wander through them in a live 3D world
+📦 Free on npm + PyPI
+🔤 COLRv1 color font (TTF + WOFF2)
+🔍 Searchable gallery + emoji picker
+
+🔗 Link in bio: xeroemoji.grok.me
+💻 Code: github.com/maximusmaximus/xeroemoji
+
+#xeroemoji #emoji #emojiart #3dworld #webdev #opensource #fonts #colorfont #javascript #python #design #typography

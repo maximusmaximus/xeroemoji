@@ -192,6 +192,19 @@ More contact sheets: [people](docs/images/people.jpg) · [travel](docs/images/tr
 
 [![Xero Emoji World, a live 3D city built from Xero Emoji](docs/images/xero-emoji-world.png)](https://xeroemoji.grok.me)
 
+## Promotion materials
+
+Paste-ready announcements and banners are in [`promo/`](promo/):
+
+- [X post](promo/x-announcement.txt)
+- [Signal message](promo/signal-announcement.txt)
+- [Instagram banner, 1080×1350](promo/instagram-xero-world-banner.png) and [square, 1080×1080](promo/instagram-xero-world-banner-square.png)
+- [Instagram caption](promo/instagram-caption.txt)
+
+Links: [GitHub](https://github.com/maximusmaximus/xeroemoji) · [Xero Emoji World](https://xeroemoji.grok.me)
+
+[![Xero Emoji World banner](promo/instagram-xero-world-banner-square.png)](promo/README.md)
+
 ## Black line set
 A monochrome version of all 3,963 emoji: black outlines, a white fill and a transparent outside. There is no colour and no
 grey. Use it as a fallback where colour emoji don't fit, as a light or print-friendly set, for colouring pages, or

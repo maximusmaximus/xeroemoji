@@ -1,0 +1,24 @@
+🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈
+✨ XERO EMOJI is here ✨
+🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈
+
+😀 3,963 emoji, 1 style 😀
+🎨 Every emoji redrawn 🎨
+
+📦 npm install xeroemoji
+🐍 pip install xeroemoji
+
+🔤 COLRv1 color font
+🔤 TTF + WOFF2 builds
+
+🔍 Searchable gallery
+👆 Drop-in emoji picker
+
+🌍 Walk the 3D world 🌍
+https://xeroemoji.grok.me
+
+💻 Source + docs 💻
+https://github.com/maximusmaximus/xeroemoji
+
+🚀 Try it, star it, share 🚀
+🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈
