@@ -20,4 +20,4 @@ The full image sets (SVG, PNG 512/128/72) are zips on the [latest GitHub release
 
 ## License
 
-CC BY-NC 4.0 (SPDX `CC-BY-NC-4.0`). Credit "Xero Emoji by Max Infeld". **Commercial use needs a separate license**, see [COMMERCIAL-LICENSE.md](https://github.com/maximusmaximus/xeroemoji/blob/main/COMMERCIAL-LICENSE.md) (also included in this package).
+CC BY-NC 4.0 (SPDX `CC-BY-NC-4.0`). Credit "Xero Emoji by Max Infeld". **Commercial use needs a separate license**: contact maxinfeld@gmail.com, see [COMMERCIAL-LICENSE.md](https://github.com/maximusmaximus/xeroemoji/blob/main/COMMERCIAL-LICENSE.md) (also included in this package).

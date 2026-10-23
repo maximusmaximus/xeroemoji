@@ -169,11 +169,11 @@ xe.get('🐙')['png_url']; xe.search('pizza', limit=3); xe.emojify('hi 👋🏽'
 
 The easiest lookup is `emoji-map.json`. Its keys are the codepoints with FE0F removed, so text with or without variation selectors finds the same entry. The value is `[file, emoji, name, group, subgroup, order]`.
 
-**9. License**: the artwork is **CC BY-NC 4.0**. Credit "Xero Emoji by Max Infeld" and link this repo. **Commercial use needs a license**, see [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md).
+**9. License**: the artwork is **CC BY-NC 4.0**. Credit "Xero Emoji by Max Infeld" and link this repo. **Commercial use needs a license**: contact maxinfeld@gmail.com (see [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md)).
 
 **For AI agents:** see [AGENTS.md](AGENTS.md), [llms.txt](llms.txt) and the [MCP server](mcp/README.md), which offers `search_emoji`, `get_emoji`, `list_categories`, `get_skin_tone_variants` and `emojify_text`.
 
-**License:** artwork under [CC BY-NC 4.0](LICENSE); commercial use needs a separate license, see [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md).
+**License:** artwork under [CC BY-NC 4.0](LICENSE); for commercial licensing, contact maxinfeld@gmail.com (see [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md)).
 
 ### House style
 - **Look:** thick black outlines, glossy gradient fills, big white eyes, and open mouths with a shaded bowl.
