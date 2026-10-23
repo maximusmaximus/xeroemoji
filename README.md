@@ -298,5 +298,4 @@ tests: `cd qc && python3 -m unittest discover -s tests`, locks: `bash qc/verify_
 (override with `XEROQC_SET` and `XEROQC_COVERAGE`). Needs Python 3 with numpy, Pillow, cairosvg, scikit-image, imagehash.
 
 ## License
-The artwork is licensed under **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**, see `LICENSE`.
-Commercial use needs a separate license, see `COMMERCIAL-LICENSE.md`.
+Licensed under CC BY-NC 4.0 for non-commercial use. For commercial licensing, contact maxinfeld@gmail.com
