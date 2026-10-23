@@ -1,5 +1,8 @@
 # Xero Emoji
 
+> 👉 **Try the emoji live in your browser:** [maximusmaximus.github.io/xeroemoji](https://maximusmaximus.github.io/xeroemoji/) 😀🎉  
+> Nothing to install. Search all 3,963 Xero Emoji, try skin tones, and copy any emoji straight from the [gallery](https://maximusmaximus.github.io/xeroemoji/demos/).
+
 [![Xero Emoji: a city of emoji around a farm plot](docs/images/banner.jpg)](examples/banner/xero-emoji-banner.svg)
 
 **Xero Emoji** is a complete emoji set in the Xerographer style: all **3,963** fully-qualified emoji of **Unicode Emoji 18.0**
