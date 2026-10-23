@@ -3,6 +3,8 @@
 > 👉 **Try the emoji live in your browser:** [maximusmaximus.github.io/xeroemoji](https://maximusmaximus.github.io/xeroemoji/) 😀🎉  
 > Nothing to install. Search all 3,963 Xero Emoji, try skin tones, and copy any emoji straight from the [gallery](https://maximusmaximus.github.io/xeroemoji/demos/).
 
+**Get it:** [Gallery](https://maximusmaximus.github.io/xeroemoji/demos/) · [The book: Xero Emoji Specimen Guide](https://emoji.grok.me/book) · [npm](https://www.npmjs.com/package/xeroemoji) · [PyPI](https://pypi.org/project/xeroemoji/) · Commercial licensing: maxinfeld@gmail.com
+
 [![Xero Emoji: a city of emoji around a farm plot](docs/images/banner.jpg)](examples/banner/xero-emoji-banner.svg)
 
 **Xero Emoji** is a complete emoji set in the Xerographer style: all **3,963** fully-qualified emoji of **Unicode Emoji 18.0**
@@ -17,6 +19,14 @@ It was first shown in public as **"Xeromoji"** in Max Infeld's
 [chat demo](https://maximusmaximus.github.io/xeroemoji/demos/chat.html) · [skin tones](https://maximusmaximus.github.io/xeroemoji/demos/skin-tones.html) · **How to use it:** [docs/USAGE.md](docs/USAGE.md)
 
 [![CI](https://github.com/maximusmaximus/xeroemoji/actions/workflows/ci.yml/badge.svg)](https://github.com/maximusmaximus/xeroemoji/actions/workflows/ci.yml) [![npm](https://img.shields.io/npm/v/xeroemoji?label=npm)](https://www.npmjs.com/package/xeroemoji) [![PyPI](https://img.shields.io/pypi/v/xeroemoji?label=PyPI)](https://pypi.org/project/xeroemoji/)
+
+## Preview
+
+![The 50 most-used emoji in Xero Emoji](docs/images/preview-top50.png)
+
+```html
+<img src="https://raw.githubusercontent.com/maximusmaximus/xeroemoji/main/png/1f602.png" width="32" alt="😂">
+```
 
 ## Install
 
