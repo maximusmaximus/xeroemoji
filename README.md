@@ -3,7 +3,7 @@
 > 👉 **Try the emoji live in your browser:** [maximusmaximus.github.io/xeroemoji](https://maximusmaximus.github.io/xeroemoji/) 😀🎉  
 > Nothing to install. Search all 3,963 Xero Emoji, try skin tones, and copy any emoji straight from the [gallery](https://maximusmaximus.github.io/xeroemoji/demos/).
 
-**Get it:** [Gallery](https://maximusmaximus.github.io/xeroemoji/demos/) · [The book: Xero Emoji Specimen Guide](https://emoji.grok.me/book) · [npm](https://www.npmjs.com/package/xeroemoji) · [PyPI](https://pypi.org/project/xeroemoji/) · Commercial licensing: maxinfeld@gmail.com
+**Get it:** [Gallery](https://maximusmaximus.github.io/xeroemoji/demos/) · [The book: Xero Emoji Specimen Guide](https://xeroemoji.grok.me/book) · [npm](https://www.npmjs.com/package/xeroemoji) · [PyPI](https://pypi.org/project/xeroemoji/) · Commercial licensing: maxinfeld@gmail.com
 
 [![Xero Emoji: a city of emoji around a farm plot](docs/images/banner.jpg)](examples/banner/xero-emoji-banner.svg)
 
