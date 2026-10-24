@@ -5,13 +5,13 @@
   "main": "index.js",
   "types": "index.d.ts",
   "bin": {"xeroemoji": "cli.js"},
-  "files": ["index.js", "index.d.ts", "cli.js", "xero-emoji.js", "xero-emoji-picker.js", "emoji-map.json", "README.md", "LICENSE", "COMMERCIAL-LICENSE.md"],
+  "files": ["index.js", "index.d.ts", "cli.js", "xero-emoji.js", "xero-emoji-picker.js", "emoji-map.json", "README.md", "LICENSE", "LICENSING.md", "COMMERCIAL-LICENSE.md"],
   "keywords": ["emoji", "svg", "unicode", "emoji-font", "xeroemoji"],
   "homepage": "https://maximusmaximus.github.io/xeroemoji/",
   "bugs": {"url": "https://github.com/maximusmaximus/xeroemoji/issues"},
   "repository": {"type": "git", "url": "git+https://github.com/maximusmaximus/xeroemoji.git", "directory": "packages/npm"},
   "author": {"name": "Max Infeld", "url": "https://github.com/maximusmaximus"},
-  "license": "CC-BY-NC-4.0",
+  "license": "CC-BY-4.0",
   "engines": {"node": ">=18"},
-  "scripts": {"prepack": "node -e \"const fs=require('fs');fs.copyFileSync('../../demos/emoji-map.json','emoji-map.json');fs.copyFileSync('../../demos/xero-emoji.js','xero-emoji.js');fs.copyFileSync('../../LICENSE','LICENSE');fs.copyFileSync('../../COMMERCIAL-LICENSE.md','COMMERCIAL-LICENSE.md')\"", "test": "node test.js"}
+  "scripts": {"prepack": "node -e \"const fs=require('fs');fs.copyFileSync('../../demos/emoji-map.json','emoji-map.json');fs.copyFileSync('../../demos/xero-emoji.js','xero-emoji.js');fs.copyFileSync('../../LICENSE','LICENSE');fs.copyFileSync('../../LICENSING.md','LICENSING.md');fs.copyFileSync('../../COMMERCIAL-LICENSE.md','COMMERCIAL-LICENSE.md')\"", "test": "node test.js"}
 }

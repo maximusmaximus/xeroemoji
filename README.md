@@ -3,7 +3,9 @@
 > 👉 **Try the emoji live in your browser:** [maximusmaximus.github.io/xeroemoji](https://maximusmaximus.github.io/xeroemoji/) 😀🎉  
 > Nothing to install. Search all 3,963 Xero Emoji, try skin tones, and copy any emoji straight from the [gallery](https://maximusmaximus.github.io/xeroemoji/demos/).
 
-**Get it:** [Gallery](https://maximusmaximus.github.io/xeroemoji/demos/) · [The book: Xero Emoji Specimen Guide](https://xeroemoji.grok.me/book) · [npm](https://www.npmjs.com/package/xeroemoji) · [PyPI](https://pypi.org/project/xeroemoji/) · Commercial licensing: maxinfeld@gmail.com
+[![License: CC BY 4.0](https://img.shields.io/badge/artwork-CC%20BY%204.0-lightgrey.svg)](LICENSING.md) [![Font: commercial license](https://img.shields.io/badge/font-commercial%20license-lightgrey.svg)](COMMERCIAL-LICENSE.md)
+
+**Get it:** [Gallery](https://maximusmaximus.github.io/xeroemoji/demos/) · [The book: Xero Emoji Specimen Guide](https://xeroemoji.grok.me/book) · [npm](https://www.npmjs.com/package/xeroemoji) · [PyPI](https://pypi.org/project/xeroemoji/) · Artwork CC BY 4.0, free for any use with credit ([licensing](LICENSING.md))
 
 [![Xero Emoji: a city of emoji around a farm plot](docs/images/banner.jpg)](examples/banner/xero-emoji-banner.svg)
 
@@ -122,7 +124,7 @@ All examples use the stable URLs below. Pin `@v1.0.0` in production; `@latest` f
 ```bash
 curl -fLO https://github.com/maximusmaximus/xeroemoji/releases/latest/download/xeroemoji-svg.zip && unzip -q xeroemoji-svg.zip   # -> xeroemoji/svg/*.svg
 ```
-Every zip also contains `emoji-map.json`, `LICENSE` and `COMMERCIAL-LICENSE.md`.
+Every zip also contains `emoji-map.json`, `LICENSE`, `LICENSING.md` and `COMMERCIAL-LICENSE.md`.
 
 **4. npm** (package prepared, *not published to npm yet*; for now install the release tarball):
 ```bash
@@ -179,11 +181,11 @@ xe.get('🐙')['png_url']; xe.search('pizza', limit=3); xe.emojify('hi 👋🏽'
 
 The easiest lookup is `emoji-map.json`. Its keys are the codepoints with FE0F removed, so text with or without variation selectors finds the same entry. The value is `[file, emoji, name, group, subgroup, order]`.
 
-**9. License**: the artwork is **CC BY-NC 4.0**. Credit "Xero Emoji by Max Infeld" and link this repo. **Commercial use needs a license**: contact maxinfeld@gmail.com (see [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md)).
+**9. License**: the emoji artwork (SVG, PNG, CDN, npm/PyPI data) is **CC BY 4.0**: use it anywhere, including commercial and open-source projects, with the credit line "Xero Emoji by Max Infeld, CC BY 4.0" and a link to this repo. The color font in `fonts/`, the book and merch are not CC BY; see [LICENSING.md](LICENSING.md).
 
 **For AI agents:** see [AGENTS.md](AGENTS.md), [llms.txt](llms.txt) and the [MCP server](mcp/README.md), which offers `search_emoji`, `get_emoji`, `list_categories`, `get_skin_tone_variants` and `emojify_text`.
 
-**License:** artwork under [CC BY-NC 4.0](LICENSE); for commercial licensing, contact maxinfeld@gmail.com (see [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md)).
+**License:** artwork under [CC BY 4.0](LICENSE) (see [LICENSING.md](LICENSING.md)); the font, book and merch need a commercial license: maxinfeld@gmail.com (see [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md)).
 
 ### House style
 - **Look:** thick black outlines, glossy gradient fills, big white eyes, and open mouths with a shaded bowl.
@@ -308,4 +310,9 @@ tests: `cd qc && python3 -m unittest discover -s tests`, locks: `bash qc/verify_
 (override with `XEROQC_SET` and `XEROQC_COVERAGE`). Needs Python 3 with numpy, Pillow, cairosvg, scikit-image, imagehash.
 
 ## License
-Licensed under CC BY-NC 4.0 for non-commercial use. For commercial licensing, contact maxinfeld@gmail.com
+- **Emoji artwork** (`svg/`, `png/`, release zips, CDN images, `emoji-map.json`, npm and PyPI packages): [CC BY 4.0](LICENSE). Free for any use, including commercial, with credit: "Xero Emoji by Max Infeld, CC BY 4.0".
+- **Color font** (`fonts/`): free for non-commercial use under CC BY-NC 4.0 ([fonts/LICENSE](fonts/LICENSE)); commercial use needs a license.
+- **Book** (Xero Emoji Specimen Guide) and **merch/stickers**: all rights reserved; commercial license only.
+- Releases up to v1.0.0 were published under CC BY-NC 4.0; the same artwork is now also available under CC BY 4.0.
+
+Full details: [LICENSING.md](LICENSING.md). Commercial licensing: maxinfeld@gmail.com ([COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md)).

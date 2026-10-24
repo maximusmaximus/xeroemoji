@@ -49,4 +49,4 @@ python3 -m unittest discover -s packages/python/tests -v    # core + CLI + a ful
 pip install mcp && python3 mcp/tests/sdk_client_check.py      # interop with the official MCP Python SDK client
 ```
 
-The artwork is CC BY-NC 4.0, and commercial use needs a license. The server includes that line in its `instructions` and in every `get_emoji` result.
+The artwork is CC BY 4.0 (credit "Xero Emoji by Max Infeld, CC BY 4.0"; see LICENSING.md). The server includes that line in its `instructions` and in every `get_emoji` result.

@@ -85,4 +85,4 @@ bash verify_locks.sh                    # md5 of every approved file
 ```
 
 ## License
-The artwork is **CC BY-NC 4.0**. Credit "Xero Emoji by Max Infeld" and link this repo. Commercial use needs a license: contact maxinfeld@gmail.com (see [COMMERCIAL-LICENSE.md](../COMMERCIAL-LICENSE.md)).
+The artwork is **CC BY 4.0**: free for any use, including commercial, with credit "Xero Emoji by Max Infeld, CC BY 4.0" and a link to this repo. The color font (`fonts/`), the book and merch are not CC BY and need a commercial license: see [LICENSING.md](../LICENSING.md) and [COMMERCIAL-LICENSE.md](../COMMERCIAL-LICENSE.md).

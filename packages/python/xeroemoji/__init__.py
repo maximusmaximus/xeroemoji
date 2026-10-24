@@ -7,7 +7,7 @@
     xe.emojify('hi 👋🏽')    # HTML with <img> tags
 
 Data: emoji-map.json, from (in order) $XEROEMOJI_MAP, the copy bundled in this package, the repo's demos/emoji-map.json,
-or the jsDelivr CDN. Artwork: CC BY-NC 4.0, commercial use needs a license (see COMMERCIAL-LICENSE.md)."""
+or the jsDelivr CDN. Artwork: CC BY 4.0, credit "Xero Emoji by Max Infeld, CC BY 4.0" (see LICENSING.md)."""
 import html, json, os, re, urllib.request
 
 __version__ = '1.0.1'
@@ -15,8 +15,8 @@ ART_TAG = 'v1.0.0'  # the GitHub tag the images are served from (art is unchange
 REPO = 'maximusmaximus/xeroemoji'
 CDN = os.environ.get('XEROEMOJI_CDN_BASE', f'https://cdn.jsdelivr.net/gh/{REPO}@{ART_TAG}/')
 PAGES = f'https://maximusmaximus.github.io/xeroemoji/'
-LICENSE = ('Artwork CC BY-NC 4.0 (credit "Xero Emoji by Max Infeld", link https://github.com/maximusmaximus/xeroemoji); '
-           'commercial use needs a separate license: https://github.com/maximusmaximus/xeroemoji/blob/main/COMMERCIAL-LICENSE.md')
+LICENSE = ('Artwork CC BY 4.0, free for any use including commercial (credit "Xero Emoji by Max Infeld, CC BY 4.0", '
+           'link https://github.com/maximusmaximus/xeroemoji). Details: https://github.com/maximusmaximus/xeroemoji/blob/main/LICENSING.md')
 TONES = {'1f3fb': 'light', '1f3fc': 'medium-light', '1f3fd': 'medium', '1f3fe': 'medium-dark', '1f3ff': 'dark'}
 _TONE = re.compile(r'-1f3f[b-f]')
 _HEX = re.compile(r'^(?:u\+)?[0-9a-f]{2,6}(?:[\s_+-]+(?:u\+)?[0-9a-f]{2,6})*$', re.I)

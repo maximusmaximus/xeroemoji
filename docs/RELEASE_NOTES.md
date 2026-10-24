@@ -30,4 +30,4 @@ CDN: `https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/svg/<name>.svg
 The assets are reproducible with `python3 tools/build_release.py`, which gives sorted entries, fixed timestamps and byte-identical output.
 
 ## License
-The artwork is CC BY-NC 4.0. Commercial use needs a license, see COMMERCIAL-LICENSE.md.
+v1.0.0 was released under CC BY-NC 4.0. Since October 2026 the artwork is CC BY 4.0 (the font, book and merch stay under a commercial license), see LICENSING.md.

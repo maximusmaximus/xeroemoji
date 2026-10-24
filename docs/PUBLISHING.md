@@ -1,6 +1,6 @@
 # Publishing the packages to npm and PyPI
 
-Both packages are ready but **not published**. The package version is 1.0.1. The art has not changed since v1.0.0, so both packages still pin their image URLs to the `v1.0.0` tag. Version 1.0.1 only changes metadata: the SPDX license `CC-BY-NC-4.0`, COMMERCIAL-LICENSE.md is included, the READMEs are written for the registries, the Python package gets an sdist, and the image tag is kept separate from the package version.
+Both packages are ready but **not published**. The package version is 1.0.1. The art has not changed since v1.0.0, so both packages still pin their image URLs to the `v1.0.0` tag. Version 1.0.1 only changes metadata: the SPDX license `CC-BY-4.0` (the artwork moved from CC BY-NC 4.0 to CC BY 4.0), LICENSING.md and COMMERCIAL-LICENSE.md are included, the READMEs are written for the registries, the Python package gets an sdist, and the image tag is kept separate from the package version.
 
 Build (about 5 s; skips the art zips):
 

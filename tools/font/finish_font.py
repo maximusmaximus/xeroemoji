@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Finish the nanoemoji output: FE0F-aware ligatures, XeroEmoji name table (CC-BY-NC-4.0), TTF + WOFF2 in fonts/.
+"""(The font stays CC BY-NC 4.0 + commercial license on purpose; only the SVG/PNG artwork is CC BY 4.0. See LICENSING.md.)
+Finish the nanoemoji output: FE0F-aware ligatures, XeroEmoji name table (CC-BY-NC-4.0), TTF + WOFF2 in fonts/.
 Usage: finish_font.py build/XeroEmoji.ttf fonts/ tools/ci/emoji-test-18.0.txt
 nanoemoji keys glyphs by the FE0F-less file names; real text usually carries FE0F (e.g. 2764 FE0F 200D 1F525),
 so we add a blank zero-width FE0F glyph and a ligature for every fully-qualified emoji-test sequence."""

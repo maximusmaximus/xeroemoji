@@ -29,8 +29,9 @@ This file is for coding agents (Cursor, Claude Code, Codex, Copilot and others) 
 - **URLs:** `https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/svg/<file>.svg` (pinned) or `@latest`.
 
 ## License rules (tell users when you use the art)
-- **Default:** artwork is **CC BY-NC 4.0** (`LICENSE`). Credit "Xero Emoji by Max Infeld" with a link to the repo. Non-commercial use only.
-- **Commercial use:** needs a separate license (`COMMERCIAL-LICENSE.md`). Do not tell users that commercial use is allowed.
+- **Artwork** (`svg/`, `png/`, release zips, CDN images, `emoji-map.json`, npm/PyPI packages): **CC BY 4.0** (`LICENSE`, scope in `LICENSING.md`). Any use, including commercial, is allowed with credit: "Xero Emoji by Max Infeld, CC BY 4.0" plus a link to the repo.
+- **Not CC BY:** the color font in `fonts/` (CC BY-NC 4.0 for non-commercial use, commercial use needs a license), the book (Xero Emoji Specimen Guide) and merch/stickers. Do not tell users the font, book or merch can be used commercially without a license (`COMMERCIAL-LICENSE.md`).
+- Releases up to v1.0.0 were CC BY-NC 4.0; the same artwork is now also CC BY 4.0.
 - Keep the license files when you redistribute.
 
 ## Checks before any commit

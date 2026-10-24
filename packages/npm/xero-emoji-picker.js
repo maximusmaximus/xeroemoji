@@ -1,4 +1,4 @@
-/*! xero-emoji-picker.js - tiny dependency-free emoji picker for Xero Emoji (CC BY-NC 4.0 artwork, MIT-style code use within the package license)
+/*! xero-emoji-picker.js - tiny dependency-free emoji picker for Xero Emoji (artwork and code CC BY 4.0: "Xero Emoji by Max Infeld, CC BY 4.0")
  * Usage:
  *   <script src="https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@main/packages/npm/xero-emoji-picker.js"></script>
  *   const picker = XeroEmojiPicker.attach(buttonEl, { onSelect: e => input.value += e.emoji });

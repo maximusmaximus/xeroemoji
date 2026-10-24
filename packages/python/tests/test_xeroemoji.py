@@ -67,7 +67,7 @@ class MCP(unittest.TestCase):
         s = r[3]['result']['structuredContent']; self.assertEqual(s['results'][0]['emoji'], '🍕')
         self.assertEqual(json.loads(r[3]['result']['content'][0]['text']), s)
         g = r[4]['result']['structuredContent']; self.assertEqual(g['file'], '1f469-1f3ff-200d-1f373'); self.assertTrue(g['svg'].startswith('<svg'))
-        self.assertIn('CC BY-NC', g['license'])
+        self.assertIn('CC BY 4.0', g['license']); self.assertNotIn('NC', g['license'])
         self.assertEqual(r[5]['result']['structuredContent']['total'], 3963)
         self.assertEqual(r[6]['result']['structuredContent']['count'], 6)
         self.assertIn('![🚀](https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/svg/1f680.svg', r[7]['result']['structuredContent']['output'])

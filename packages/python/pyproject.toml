@@ -9,8 +9,8 @@ description = "Xero Emoji lookup + MCP server: 3,963 Unicode Emoji 18.0 emoji ->
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [{ name = "Max Infeld" }]
-license = "CC-BY-NC-4.0"
-license-files = ["LICENSE", "COMMERCIAL-LICENSE.md"]
+license = "CC-BY-4.0"
+license-files = ["LICENSE", "LICENSING.md", "COMMERCIAL-LICENSE.md"]
 classifiers = [
   "Development Status :: 5 - Production/Stable",
   "Intended Audience :: Developers",
@@ -20,7 +20,7 @@ classifiers = [
   "Topic :: Multimedia :: Graphics",
 ]
 keywords = ["emoji", "svg", "unicode", "emoji-font", "mcp"]
-urls = { Homepage = "https://maximusmaximus.github.io/xeroemoji/", Source = "https://github.com/maximusmaximus/xeroemoji", Issues = "https://github.com/maximusmaximus/xeroemoji/issues", "Commercial license" = "https://github.com/maximusmaximus/xeroemoji/blob/main/COMMERCIAL-LICENSE.md" }
+urls = { Homepage = "https://maximusmaximus.github.io/xeroemoji/", Source = "https://github.com/maximusmaximus/xeroemoji", Issues = "https://github.com/maximusmaximus/xeroemoji/issues", Licensing = "https://github.com/maximusmaximus/xeroemoji/blob/main/LICENSING.md" }
 
 [project.scripts]
 xeroemoji = "xeroemoji.__main__:main"

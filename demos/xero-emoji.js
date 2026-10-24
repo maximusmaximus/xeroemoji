@@ -1,5 +1,5 @@
 /*! xero-emoji.js - swap Unicode emoji in text for Xero Emoji images. No dependencies.
- *  Xero Emoji (c) Max Infeld - artwork CC BY-NC 4.0, see LICENSE / COMMERCIAL-LICENSE.md.
+ *  Xero Emoji (c) Max Infeld - artwork CC BY 4.0 ("Xero Emoji by Max Infeld, CC BY 4.0"), see LICENSE / LICENSING.md.
  *
  *  await XeroEmoji.load({ base: '../', map: 'emoji-map.json', format: 'svg' });
  *  XeroEmoji.parse(element);          // replace emoji in all text nodes under element

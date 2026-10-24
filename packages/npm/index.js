@@ -1,5 +1,5 @@
 'use strict';
-/* xeroemoji - Xero Emoji lookup for Node and bundlers. Artwork CC BY-NC 4.0; commercial use needs a license (COMMERCIAL-LICENSE.md).
+/* xeroemoji - Xero Emoji lookup for Node and bundlers. Artwork CC BY 4.0 (credit "Xero Emoji by Max Infeld, CC BY 4.0"); see LICENSING.md.
  *   const xe = require('xeroemoji');
  *   xe.get('👍🏿').svgUrl   // https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/svg/1f44d-1f3ff.svg
  */
@@ -70,5 +70,5 @@ function categories() {
 function url(q, format = 'svg') { const e = get(q); return e ? (format === 'png' ? e.pngUrl : e.svgUrl) : null; }
 /** Point URLs at your own host (e.g. '/static/xeroemoji/') after copying svg/ and png/ there. */
 function setBase(b) { BASE = b.endsWith('/') ? b : b + '/'; }
-const LICENSE = 'Artwork CC BY-NC 4.0 (credit "Xero Emoji by Max Infeld"); commercial use needs a license: https://github.com/maximusmaximus/xeroemoji/blob/main/COMMERCIAL-LICENSE.md';
+const LICENSE = 'Artwork CC BY 4.0, free for any use including commercial (credit "Xero Emoji by Max Infeld, CC BY 4.0", link https://github.com/maximusmaximus/xeroemoji). Details: https://github.com/maximusmaximus/xeroemoji/blob/main/LICENSING.md';
 module.exports = { VERSION, LICENSE, key, get, search, variants, categories, url, setBase, map };

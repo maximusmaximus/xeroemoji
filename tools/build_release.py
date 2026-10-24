@@ -7,7 +7,7 @@ Assets (stable names, so https://github.com/maximusmaximus/xeroemoji/releases/la
   emoji-map.json         emoji -> file map      xero-emoji.js          browser replacer
   xeroemoji-<v>.tgz      npm package (npm pack; not published)   xeroemoji-<v>-py3-none-any.whl  Python wheel (+ sdist when `build` is installed)
   SHA256SUMS.txt
-Every zip holds xeroemoji/<files>, LICENSE, COMMERCIAL-LICENSE.md, emoji-map.json and README.txt. Art is only read, never changed."""
+Every zip holds xeroemoji/<files>, LICENSE, LICENSING.md, COMMERCIAL-LICENSE.md, emoji-map.json and README.txt. Art is only read, never changed."""
 import hashlib, io, json, os, re, shutil, subprocess, sys, zipfile
 try:
     from PIL import Image  # only needed for the PNG zips
@@ -26,13 +26,13 @@ def zwrite(z, name, data, store=False):
 def readme(kind):
     return (f'Xero Emoji {VER} - {kind}\nAll 3,963 emoji of Unicode Emoji 18.0, by Max Infeld (started in 2016). Created by maxi.grok.me.\n'
             'Files are named by codepoint: lowercase hex joined by "-", FE0F dropped except 4 names (see emoji-map.json).\n'
-            'License: artwork CC BY-NC 4.0 (LICENSE); commercial use needs a license (COMMERCIAL-LICENSE.md).\n'
+            'License: artwork CC BY 4.0 (LICENSE, LICENSING.md). Credit: "Xero Emoji by Max Infeld, CC BY 4.0". The color font, book and merch are not CC BY (COMMERCIAL-LICENSE.md).\n'
             'https://github.com/maximusmaximus/xeroemoji\n').encode()
 
 def build_zip(name, kind, files):   # files: list of (arcname, bytes, store)
     p = f'{D}/{name}'
     with zipfile.ZipFile(p, 'w') as z:
-        for n in ('LICENSE', 'COMMERCIAL-LICENSE.md'): zwrite(z, f'xeroemoji/{n}', open(f'{R}/{n}', 'rb').read())
+        for n in ('LICENSE', 'LICENSING.md', 'COMMERCIAL-LICENSE.md'): zwrite(z, f'xeroemoji/{n}', open(f'{R}/{n}', 'rb').read())
         zwrite(z, 'xeroemoji/README.txt', readme(kind)); zwrite(z, 'xeroemoji/emoji-map.json', open(MAP, 'rb').read())
         for a, b, st in sorted(files): zwrite(z, 'xeroemoji/' + a, b, st)
     print(f'{name:34s} {len(files):5d} files {os.path.getsize(p)/2**20:7.1f} MiB')
@@ -60,7 +60,7 @@ def build_rest():
         subprocess.run(['npm', 'pack', '--pack-destination', D], cwd=npm, check=True, capture_output=True)
         py = R + '/packages/python'; shutil.copy(MAP, py + '/xeroemoji/emoji-map.json')
         env = dict(os.environ, SOURCE_DATE_EPOCH='1792281600')
-        for n in ('LICENSE', 'COMMERCIAL-LICENSE.md'):   # packages/python keeps copies (needed for git installs); they must match
+        for n in ('LICENSE', 'LICENSING.md', 'COMMERCIAL-LICENSE.md'):   # packages/python keeps copies (needed for git installs); they must match
             assert open(f'{R}/{n}', 'rb').read() == open(f'{py}/{n}', 'rb').read(), f'packages/python/{n} differs from the repo root'
         try:
             import build  # noqa: F401  (pip install build) -> wheel + sdist
