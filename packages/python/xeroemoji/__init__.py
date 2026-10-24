@@ -10,8 +10,8 @@ Data: emoji-map.json, from (in order) $XEROEMOJI_MAP, the copy bundled in this p
 or the jsDelivr CDN. Artwork: CC BY 4.0, credit "Xero Emoji by Max Infeld, CC BY 4.0" (see LICENSING.md)."""
 import html, json, os, re, urllib.request
 
-__version__ = '1.0.1'
-ART_TAG = 'v1.0.0'  # the GitHub tag the images are served from (art is unchanged since v1.0.0)
+__version__ = '1.0.2'
+ART_TAG = 'v1.0.2'  # the GitHub tag the images are served from (first CC BY 4.0 release; art unchanged since v1.0.0)
 REPO = 'maximusmaximus/xeroemoji'
 CDN = os.environ.get('XEROEMOJI_CDN_BASE', f'https://cdn.jsdelivr.net/gh/{REPO}@{ART_TAG}/')
 PAGES = f'https://maximusmaximus.github.io/xeroemoji/'

@@ -93,19 +93,19 @@ The cover art from the *Xero Worlds* book as posters, with no glow on the text. 
 
 ## For app developers
 
-All examples use the stable URLs below. Pin `@v1.0.0` in production; `@latest` follows the newest release.
+All examples use the stable URLs below. Pin `@v1.0.2` in production; `@latest` follows the newest release.
 
 **1. One image from the CDN** (jsDelivr, served straight from this repo):
 ```html
 <img src="https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@latest/svg/1f680.svg" alt="🚀" width="32" height="32">
-<img src="https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/png/1f44d-1f3ff.png" alt="👍🏿" width="64" height="64">
+<img src="https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.2/png/1f44d-1f3ff.png" alt="👍🏿" width="64" height="64">
 ```
 
 **2. Turn every emoji on a page into Xero Emoji** (about 5 KB of JS, no build step):
 ```html
-<script src="https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/demos/xero-emoji.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.2/demos/xero-emoji.js"></script>
 <script>
-  XeroEmoji.load({ base: 'https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/' })
+  XeroEmoji.load({ base: 'https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.2/' })
     .then(X => X.parse(document.body));   // or: el.innerHTML = X.toHTML('Ship it 🚀👍🏽')
 </script>
 <style>img.xero-emoji { width: 1.35em; height: 1.35em; vertical-align: -0.3em; }</style>
@@ -126,14 +126,14 @@ curl -fLO https://github.com/maximusmaximus/xeroemoji/releases/latest/download/x
 ```
 Every zip also contains `emoji-map.json`, `LICENSE`, `LICENSING.md` and `COMMERCIAL-LICENSE.md`.
 
-**4. npm** (package prepared, *not published to npm yet*; for now install the release tarball):
+**4. npm**:
 ```bash
-npm install https://github.com/maximusmaximus/xeroemoji/releases/download/v1.0.0/xeroemoji-1.0.0.tgz
+npm install xeroemoji
 npx xeroemoji get 👍🏿          # metadata + URLs; also: search cat · variants 👋 · download 🚀 png ./emoji
 ```
 ```js
 const xe = require('xeroemoji');           // ships only the emoji map (440 KB); images come from the CDN
-xe.get('👩🏽‍🚀').svgUrl                     // https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/svg/1f469-1f3fd-200d-1f680.svg
+xe.get('👩🏽‍🚀').svgUrl                     // https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.2/svg/1f469-1f3fd-200d-1f680.svg
 xe.search('cat', { limit: 5 }); xe.variants('👋'); xe.setBase('/static/xeroemoji/');   // self-host after unzipping
 ```
 
@@ -147,9 +147,9 @@ export function Emoji({ e, size = 24 }) {
 // <p>Launch day <Emoji e="🚀" /> <Emoji e="👍🏾" size={32} /></p>
 ```
 
-**6. Python** (no dependencies; *not on PyPI yet*):
+**6. Python** (no dependencies):
 ```bash
-pip install https://github.com/maximusmaximus/xeroemoji/releases/download/v1.0.0/xeroemoji-1.0.0-py3-none-any.whl
+pip install xeroemoji
 python -m xeroemoji get 🐙     # also: search, variants, emojify, download, mcp
 ```
 ```python

@@ -8,7 +8,7 @@ pip install xeroemoji
 
 ```python
 import xeroemoji as xe
-xe.get('👍🏿')['png_url']     # https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/png/1f44d-1f3ff.png
+xe.get('👍🏿')['png_url']     # https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.2/png/1f44d-1f3ff.png
 xe.search('pizza', limit=3)
 xe.variants('👋')            # the default + 5 skin tones
 xe.emojify('hi 👋🏽')          # HTML with <img> tags

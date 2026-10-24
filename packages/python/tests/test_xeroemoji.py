@@ -70,7 +70,7 @@ class MCP(unittest.TestCase):
         self.assertIn('CC BY 4.0', g['license']); self.assertNotIn('NC', g['license'])
         self.assertEqual(r[5]['result']['structuredContent']['total'], 3963)
         self.assertEqual(r[6]['result']['structuredContent']['count'], 6)
-        self.assertIn('![🚀](https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/svg/1f680.svg', r[7]['result']['structuredContent']['output'])
+        self.assertIn('![🚀](https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.2/svg/1f680.svg', r[7]['result']['structuredContent']['output'])
         self.assertTrue(r[8]['result']['isError'])
         self.assertEqual(r[9]['error']['code'], -32601)
         self.assertEqual(r[10]['result'], {})

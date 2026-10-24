@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "xeroemoji"
-version = "1.0.1"
+version = "1.0.2"
 description = "Xero Emoji lookup + MCP server: 3,963 Unicode Emoji 18.0 emoji -> SVG/PNG URLs, names, groups, skin tones (no dependencies)"
 readme = "README.md"
 requires-python = ">=3.9"

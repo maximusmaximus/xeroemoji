@@ -1,10 +1,10 @@
 'use strict';
 /* xeroemoji - Xero Emoji lookup for Node and bundlers. Artwork CC BY 4.0 (credit "Xero Emoji by Max Infeld, CC BY 4.0"); see LICENSING.md.
  *   const xe = require('xeroemoji');
- *   xe.get('👍🏿').svgUrl   // https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/svg/1f44d-1f3ff.svg
+ *   xe.get('👍🏿').svgUrl   // https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.2/svg/1f44d-1f3ff.svg
  */
-const VERSION = '1.0.1';
-const ART_TAG = 'v1.0.0';   // the GitHub tag the images are served from (art is unchanged since v1.0.0)
+const VERSION = '1.0.2';
+const ART_TAG = 'v1.0.2';   // the GitHub tag the images are served from (first CC BY 4.0 release; art unchanged since v1.0.0)
 let MAP = null;
 function map() {
   if (!MAP) MAP = require('./emoji-map.json');   // bundled by `npm pack` (prepack copies ../../demos/emoji-map.json)

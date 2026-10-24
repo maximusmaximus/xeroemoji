@@ -3,12 +3,12 @@
  *   <script src="https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@main/packages/npm/xero-emoji-picker.js"></script>
  *   const picker = XeroEmojiPicker.attach(buttonEl, { onSelect: e => input.value += e.emoji });
  *   // or XeroEmojiPicker.create({ container: el, onSelect }) for an inline picker
- * Options: base (where svg/ lives; default jsDelivr v1.0.0), map (URL of emoji-map.json), onSelect({emoji,name,file,url}),
+ * Options: base (where svg/ lives; default jsDelivr v1.0.2), map (URL of emoji-map.json), onSelect({emoji,name,file,url}),
  *          tone ('' | '1f3fb'..'1f3ff'), perRow (default 8), size (px, default 32)
  */
 (function (root) {
   'use strict';
-  var CDN = 'https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/';
+  var CDN = 'https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.2/';
   var TONE = /-1f3f[b-f]/g, cache = {};
   var CSS = '.xep{font:14px system-ui,sans-serif;background:#fff;color:#1d1b18;border:1px solid #e6e2da;border-radius:14px;box-shadow:0 10px 32px rgba(0,0,0,.15);width:var(--w);padding:8px;box-sizing:border-box}' +
     '.xep input{width:100%;box-sizing:border-box;font:inherit;padding:7px 10px;border:1px solid #e6e2da;border-radius:9px;margin-bottom:6px}' +

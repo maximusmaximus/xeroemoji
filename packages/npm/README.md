@@ -8,7 +8,7 @@ npm install xeroemoji
 
 ```js
 const xe = require('xeroemoji');
-xe.get('👍🏿').svgUrl;      // https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/svg/1f44d-1f3ff.svg
+xe.get('👍🏿').svgUrl;      // https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.2/svg/1f44d-1f3ff.svg
 xe.search('cat', { limit: 5 });
 xe.variants('👋');          // the default + 5 skin tones
 xe.setBase('/static/xeroemoji/');   // serve the images yourself

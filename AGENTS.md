@@ -26,7 +26,7 @@ This file is for coding agents (Cursor, Claude Code, Codex, Copilot and others) 
 - **File:** `emoji-map.json[key][0]`. It always equals the key (FE0F is dropped from every filename).
 - **Skin tones:** U+1F3FB…1F3FF go right after the person or hand codepoint, before any ZWJ: `1f9d1-1f3fd-200d-1f373`.
 - **Helpers:** `python3 -m xeroemoji get 👍🏿` (run from `packages/python`, or after `pip install`), `node packages/npm/cli.js get 👍🏿` (after `cd packages/npm && node test.js` once, which bundles the map), or the MCP tools.
-- **URLs:** `https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/svg/<file>.svg` (pinned) or `@latest`.
+- **URLs:** `https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.2/svg/<file>.svg` (pinned) or `@latest`.
 
 ## License rules (tell users when you use the art)
 - **Artwork** (`svg/`, `png/`, release zips, CDN images, `emoji-map.json`, npm/PyPI packages): **CC BY 4.0** (`LICENSE`, scope in `LICENSING.md`). Any use, including commercial, is allowed with credit: "Xero Emoji by Max Infeld, CC BY 4.0" plus a link to the repo.

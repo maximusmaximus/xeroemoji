@@ -3,7 +3,7 @@
 > All 3,963 emoji of Unicode Emoji 18.0 as SVG and 512px PNG, in the Xerographer style, by Max Infeld (started in 2016; first previewed as "Xeromoji" on Steemit, World Emoji Day 2017). Created by maxi.grok.me. Artwork CC BY 4.0: free for any use including commercial, credit "Xero Emoji by Max Infeld, CC BY 4.0". The color font (fonts/), the book and merch are not CC BY and need a commercial license.
 
 File naming: svg/<name>.svg and png/<name>.png, where <name> is the lowercase hex codepoints (at least 4 digits) joined by "-" with U+FE0F removed (4 flag/ZWJ names keep FE0F; use demos/emoji-map.json). Skin tones: the modifier U+1F3FB-1F3FF follows the person/hand codepoint, e.g. 1f44d-1f3ff, 1f9d1-1f3fd-200d-1f373.
-CDN: https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@latest/svg/1f600.svg (pin @v1.0.0 in production). Downloads: https://github.com/maximusmaximus/xeroemoji/releases/latest/download/xeroemoji-svg.zip
+CDN: https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@latest/svg/1f600.svg (pin @v1.0.2 in production). Downloads: https://github.com/maximusmaximus/xeroemoji/releases/latest/download/xeroemoji-svg.zip
 
 ## Docs
 - [README](https://github.com/maximusmaximus/xeroemoji/blob/main/README.md): overview and "For app developers: use it in 60 seconds"

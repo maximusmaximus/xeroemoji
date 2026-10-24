@@ -1,6 +1,6 @@
 {
   "name": "xeroemoji",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Xero Emoji lookup: 3,963 Unicode Emoji 18.0 emoji -> SVG/PNG URLs (jsDelivr), names, groups, skin tones, plus the browser replacer.",
   "main": "index.js",
   "types": "index.d.ts",

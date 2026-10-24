@@ -17,5 +17,5 @@ assert.strictEqual(xe.search('cat')[0].emoji, '🐈');
 assert.strictEqual(xe.variants('👋🏾').length, 6);
 assert.strictEqual(xe.categories().reduce((s, c) => s + c.count, 0), 3963);
 for (const k in m) assert.strictEqual(xe.get(m[k][1]).file, m[k][0], k);   // every emoji round-trips
-assert.ok(xe.url('🚀').startsWith('https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/svg/1f680.svg'));
+assert.ok(xe.url('🚀').startsWith('https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.2/svg/1f680.svg'));
 console.log('npm package tests OK (' + Object.keys(m).length + ' emoji round-trip)');

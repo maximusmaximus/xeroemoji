@@ -16,8 +16,8 @@ Pick one:
 ```bash
 # A) from a clone (nothing to install)
 git clone https://github.com/maximusmaximus/xeroemoji && python3 xeroemoji/mcp/server.py
-# B) the wheel from the latest release (bundles the emoji map)
-pip install https://github.com/maximusmaximus/xeroemoji/releases/download/v1.0.0/xeroemoji-1.0.0-py3-none-any.whl && xeroemoji-mcp
+# B) from PyPI (bundles the emoji map)
+pip install xeroemoji && xeroemoji-mcp
 # C) straight from git with uv (the map is fetched from the CDN on first use)
 uvx --from "git+https://github.com/maximusmaximus/xeroemoji#subdirectory=packages/python" xeroemoji-mcp
 ```
@@ -41,7 +41,7 @@ uvx --from "git+https://github.com/maximusmaximus/xeroemoji#subdirectory=package
 
 Environment variables (optional):
 - `XEROEMOJI_MAP`: path to another `emoji-map.json`.
-- `XEROEMOJI_CDN_BASE`: base URL for images, e.g. your own host. The default is `https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.0/`.
+- `XEROEMOJI_CDN_BASE`: base URL for images, e.g. your own host. The default is `https://cdn.jsdelivr.net/gh/maximusmaximus/xeroemoji@v1.0.2/`.
 
 ## Tests
 ```bash
