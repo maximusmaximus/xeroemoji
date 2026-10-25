@@ -80,7 +80,7 @@ COLRv1 is supported in Chrome, Edge and Firefox. Safari falls back to the system
 
 **Telegram:** [Xero Emoji by Xerographer Fonts](https://t.me/addstickers/xeroemoji_by_xerographer), 120 stickers of the most-used emoji, ranked by Unicode's 2019 emoji frequency list. Tap the link to add the pack in Telegram.
 
-**Signal:** [Xero Emoji by Xerographer Fonts](https://signal.art/addstickers/#pack_id=36a2965e47352588ba3a683119dec0d0&pack_key=4e1a9fe28a3e055d8a7035fecfb76c581ab1b967ae3beff262dafbf7bddc1a68), the same 120 stickers. Open the link on a device with Signal installed to add the pack.
+**Signal:** [Xero Emoji by Xerographer Fonts](https://signal.art/addstickers/#pack_id=36a2965e47352588ba3a683119dec0d0&pack_key=4e1a9fe28a3e055d8a7035fecfb76c581ab1b967ae3beff262dafbf7bddc1a68), 120 stickers. Open the link on a device with Signal installed to add the pack.
 
 [![The 120 stickers in the Xero Emoji Telegram pack](docs/images/telegram-stickers-120.png)](https://t.me/addstickers/xeroemoji_by_xerographer)
 
