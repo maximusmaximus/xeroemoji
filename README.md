@@ -82,8 +82,6 @@ COLRv1 is supported in Chrome, Edge and Firefox. Safari falls back to the system
 
 [![The 120 stickers in the Xero Emoji Telegram pack](docs/images/telegram-stickers-120.png)](https://t.me/addstickers/xeroemoji_by_xerographer)
 
-Signal and Sticker.ly packs are coming soon.
-
 Credit: Xero Emoji by Max Infeld, CC BY 4.0
 
 ## Example posters
@@ -306,7 +304,7 @@ with no visible change: points within 0.12px were dropped and coordinates rounde
 | `demos/` | GitHub Pages demos (gallery, chat, skin tones), `xero-emoji.js` replacer and `emoji-map.json` |
 | `docs/` | `USAGE.md`, `HISTORY.md` (sources), showcase images |
 | `tools/` | `build_emoji_map.py`, `build_release.py` (release assets), `make_showcase.py`, `ci/release.yml`, `blackline/` (black line pipeline + tests) |
-| `packages/` | `python/` (lib + CLI + MCP server) and `npm/` (lib + CLI), prepared, not published to registries |
+| `packages/` | `python/` (lib + CLI + MCP server) and `npm/` (lib + CLI), published on npm and PyPI as `xeroemoji` |
 | `mcp/` | MCP server for AI agents and IDEs |
 | `AGENTS.md`, `llms.txt` | guides for coding agents and LLMs |
 

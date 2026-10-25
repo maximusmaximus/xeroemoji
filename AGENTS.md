@@ -14,8 +14,8 @@ This file is for coding agents (Cursor, Claude Code, Codex, Copilot and others) 
 | `demos/emoji-map.json` | emoji → file map: `{key: [file, emoji, name, group, subgroup, order]}` (3,963 entries) |
 | `demos/xero-emoji.js` | browser replacer (Unicode emoji → `<img>`) |
 | `demos/*.html`, `index.html` | GitHub Pages site: https://maximusmaximus.github.io/xeroemoji/ |
-| `packages/python/` | `xeroemoji` Python lib + CLI + MCP server (no dependencies) |
-| `packages/npm/` | `xeroemoji` npm lib + CLI (prepared; **not published**) |
+| `packages/python/` | `xeroemoji` Python lib + CLI + MCP server (no dependencies; published on PyPI) |
+| `packages/npm/` | `xeroemoji` npm lib + CLI (published on npm) |
 | `mcp/` | MCP server launcher and setup docs |
 | `qc/` | `xeroqc` scorer, requirements, checkers, locks, latest results |
 | `tools/` | `build_emoji_map.py`, `build_release.py`, `make_showcase.py`, `ci/release.yml` |

@@ -50,6 +50,6 @@ The emoji posts themselves are signed by Max and published from his account, **[
 | | Xeromoji preview (2017) | Xero Emoji (this repo, 2026) |
 |---|---|---|
 | scope | "a NEW full UNICODE Emoji Font", 17 preview glyphs | all 3,963 fully-qualified emoji of Unicode Emoji 18.0 |
-| format | planned as an SVGinOT color font | SVG + 512 px PNG per emoji (a font is not built yet) |
+| format | planned as an SVGinOT color font | SVG + 512 px PNG per emoji, plus a COLRv1 color font (`fonts/`) |
 | skin tones | some, e.g. dark-tone scientist and Santa | every emoji that supports them, in a defined 5-tone palette |
 | quality | n/a | every file scored by `qc/xeroqc` against the house requirements |
