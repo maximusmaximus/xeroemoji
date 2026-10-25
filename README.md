@@ -5,7 +5,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/artwork-CC%20BY%204.0-lightgrey.svg)](LICENSING.md) [![Font: commercial license](https://img.shields.io/badge/font-commercial%20license-lightgrey.svg)](COMMERCIAL-LICENSE.md)
 
-**Get it:** [Gallery](https://maximusmaximus.github.io/xeroemoji/demos/) · [The book: Xero Emoji Specimen Guide](https://xeroemoji.grok.me/book) · [npm](https://www.npmjs.com/package/xeroemoji) · [PyPI](https://pypi.org/project/xeroemoji/) · [Telegram stickers](https://t.me/addstickers/xeroemoji_by_xerographer) · Artwork CC BY 4.0, free for any use with credit ([licensing](LICENSING.md))
+**Get it:** [Gallery](https://maximusmaximus.github.io/xeroemoji/demos/) · [The book: Xero Emoji Specimen Guide](https://xeroemoji.grok.me/book) · [npm](https://www.npmjs.com/package/xeroemoji) · [PyPI](https://pypi.org/project/xeroemoji/) · [Telegram stickers](https://t.me/addstickers/xeroemoji_by_xerographer) · [Signal stickers](https://signal.art/addstickers/#pack_id=36a2965e47352588ba3a683119dec0d0&pack_key=4e1a9fe28a3e055d8a7035fecfb76c581ab1b967ae3beff262dafbf7bddc1a68) · Artwork CC BY 4.0, free for any use with credit ([licensing](LICENSING.md))
 
 [![Xero Emoji: a city of emoji around a farm plot](docs/images/banner.jpg)](examples/banner/xero-emoji-banner.svg)
 
@@ -79,6 +79,8 @@ COLRv1 is supported in Chrome, Edge and Firefox. Safari falls back to the system
 ## Sticker packs
 
 **Telegram:** [Xero Emoji by Xerographer Fonts](https://t.me/addstickers/xeroemoji_by_xerographer), 120 stickers of the most-used emoji, ranked by Unicode's 2019 emoji frequency list. Tap the link to add the pack in Telegram.
+
+**Signal:** [Xero Emoji by Xerographer Fonts](https://signal.art/addstickers/#pack_id=36a2965e47352588ba3a683119dec0d0&pack_key=4e1a9fe28a3e055d8a7035fecfb76c581ab1b967ae3beff262dafbf7bddc1a68), the same 120 stickers. Open the link on a device with Signal installed to add the pack.
 
 [![The 120 stickers in the Xero Emoji Telegram pack](docs/images/telegram-stickers-120.png)](https://t.me/addstickers/xeroemoji_by_xerographer)
 
