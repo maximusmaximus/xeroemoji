@@ -5,7 +5,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/artwork-CC%20BY%204.0-lightgrey.svg)](LICENSING.md) [![Font: commercial license](https://img.shields.io/badge/font-commercial%20license-lightgrey.svg)](COMMERCIAL-LICENSE.md)
 
-**Get it:** [Gallery](https://maximusmaximus.github.io/xeroemoji/demos/) · [The book: Xero Emoji Specimen Guide](https://xeroemoji.grok.me/book) · [npm](https://www.npmjs.com/package/xeroemoji) · [PyPI](https://pypi.org/project/xeroemoji/) · Artwork CC BY 4.0, free for any use with credit ([licensing](LICENSING.md))
+**Get it:** [Gallery](https://maximusmaximus.github.io/xeroemoji/demos/) · [The book: Xero Emoji Specimen Guide](https://xeroemoji.grok.me/book) · [npm](https://www.npmjs.com/package/xeroemoji) · [PyPI](https://pypi.org/project/xeroemoji/) · [Telegram stickers](https://t.me/addstickers/xeroemoji_by_xerographer) · Artwork CC BY 4.0, free for any use with credit ([licensing](LICENSING.md))
 
 [![Xero Emoji: a city of emoji around a farm plot](docs/images/banner.jpg)](examples/banner/xero-emoji-banner.svg)
 
@@ -75,6 +75,16 @@ body { font-family: system-ui, sans-serif, "Xero Emoji"; }
 ```
 
 COLRv1 is supported in Chrome, Edge and Firefox. Safari falls back to the system emoji, so use the SVGs or npm package where Safari matters. To install on a desktop, download `XeroEmoji-COLRv1.ttf` and open it. Rebuild with `tools/font/build_font.sh`.
+
+## Sticker packs
+
+**Telegram:** [Xero Emoji by Xerographer Fonts](https://t.me/addstickers/xeroemoji_by_xerographer), 120 stickers of the most-used emoji, ranked by Unicode's 2019 emoji frequency list. Tap the link to add the pack in Telegram.
+
+[![The 120 stickers in the Xero Emoji Telegram pack](docs/images/telegram-stickers-120.png)](https://t.me/addstickers/xeroemoji_by_xerographer)
+
+Signal and Sticker.ly packs are coming soon.
+
+Credit: Xero Emoji by Max Infeld, CC BY 4.0
 
 ## Example posters
 
