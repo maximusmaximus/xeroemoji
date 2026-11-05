@@ -1,0 +1,9 @@
+# Version: 18.0
+# Date: 2026-01-01
+# group: Smileys & Emotion
+# subgroup: face-smiling
+1F600 ; fully-qualified     # 😀 E1.0 grinning face
+1F602 ; fully-qualified     # 😂 E1.0 face with tears of joy
+# group: Animals & Nature
+# subgroup: animal-bird
+1F985 ; fully-qualified     # 🦅 E3.0 eagle

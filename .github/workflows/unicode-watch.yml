@@ -1,0 +1,55 @@
+# Phase 0: weekly Unicode emoji watcher. Opens/updates a tracking issue when
+# new fully-qualified sequences appear. Does not generate art or publish.
+name: unicode-watch
+on:
+  schedule:
+    - cron: "0 15 * * 1"   # Mondays 15:00 UTC
+  workflow_dispatch:
+  repository_dispatch:
+    types: [unicode-watch]
+permissions:
+  contents: read
+  issues: write
+  actions: write
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Run Unicode watcher
+        id: watch
+        continue-on-error: true
+        run: |
+          set +e
+          python3 tools/watch/watch_unicode.py
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: Upload watch report
+        uses: actions/upload-artifact@v4
+        with:
+          name: unicode-watch-report
+          path: |
+            tools/watch/report.json
+            tools/watch/report.md
+            tools/watch/state.json
+          if-no-files-found: warn
+      - name: Open or update tracking issue
+        if: steps.watch.outputs.exit_code == '10'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 tools/watch/issue_from_report.py
+      - name: Trigger generate workflow when new emoji found
+        if: steps.watch.outputs.exit_code == '10'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Fire-and-forget; generate job skips itself if secrets are absent
+          gh workflow run unicode-generate.yml -f source=unicode-watch || true
+      - name: Fail the job on fetch failure
+        if: steps.watch.outputs.exit_code == '2'
+        run: |
+          echo "Unicode watcher could not fetch required sources"
+          exit 1
