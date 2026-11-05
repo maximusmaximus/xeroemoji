@@ -1,6 +1,6 @@
 # Publishing the packages to npm and PyPI
 
-Both packages are published by `.github/workflows/publish.yml` when a `vX.Y.Z` tag is pushed (repo secrets `NPM_TOKEN` and `PYPI_TOKEN`). The current version is 1.0.2, the first CC BY 4.0 release (SPDX `CC-BY-4.0`; 1.0.2 and earlier were CC BY-NC 4.0). The art has not changed since v1.0.0; since 1.0.2 the packages pin their image URLs to the `v1.0.2` tag, which carries the CC BY 4.0 `LICENSE`. The image tag (`ART_TAG`) is kept separate from the package version.
+Both packages are published by `.github/workflows/publish.yml` when a `vX.Y.Z` tag is pushed (repo secrets `NPM_TOKEN` and `PYPI_TOKEN`). The current version is 1.0.2, the first CC BY 4.0 release (SPDX `CC-BY-4.0`; releases through 1.0.1 were CC BY-NC 4.0). The art has not changed since v1.0.0; since 1.0.2 the packages pin their image URLs to the `v1.0.2` tag, which carries the CC BY 4.0 `LICENSE`. The image tag (`ART_TAG`) is kept separate from the package version.
 
 Build (about 5 s; skips the art zips):
 
