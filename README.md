@@ -302,6 +302,18 @@ Run it from the repo: `cd qc && python3 -m xeroqc run` (results go to `qc/result
 tests: `cd qc && python3 -m unittest discover -s tests`, locks: `bash qc/verify_locks.sh`. Paths resolve from the repo layout
 (override with `XEROQC_SET` and `XEROQC_COVERAGE`). Needs Python 3 with numpy, Pillow, cairosvg, scikit-image, imagehash.
 
+## Continuous integration and updates
+
+GitHub Actions keeps the set aligned with Unicode and blocks bad merges.
+
+- **CI** (`.github/workflows/ci.yml`): on every push and pull request, checks emoji naming against UTS #51, verifies QC locks, and runs package plus Unicode-pipeline unit tests.
+- **Unicode watcher** (`.github/workflows/unicode-watch.yml`): runs weekly (Monday 15:00 UTC) and on demand. It diffs the latest `emoji-test.txt` against this repo. When new fully-qualified emoji appear, it opens or updates a GitHub issue labeled `unicode-emoji-update`.
+- **Candidate generation** (`.github/workflows/unicode-generate.yml`): when the watcher finds new emoji (or when run manually), it drafts PNG/SVG candidates with Venice and Recraft under `work/candidates/`, runs the UTS checks, and opens a pull request for human review. It never merges, tags, or publishes on its own.
+- **Publish** (`.github/workflows/publish.yml`): npm and PyPI only update when an explicit `v*.*.*` tag is pushed.
+- **Dependabot** (`.github/dependabot.yml`): opens PRs for Actions, npm, and Python dependency bumps.
+
+Maintainer details, local commands, and required Action secrets: [docs/MAINTAINERS.md](docs/MAINTAINERS.md). Workflow runs: [Actions](https://github.com/maximusmaximus/xeroemoji/actions).
+
 ## License
 - **Emoji artwork** (`svg/`, `png/`, release zips, CDN images, `emoji-map.json`, npm and PyPI packages): [CC BY 4.0](LICENSE). Free for any use, including commercial, with credit: "Xero Emoji by Max Infeld, CC BY 4.0".
 - **Color font** (`fonts/`): free for non-commercial use under CC BY-NC 4.0 ([fonts/LICENSE](fonts/LICENSE)); commercial use needs a license.
