@@ -1,6 +1,6 @@
 numpy>=1.26
 scipy>=1.11
-scikit-image>=0.22
+scikit-image>=0.26.0
 Pillow>=10.0
 lxml>=5.0
 svgelements>=1.9
