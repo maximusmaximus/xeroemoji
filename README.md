@@ -224,6 +224,10 @@ More contact sheets: [people](docs/images/people.jpg) · [travel](docs/images/tr
 
 [![Xero Emoji World, a live 3D city built from Xero Emoji](docs/images/xero-emoji-world.png)](https://xeroemoji.grok.me)
 
+### Examples
+
+- **[Xero Emoji Pile](https://xerostuff.grok.me/)** — a live pile of Xero Emoji at [xerostuff.grok.me](https://xerostuff.grok.me/)
+
 ## Promotion materials
 
 Paste-ready announcements and banners are in [`promo/`](promo/):
