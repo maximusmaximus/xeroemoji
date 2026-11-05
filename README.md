@@ -228,27 +228,6 @@ More contact sheets: [people](docs/images/people.jpg) · [travel](docs/images/tr
 
 - **[Xero Emoji Pile](https://xerostuff.grok.me/)** — a live pile of Xero Emoji at [xerostuff.grok.me](https://xerostuff.grok.me/)
 
-## Promotion materials
-
-Paste-ready announcements and banners are in [`promo/`](promo/):
-
-- [X post](promo/x-announcement.txt)
-- [Signal message](promo/signal-announcement.txt)
-- [Instagram banner, 1080×1350](promo/instagram-xero-world-banner.png) and [square, 1080×1080](promo/instagram-xero-world-banner-square.png)
-- [Instagram caption](promo/instagram-caption.txt)
-- Xero Worlds cover posters, no glow: [horizontal 24×18 PDF](https://gateway.pinata.cloud/ipfs/QmaSwnsJkwKxPwmS3b8fRHtGWEyJ8PUe1uPRKPcA22tHQ4) <sub>(PDF, 9.9 MB — large download)</sub> · [vertical 18×24 PDF](https://gateway.pinata.cloud/ipfs/Qmas1B3ZE7StRBbMiPLeZKoRyjkHBdpoUwvqoDoMCu2DPw) <sub>(PDF, 9.9 MB — large download)</sub> ([previews](#xero-worlds-cover-posters-no-glow))
-- Instagram Stories, 1080×1920: [Day City](promo/stories/xero-emoji-story-1-day-city.png) · [Carnival](promo/stories/xero-emoji-story-2-carnival.png) · [Harbour](promo/stories/xero-emoji-story-3-harbour.png)
-
-Links: [GitHub](https://github.com/maximusmaximus/xeroemoji) · [Xero Emoji World](https://xeroemoji.grok.me)
-
-[![Xero Emoji World banner](promo/instagram-xero-world-banner-square.png)](promo/README.md)
-
-<p>
-<a href="promo/stories/xero-emoji-story-1-day-city.png"><img src="promo/stories/xero-emoji-story-1-day-city.png" width="240" alt="Day City story"></a>
-<a href="promo/stories/xero-emoji-story-2-carnival.png"><img src="promo/stories/xero-emoji-story-2-carnival.png" width="240" alt="Carnival story"></a>
-<a href="promo/stories/xero-emoji-story-3-harbour.png"><img src="promo/stories/xero-emoji-story-3-harbour.png" width="240" alt="Harbour story"></a>
-</p>
-
 ## Black line set
 A monochrome version of all 3,963 emoji: black outlines, a white fill and a transparent outside. There is no colour and no
 grey. Use it as a fallback where colour emoji don't fit, as a light or print-friendly set, for colouring pages, or
