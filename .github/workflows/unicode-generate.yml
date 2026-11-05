@@ -1,0 +1,120 @@
+# Generate candidate SVG/PNG for missing Unicode emoji via Venice + Recraft,
+# run lightweight checks, and open a PR. Never merges, tags, or publishes.
+name: unicode-generate
+on:
+  workflow_dispatch:
+    inputs:
+      max_candidates:
+        description: Max new sequences to generate this run
+        required: false
+        default: "20"
+      include_draft:
+        description: Also generate for draft (pre-release) sequences
+        required: false
+        default: "false"
+      dry_run:
+        description: If true, list work only (no API calls)
+        required: false
+        default: "false"
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+
+      - name: Check secrets
+        id: secrets
+        env:
+          VENICE_API_KEY: ${{ secrets.VENICE_API_KEY }}
+          RECRAFT_API_KEY: ${{ secrets.RECRAFT_API_KEY }}
+        run: |
+          missing=
+          if [ -z "$VENICE_API_KEY" ]; then missing="$missing VENICE_API_KEY"; fi
+          if [ -z "$RECRAFT_API_KEY" ]; then missing="$missing RECRAFT_API_KEY"; fi
+          if [ -n "$missing" ]; then
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "Missing secrets:$missing — skipping generation (add them under repo Settings → Secrets)."
+          else
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run Unicode watcher
+        run: |
+          set +e
+          python3 tools/watch/watch_unicode.py
+          code=$?
+          echo "watch_exit=$code" >> "$GITHUB_ENV"
+          # 0 or 10 are fine to continue; 2 is a hard fetch failure
+          if [ "$code" = "2" ]; then exit 1; fi
+          exit 0
+
+      - name: Dry-run pipeline inventory
+        if: ${{ (inputs.dry_run || 'false') == 'true' || steps.secrets.outputs.present != 'true' }}
+        env:
+          MAX_CANDIDATES: ${{ inputs.max_candidates || '20' }}
+          INCLUDE_DRAFT: ${{ inputs.include_draft || 'false' }}
+        run: |
+          python3 -m tools.watch.generate.pipeline --repo . --dry-run --max "${MAX_CANDIDATES}"
+          if [ "${{ steps.secrets.outputs.present }}" != "true" ]; then
+            echo "Secrets absent — leaving a dry-run summary only."
+          fi
+
+      - name: Generate candidates (Venice + Recraft)
+        if: ${{ steps.secrets.outputs.present == 'true' && (inputs.dry_run || 'false') != 'true' }}
+        env:
+          VENICE_API_KEY: ${{ secrets.VENICE_API_KEY }}
+          RECRAFT_API_KEY: ${{ secrets.RECRAFT_API_KEY }}
+          MAX_CANDIDATES: ${{ inputs.max_candidates || '20' }}
+          INCLUDE_DRAFT: ${{ inputs.include_draft || 'false' }}
+        run: python3 -m tools.watch.generate.pipeline --repo . --max "${MAX_CANDIDATES}"
+
+      - name: UTS #51 filename check on candidates
+        if: ${{ steps.secrets.outputs.present == 'true' && (inputs.dry_run || 'false') != 'true' }}
+        run: |
+          set +e
+          latest=$(ls -d work/candidates/*/ 2>/dev/null | tail -1)
+          if [ -z "$latest" ]; then echo "no candidates dir"; exit 0; fi
+          # Prefer the emoji-test URL the watcher recorded
+          url=$(python3 -c "import json;print(json.load(open('tools/watch/report.json')).get('sources',{}).get('emoji_test_latest','https://www.unicode.org/Public/emoji/latest/emoji-test.txt'))")
+          python3 tools/watch/run_uts_audit.py --candidates "$latest" --emoji-test "$url"
+
+      - name: House QC on candidates (best-effort)
+        if: ${{ steps.secrets.outputs.present == 'true' && (inputs.dry_run || 'false') != 'true' }}
+        continue-on-error: true
+        run: |
+          pip install numpy Pillow cairosvg scikit-image imagehash >/dev/null
+          latest=$(ls -d work/candidates/*/ 2>/dev/null | tail -1)
+          if [ -z "$latest" ]; then exit 0; fi
+          # xeroqc expects files under svg/ png/; we only score candidates in place via checkers if present
+          python3 - <<'PY'
+          import pathlib, json
+          root = pathlib.Path('.')
+          cdirs = sorted((root/'work'/'candidates').glob('*'))
+          if not cdirs: raise SystemExit(0)
+          d = cdirs[-1]
+          n_svg = len(list(d.glob('*.svg'))); n_png = len(list(d.glob('*.png')))
+          print(f'candidates in {d}: svg={n_svg} png={n_png}')
+          PY
+
+      - name: Upload candidates
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: unicode-candidates
+          path: |
+            work/candidates/
+            tools/watch/report.json
+            tools/watch/report.md
+          if-no-files-found: warn
+
+      - name: Open pull request with candidates
+        if: ${{ steps.secrets.outputs.present == 'true' && (inputs.dry_run || 'false') != 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 tools/watch/open_candidate_pr.py

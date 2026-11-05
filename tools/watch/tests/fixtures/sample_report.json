@@ -1,0 +1,15 @@
+{
+  "run_at": "2026-11-05T00:00:00-08:00",
+  "status": "NEW_EMOJI",
+  "latest_released": "19.0",
+  "latest_released_fq_count": 1,
+  "draft_version": null,
+  "draft_fq_count": 0,
+  "locked_count": 3963,
+  "missing_from_locked_released": [
+    {"seq": "1f9xx", "emoji": "?", "E": "19.0", "name": "test bird", "group": "Animals & Nature", "subgroup": "animal-bird"}
+  ],
+  "missing_from_locked_draft": [],
+  "changed_sources": [],
+  "sources": {"emoji_test_latest": "https://www.unicode.org/Public/emoji/latest/emoji-test.txt"}
+}

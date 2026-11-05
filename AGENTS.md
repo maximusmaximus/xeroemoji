@@ -47,3 +47,8 @@ QC needs numpy, Pillow, cairosvg, scikit-image and imagehash. The demos need no 
 - Change files in `svg/`, `png/` or `qc/locks/`, or add exceptions to `qc/*known-exceptions.json`, without the maintainer's explicit approval.
 - Publish to npm, PyPI or any registry; that is the maintainer's call.
 - Force-push `main`, or move or delete release tags.
+
+## Unicode updates
+- Watcher: `python3 tools/watch/watch_unicode.py` (see `docs/MAINTAINERS.md`). Scheduled by `.github/workflows/unicode-watch.yml`.
+- Candidate generation (Venice + Recraft) is `.github/workflows/unicode-generate.yml`. It only opens a PR under `work/candidates/`; it never edits locked `svg/` / `png/` / `qc/locks/`, never merges, and never tags.
+- Unit tests: `python3 -m unittest discover -s tools/watch/tests -v`.

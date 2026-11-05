@@ -22,5 +22,7 @@ jobs:
         run: bash qc/verify_locks.sh
       - name: python package tests
         run: python3 -m unittest discover -s packages/python/tests -v
+      - name: unicode pipeline unit tests
+        run: python3 -m unittest discover -s tools/watch/tests -v
       - name: npm package tests
         run: cd packages/npm && npm run prepack && node test.js
