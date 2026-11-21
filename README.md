@@ -3,9 +3,9 @@
 > 👉 **Try the emoji live in your browser:** [maximusmaximus.github.io/xeroemoji](https://maximusmaximus.github.io/xeroemoji/) 😀🎉  
 > Nothing to install. Search all 3,963 Xero Emoji, try skin tones, and copy any emoji straight from the [gallery](https://maximusmaximus.github.io/xeroemoji/demos/).
 
-[![License: CC BY 4.0](https://img.shields.io/badge/artwork-CC%20BY%204.0-lightgrey.svg)](LICENSING.md) [![Font: commercial license](https://img.shields.io/badge/font-commercial%20license-lightgrey.svg)](COMMERCIAL-LICENSE.md)
+[![License: CC BY 4.0](https://img.shields.io/badge/artwork-CC%20BY%204.0-lightgrey.svg)](LICENSING.md) [![Font: commercial license](https://img.shields.io/badge/font-commercial%20license-lightgrey.svg)](COMMERCIAL-LICENSE.md) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24424994.svg)](https://doi.org/10.5281/zenodo.24424994)
 
-**Get it:** [Gallery](https://maximusmaximus.github.io/xeroemoji/demos/) · [The book: Xero Emoji Specimen Guide](https://xeroemoji.grok.me/book) · [Emojipedia](https://emojipedia.org/xero) · [npm](https://www.npmjs.com/package/xeroemoji) · [PyPI](https://pypi.org/project/xeroemoji/) · [Telegram stickers](https://t.me/addstickers/xeroemoji_by_xerographer) · [Signal stickers](https://signal.art/addstickers/#pack_id=36a2965e47352588ba3a683119dec0d0&pack_key=4e1a9fe28a3e055d8a7035fecfb76c581ab1b967ae3beff262dafbf7bddc1a68) · Artwork CC BY 4.0, free for any use with credit ([licensing](LICENSING.md))
+**Get it:** [Gallery](https://maximusmaximus.github.io/xeroemoji/demos/) · [The book: Xero Emoji Specimen Guide](https://xeroemoji.grok.me/book) · [Emojipedia](https://emojipedia.org/xero) · [Zenodo archive](https://zenodo.org/records/24424994) · [npm](https://www.npmjs.com/package/xeroemoji) · [PyPI](https://pypi.org/project/xeroemoji/) · [Telegram stickers](https://t.me/addstickers/xeroemoji_by_xerographer) · [Signal stickers](https://signal.art/addstickers/#pack_id=36a2965e47352588ba3a683119dec0d0&pack_key=4e1a9fe28a3e055d8a7035fecfb76c581ab1b967ae3beff262dafbf7bddc1a68) · Artwork CC BY 4.0, free for any use with credit ([licensing](LICENSING.md))
 
 [![Xero Emoji: a city of emoji around a farm plot](docs/images/banner.jpg)](examples/banner/xero-emoji-banner.svg)
 
@@ -313,6 +313,12 @@ GitHub Actions keeps the set aligned with Unicode and blocks bad merges.
 - **Dependabot** (`.github/dependabot.yml`): opens PRs for Actions, npm, and Python dependency bumps.
 
 Maintainer details, local commands, and required Action secrets: [docs/MAINTAINERS.md](docs/MAINTAINERS.md). Workflow runs: [Actions](https://github.com/maximusmaximus/xeroemoji/actions).
+
+## Citation
+
+The artwork is archived on Zenodo: [doi.org/10.5281/zenodo.24424994](https://doi.org/10.5281/zenodo.24424994).
+
+> Infeld, M. (2026). *Xero Emoji 1.1.1 (artwork)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24424994 (CC BY 4.0)
 
 ## License
 - **Emoji artwork** (`svg/`, `png/`, release zips, CDN images, `emoji-map.json`, npm and PyPI packages): [CC BY 4.0](LICENSE). Free for any use, including commercial, with credit: "Xero Emoji by Max Infeld, CC BY 4.0".
